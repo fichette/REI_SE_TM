@@ -44,20 +44,30 @@ public class Indexation {
 	/**
 	 * Le répertoire du corpus
 	 */
-	// TODO CHANGER LE CHEMIN
 	protected static String DIRNAME = "D:\\Users\\abdel\\Google Drive\\coursParisSud\\ExtractionInformation\\workspace\\TP2\\lemonde-utf8";
 	/**
 	 * Le fichier contenant les mots vides
 	 */
 	private static String STOPWORDS_FILENAME = "D:\\Users\\abdel\\Google Drive\\coursParisSud\\ExtractionInformation\\workspace\\TP2\\frenchST.txt";
 
-	public static String OUT_INDEX_FILES = "D:\\Users\\abdel\\Google Drive\\coursParisSud\\ExtractionInformation\\workspace\\TP5\\index_files.txt";
-	public static String OUT_INDEX_WORDS = "D:\\Users\\abdel\\Google Drive\\coursParisSud\\ExtractionInformation\\workspace\\TP5\\index_words.txt";
+	public String out_index_files = "D:\\Users\\abdel\\Google Drive\\coursParisSud\\ExtractionInformation\\workspace\\REI_SE_TM\\SearchEngine\\index_files.txt";
+	public String out_index_words = "D:\\Users\\abdel\\Google Drive\\coursParisSud\\ExtractionInformation\\workspace\\REI_SE_TM\\SearchEngine\\index_words.txt";
 	
-	public static String REP_SUBINDEX = "D:/Users/abdel/CORPUS/subindex";
-	public static String REP_TEXT = "D:/Users/abdel/CORPUS/";
+	public String REP_SUBINDEX = "D:/Users/abdel/CORPUS/subindex";
+	public String REP_TEXT = "D:/Users/abdel/CORPUS/";
 	
-	private static void listFiles(File dir, ArrayList<File> files)
+	public File index_file;
+	public Normalizer normalizer;
+	
+	public Indexation(Normalizer normalizer, String out_index_files, String out_index_words, File index_file)
+	{
+		this.normalizer = normalizer;
+		this.out_index_files = out_index_files;
+		this.out_index_words = out_index_words;
+		this.index_file = index_file;
+	}
+	
+	private void listFiles(File dir, ArrayList<File> files)
 	{
 		
 		File[] files_dir = dir.listFiles();
@@ -78,7 +88,7 @@ public class Indexation {
 	 * Va lire les fichiers xml contenus dans subindex et va retourner la liste de fichier du corpus
 	 * @return
 	 */
-	private static ArrayList<File> getCorpusSubIndex()
+	private ArrayList<File> getCorpusSubIndex()
 	{
 		
 		ArrayList<File> corpus = new ArrayList<File>();
@@ -133,11 +143,11 @@ public class Indexation {
 	/***
 	 * Pour gagner de la place en mémoire on va donner un numéro à chaque mots et chaque fichier
 	 */
-	public static void make_indexes_words_file(Normalizer normalizer)
+	public void make_indexes_words_file()
 	{
 		
-		File index_word_file = new File(OUT_INDEX_WORDS);
-		File index_name_file = new File(OUT_INDEX_FILES);
+		File index_word_file = new File(out_index_words);
+		File index_name_file = new File(out_index_files);
 		
 		
 		ArrayList<File> files = getCorpusSubIndex();
@@ -160,7 +170,7 @@ public class Indexation {
 			PrintWriter out_index_files = new PrintWriter (bw);
 			
 			for(int i = 0; i < files.size(); i++)
-				out_index_files.println(i + "\t" + files.get(i).getName());
+				out_index_files.println(i + "\t" + files.get(i).getPath());
 			out_index_files.close();
 			
 			
@@ -199,11 +209,39 @@ public class Indexation {
 	
 	/**
 	 * 
+	 * @return hashmap contenant le nom de fichier correspondant à chaque identifiant
+	 */
+	public HashMap<Integer, String> getFilesById()
+	{
+		File index_name_file = new File(out_index_files);
+		
+		HashMap<Integer, String> ids_files = new HashMap<Integer, String>();
+		
+		try {
+			BufferedReader br = new BufferedReader(new FileReader(index_name_file));
+			
+			String line;
+			
+			while((line = br.readLine()) != null)
+			{
+				String[] line_split = line.split("\t");
+				ids_files.put(Integer.parseInt(line_split[0]), line_split[1]);
+			}
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return ids_files;
+	}
+	
+	/**
+	 * 
 	 * @return hashmap contenant les identifiants pour chaque fichiers
 	 */
-	private static HashMap<String, Integer> getIdFiles()
+	private HashMap<String, Integer> getIdFiles()
 	{
-		File index_name_file = new File(OUT_INDEX_FILES);
+		File index_name_file = new File(out_index_files);
 		
 		HashMap<String, Integer> ids_files = new HashMap<String, Integer>();
 		
@@ -227,12 +265,10 @@ public class Indexation {
 	
 	
 	/**
-	 * exo 2.4 : Calcule le tf.idf des mots d'un fichier en fonction
-	 * des df déjà calculés, du nombre de documents et de
-	 * la méthode de normalisation.
+	 * exo 2.4 : Calcule le tf.idf des mots de tout les fichiers 
 	 * tf : nombre d'occurence du terme t dans le document d
 	 */
-	public static TreeMap<String, HashMap<Integer, Double>> getTfIdf(Normalizer normalizer) throws IOException {
+	public TreeMap<String, HashMap<Integer, Double>> getTfIdf() throws IOException {
 		
 		
 		//récupère pour chaque mot le nombre d'occurence de chaque mots pour chaque fichiers
@@ -255,16 +291,16 @@ public class Indexation {
 				if(value == null)//Le mot n'est pas present dans la treemap
 				{
 					value = new HashMap<Integer, Integer>();
-					value.put(ids_files.get(file.getName()), 1);
+					value.put(ids_files.get(file.getPath()), 1);
 					tfs.put(word, value);
 				}
 				else
 				{
-					Integer nb_occur = value.get(file.getName());
+					Integer nb_occur = value.get(file.getPath());
 					if(nb_occur == null)//le fichier n'a pas encore ete rencontree pour ce mot
-						value.put(ids_files.get(file.getName()), 1);
+						value.put(ids_files.get(file.getPath()), 1);
 					else
-						value.put(ids_files.get(file.getName()), nb_occur + 1);
+						value.put(ids_files.get(file.getPath()), nb_occur + 1);
 					tfs.put(word, value);
 				}	
 			}
@@ -298,7 +334,7 @@ public class Indexation {
 	/**
 	 * Cette fonction va indexé tout le corpus avec le normalizer normalizer
 	 * */
-	public static void index_corpus( File index_file, Normalizer normalizer)
+	public void index_corpus()
 	{
 		try {
 			
@@ -317,7 +353,7 @@ public class Indexation {
 			PrintWriter out = new PrintWriter (bw);
 			
 			//TODO : peut être utiliser une HashMap pour être plus rapide au niveau de l'insertion
-			TreeMap<String, HashMap<Integer, Double>> tfIdfsAllFiles = getTfIdf(normalizer);
+			TreeMap<String, HashMap<Integer, Double>> tfIdfsAllFiles = getTfIdf();
 			
 			
 			

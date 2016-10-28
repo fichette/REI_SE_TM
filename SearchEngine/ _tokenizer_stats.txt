@@ -1,0 +1,300 @@
+20150115_7f8129bc8a7c16e51a1cafa18a25cca2.txt : 
+	charlie : 3 fois  pourcentage : 0.01171875%
+	hebdo : 3 fois  pourcentage : 0.01171875%
+20150115_7fdc7166be305142b2b2b2dec5fd1819.txt : 
+	charlie : 4 fois  pourcentage : 0.0021097045%
+	hebdo : 4 fois  pourcentage : 0.0021097045%
+20150115_80ecce363d66bcf7ea33e12e03064cfb.txt : 
+	charlie : 1 fois  pourcentage : 0.0016920473%
+	hebdo : 1 fois  pourcentage : 0.0016920473%
+20150115_8226ebed405e6a313dc7e6f541302dd8.txt : 
+	charlie : 4 fois  pourcentage : 0.008196721%
+	hebdo : 2 fois  pourcentage : 0.0040983604%
+20150220_c28d5fe65036af4f865591058277f652.txt : 
+	charlie : 14 fois  pourcentage : 0.0036391993%
+	hebdo : 11 fois  pourcentage : 0.002859371%
+20150410_5e38be6b7a2a78ed32a38eef9b035f69.txt : 
+	charlie : 1 fois  pourcentage : 0.0023980816%
+	hebdo : 1 fois  pourcentage : 0.0023980816%
+20150209_308b7e744b4d638534d55c4d9383c867.txt : 
+	charlie : 3 fois  pourcentage : 0.0045941807%
+	hebdo : 3 fois  pourcentage : 0.0045941807%
+20150115_8c57caaabf690a9b39fa4d7a0a34c15e.txt : 
+	charlie : 1 fois  pourcentage : 0.0017006802%
+	hebdo : 1 fois  pourcentage : 0.0017006802%
+20150318_6725c660c24fb206c7d81027a3e76096.txt : 
+	charlie : 1 fois  pourcentage : 0.0029411765%
+	hebdo : 1 fois  pourcentage : 0.0029411765%
+20150306_310aadcb2ac03fbe5f50e8c07b81c2e5.txt : 
+	charlie : 1 fois  pourcentage : 0.002570694%
+	hebdo : 1 fois  pourcentage : 0.002570694%
+20150329_48b265edc6aedf9140a47fd2ab32e44f.txt : 
+	charlie : 1 fois  pourcentage : 0.0011520737%
+	hebdo : 1 fois  pourcentage : 0.0011520737%
+20150115_aafc8a9a13930bf27efb0ef50d01fa17.txt : 
+	charlie : 1 fois  pourcentage : 0.0027855153%
+	hebdo : 1 fois  pourcentage : 0.0027855153%
+20150115_aeec83d2abbe1011c43aa8e9857ff0ec.txt : 
+	charlie : 1 fois  pourcentage : 0.001345895%
+	hebdo : 1 fois  pourcentage : 0.001345895%
+20150115_b019c7e8cf32fb21cadc42a96a9e29d5.txt : 
+	charlie : 4 fois  pourcentage : 0.00877193%
+	hebdo : 3 fois  pourcentage : 0.0065789474%
+20150128_694421cc4bf6baff02d48d4cbd2ec486.txt : 
+	charlie : 1 fois  pourcentage : 0.0034482758%
+	hebdo : 1 fois  pourcentage : 0.0034482758%
+20150115_c5add97707695ccb6afaef10958d35a8.txt : 
+	charlie : 1 fois  pourcentage : 0.0034246575%
+	hebdo : 1 fois  pourcentage : 0.0034246575%
+20150209_57b3184e3319ff429a5731ff1bfac1c7.txt : 
+	charlie : 1 fois  pourcentage : 0.0031948881%
+	hebdo : 1 fois  pourcentage : 0.0031948881%
+20150128_72714c87cc66e261cb39ac7ecdd0f890.txt : 
+	charlie : 2 fois  pourcentage : 0.0074074073%
+	hebdo : 1 fois  pourcentage : 0.0037037036%
+20150115_eece83142efce71677a021d6b7317268.txt : 
+	charlie : 3 fois  pourcentage : 0.009345794%
+	hebdo : 3 fois  pourcentage : 0.009345794%
+20150115_f44c0d7ab74b4537ef470783f8da4fdc.txt : 
+	charlie : 1 fois  pourcentage : 0.0017006802%
+	hebdo : 1 fois  pourcentage : 0.0017006802%
+20150329_783b3d618482c39ffc8d9ae365733144.txt : 
+	charlie : 1 fois  pourcentage : 0.0016501651%
+	hebdo : 1 fois  pourcentage : 0.0016501651%
+20150115_f75f111fa876fab5d546cae5b2c53618.txt : 
+	charlie : 2 fois  pourcentage : 0.001183432%
+	hebdo : 2 fois  pourcentage : 0.001183432%
+20150221_72c7fe34589d285e58fca03440a42ff3.txt : 
+	charlie : 1 fois  pourcentage : 0.0020920502%
+	hebdo : 1 fois  pourcentage : 0.0020920502%
+20150115_fd563e2ae1b1ebae8ca2d979cf8534e6.txt : 
+	charlie : 1 fois  pourcentage : 0.003003003%
+	hebdo : 1 fois  pourcentage : 0.003003003%
+20150116_11e525c769c867d5f5b076af08c3459a.txt : 
+	charlie : 3 fois  pourcentage : 0.009836066%
+	hebdo : 2 fois  pourcentage : 0.006557377%
+20150128_b802562591c1c59daddf8bf6d749b1a2.txt : 
+	charlie : 1 fois  pourcentage : 0.0013774105%
+	hebdo : 1 fois  pourcentage : 0.0013774105%
+20150221_9e2c459f7fba0dae077382fecf8f7bc6.txt : 
+	charlie : 1 fois  pourcentage : 0.001572327%
+	hebdo : 1 fois  pourcentage : 0.001572327%
+20150209_8c3cbdc48737f8d994cd1e8d2495ae06.txt : 
+	charlie : 1 fois  pourcentage : 0.0076923077%
+	hebdo : 1 fois  pourcentage : 0.0076923077%
+20150128_c94306a4f8f9569b97112d175d8d4c4a.txt : 
+	charlie : 1 fois  pourcentage : 0.0012062726%
+	hebdo : 1 fois  pourcentage : 0.0012062726%
+20150116_1e48884601ebed4cd22e837bfc43160d.txt : 
+	charlie : 2 fois  pourcentage : 0.0025188916%
+	hebdo : 2 fois  pourcentage : 0.0025188916%
+20150329_c620c4237b2bdf89ef657e18c80a1ca3.txt : 
+	charlie : 1 fois  pourcentage : 0.0011467889%
+	hebdo : 1 fois  pourcentage : 0.0011467889%
+20150116_2de5eb10aad40b2dd23731bcc06577e1.txt : 
+	charlie : 1 fois  pourcentage : 0.0016420361%
+	hebdo : 1 fois  pourcentage : 0.0016420361%
+20150116_35cb2c3e30a11d70f16f554cf5463852.txt : 
+	charlie : 5 fois  pourcentage : 0.016393442%
+	hebdo : 5 fois  pourcentage : 0.016393442%
+20150116_64d321634008af899d7d9f7d5dcd095b.txt : 
+	charlie : 2 fois  pourcentage : 0.0042643924%
+	hebdo : 1 fois  pourcentage : 0.0021321962%
+20150116_77814ba3692d6a30d213cf33fa3f70e6.txt : 
+	charlie : 4 fois  pourcentage : 0.0018535681%
+	hebdo : 4 fois  pourcentage : 0.0018535681%
+20150116_8b6d3517659112ca3e4b3ec8e8c4c8d1.txt : 
+	charlie : 4 fois  pourcentage : 0.011764706%
+	hebdo : 3 fois  pourcentage : 0.00882353%
+20150116_90da6cd765fcba5aaf4602a76e6c51d3.txt : 
+	charlie : 3 fois  pourcentage : 0.0040214476%
+	hebdo : 3 fois  pourcentage : 0.0040214476%
+20150116_94660045531fe9f280f5ed5653eaf347.txt : 
+	charlie : 2 fois  pourcentage : 0.0031796503%
+	hebdo : 2 fois  pourcentage : 0.0031796503%
+20150425_5f28d3375438344f76dde15fb3cea4c3.txt : 
+	charlie : 1 fois  pourcentage : 0.0023640662%
+	hebdo : 1 fois  pourcentage : 0.0023640662%
+20150116_b770fff407981c610f14bd24ffe103bc.txt : 
+	charlie : 1 fois  pourcentage : 0.0026809652%
+	hebdo : 1 fois  pourcentage : 0.0026809652%
+20150116_b81009a96f4c04ce54a635ab131aa474.txt : 
+	charlie : 1 fois  pourcentage : 0.004761905%
+	hebdo : 1 fois  pourcentage : 0.004761905%
+20150210_40a84e99ffc6675b678c4984a2110b34.txt : 
+	charlie : 1 fois  pourcentage : 0.0022727272%
+	hebdo : 1 fois  pourcentage : 0.0022727272%
+20150116_e0508ab61e7879cb93aef703aad67e14.txt : 
+	charlie : 4 fois  pourcentage : 0.011764706%
+	hebdo : 3 fois  pourcentage : 0.00882353%
+20150425_c5e8b6f7a539e3c8216e18328cd62bb6.txt : 
+	charlie : 1 fois  pourcentage : 0.0014705883%
+	hebdo : 1 fois  pourcentage : 0.0014705883%
+20150210_6993122ae5a6347b5a141601b920a3bf.txt : 
+	charlie : 1 fois  pourcentage : 0.0014184397%
+	hebdo : 1 fois  pourcentage : 0.0014184397%
+20150129_a40a6d16d525d9b12e501741989674f4.txt : 
+	charlie : 4 fois  pourcentage : 0.015209125%
+	hebdo : 2 fois  pourcentage : 0.0076045627%
+20150117_abe2e58b9020d4fb07f23034f08f66a8.txt : 
+	charlie : 2 fois  pourcentage : 0.004750594%
+	hebdo : 1 fois  pourcentage : 0.002375297%
+20150308_35aab180e45a4a0ddc494d2cc6b99a16.txt : 
+	charlie : 2 fois  pourcentage : 0.0036563072%
+	hebdo : 1 fois  pourcentage : 0.0018281536%
+20150413_2e720f21274df4a3865ce2c054949407.txt : 
+	charlie : 1 fois  pourcentage : 0.002202643%
+	hebdo : 1 fois  pourcentage : 0.002202643%
+20150117_dc3a23fa25cee9f2cab0494aec083715.txt : 
+	charlie : 1 fois  pourcentage : 0.0023201855%
+	hebdo : 1 fois  pourcentage : 0.0023201855%
+20150129_dba990c237fda10cb7dadfc9c591d9b2.txt : 
+	charlie : 6 fois  pourcentage : 0.0056710774%
+	hebdo : 3 fois  pourcentage : 0.0028355387%
+20150210_deb28dd566da5be58d411d8592c21d16.txt : 
+	charlie : 1 fois  pourcentage : 0.0022727272%
+	hebdo : 1 fois  pourcentage : 0.0022727272%
+20150118_4c904cfd9af4b32fe960f2e99d2a5084.txt : 
+	charlie : 4 fois  pourcentage : 0.013468013%
+	hebdo : 2 fois  pourcentage : 0.0067340066%
+20150130_1ba69bcc5e18bbfe48f0e8ec41c04d92.txt : 
+	charlie : 1 fois  pourcentage : 0.0054054055%
+	hebdo : 1 fois  pourcentage : 0.0054054055%
+20150130_4143c9da8f9791e7f4ef849a9385c080.txt : 
+	charlie : 1 fois  pourcentage : 0.001953125%
+	hebdo : 1 fois  pourcentage : 0.001953125%
+20150118_d21b6c53311e0fb86ad8cca11ca42bbe.txt : 
+	charlie : 3 fois  pourcentage : 0.003963012%
+	hebdo : 2 fois  pourcentage : 0.002642008%
+20150130_4a380404bd68192dd5dc891f0f74579a.txt : 
+	charlie : 3 fois  pourcentage : 0.011278195%
+	hebdo : 2 fois  pourcentage : 0.007518797%
+20150211_257858cd1b76964803a11d1800819b1c.txt : 
+	charlie : 1 fois  pourcentage : 0.0013831259%
+	hebdo : 1 fois  pourcentage : 0.0013831259%
+20150211_2bdb2d4ffb5f5b8c64f4a48bc0280b48.txt : 
+	charlie : 1 fois  pourcentage : 0.0013245033%
+	hebdo : 1 fois  pourcentage : 0.0013245033%
+20150130_6ef74973a3b662d2caba94394e55ec6d.txt : 
+	charlie : 1 fois  pourcentage : 9.099181E-4%
+	hebdo : 1 fois  pourcentage : 9.099181E-4%
+20150119_38a3f73b25a154913a22424253f73e7b.txt : 
+	charlie : 3 fois  pourcentage : 0.006289308%
+	hebdo : 2 fois  pourcentage : 0.004192872%
+20150211_471cc35b07ada7b4d87ac9a4f7329f49.txt : 
+	charlie : 1 fois  pourcentage : 0.002352941%
+	hebdo : 1 fois  pourcentage : 0.002352941%
+20150224_75879eaa033c8bea7d3d28514c2f82a5.txt : 
+	charlie : 2 fois  pourcentage : 0.01183432%
+	hebdo : 1 fois  pourcentage : 0.00591716%
+20150119_4520d7b6b0f112e99286564db6f9cc23.txt : 
+	charlie : 1 fois  pourcentage : 0.0028011205%
+	hebdo : 1 fois  pourcentage : 0.0028011205%
+20150119_5783cc8b735ea70ad01dfe9b6121129a.txt : 
+	charlie : 1 fois  pourcentage : 0.0030674846%
+	hebdo : 1 fois  pourcentage : 0.0030674846%
+20150119_68d2e7fc9bfedbf1896570c24d3018a8.txt : 
+	charlie : 2 fois  pourcentage : 0.0035971224%
+	hebdo : 2 fois  pourcentage : 0.0035971224%
+20150119_7f317824dcfcebe105757c9891799add.txt : 
+	charlie : 1 fois  pourcentage : 0.0078125%
+	hebdo : 1 fois  pourcentage : 0.0078125%
+20150119_8c5f4beeb690871149301bc004ebd0d7.txt : 
+	charlie : 1 fois  pourcentage : 0.0030674846%
+	hebdo : 1 fois  pourcentage : 0.0030674846%
+20150119_8fdf287a3c5f9d8a5ff2ce060a185d8b.txt : 
+	charlie : 2 fois  pourcentage : 0.0058139535%
+	hebdo : 1 fois  pourcentage : 0.0029069767%
+20150310_0554d871145cbf0baba8c626c5b70879.txt : 
+	charlie : 1 fois  pourcentage : 0.0010764262%
+	hebdo : 1 fois  pourcentage : 0.0010764262%
+20150331_be6e8499958408a31ccd086daa2f546e.txt : 
+	charlie : 17 fois  pourcentage : 0.02004717%
+	hebdo : 4 fois  pourcentage : 0.004716981%
+20150119_a6c87a3fb59539f55d23bc72c8687889.txt : 
+	charlie : 1 fois  pourcentage : 0.004484305%
+	hebdo : 1 fois  pourcentage : 0.004484305%
+20150320_bfc477e543892e5d4c77489f1207f575.txt : 
+	charlie : 1 fois  pourcentage : 0.0013477089%
+	hebdo : 1 fois  pourcentage : 0.0013477089%
+20150119_a9964fdd7b4ef2acf9edf5f0f9e14e50.txt : 
+	charlie : 10 fois  pourcentage : 0.031847134%
+	hebdo : 7 fois  pourcentage : 0.022292994%
+20150119_aacd5138a2ba718ade1d45f49f741ed7.txt : 
+	charlie : 2 fois  pourcentage : 0.00390625%
+	hebdo : 2 fois  pourcentage : 0.00390625%
+20150131_0e82e282f3f1ebe63a20b06364d9ce46.txt : 
+	charlie : 3 fois  pourcentage : 0.017045455%
+	hebdo : 3 fois  pourcentage : 0.017045455%
+20150119_c8b8a20255e0e109c4b6bc51ea79ba8d.txt : 
+	charlie : 1 fois  pourcentage : 0.0068965517%
+	hebdo : 1 fois  pourcentage : 0.0068965517%
+20150119_d0a10f49d0e6c5c025ae11e7c56e5042.txt : 
+	charlie : 1 fois  pourcentage : 0.0017301039%
+	hebdo : 1 fois  pourcentage : 0.0017301039%
+20150119_d9c3f0eb29477290f455b0e40273da47.txt : 
+	charlie : 4 fois  pourcentage : 0.012269938%
+	hebdo : 4 fois  pourcentage : 0.012269938%
+20150211_ea8de73792935152d825d785bb9efbff.txt : 
+	charlie : 1 fois  pourcentage : 0.0013245033%
+	hebdo : 1 fois  pourcentage : 0.0013245033%
+20150107_04061d0cfbc0647d0406d86e536e8c3d.txt : 
+	charlie : 2 fois  pourcentage : 0.0048076925%
+	hebdo : 2 fois  pourcentage : 0.0048076925%
+20150119_f283c0d65b1b8c14145bcad68faba1f7.txt : 
+	charlie : 1 fois  pourcentage : 0.003968254%
+	hebdo : 1 fois  pourcentage : 0.003968254%
+20150107_04e8f29fcdecef83a66c211f9d703cd4.txt : 
+	charlie : 6 fois  pourcentage : 0.010869565%
+	hebdo : 6 fois  pourcentage : 0.010869565%
+20150107_0a0d7c0be15adcf1b983b6d53f5d589a.txt : 
+	charlie : 4 fois  pourcentage : 0.016460905%
+	hebdo : 4 fois  pourcentage : 0.016460905%
+20150107_269582a317ee438c910696cc350bc787.txt : 
+	charlie : 4 fois  pourcentage : 0.01923077%
+	hebdo : 4 fois  pourcentage : 0.01923077%
+20150107_2a9fcd2ac4b50ee91fe279d01b049489.txt : 
+	charlie : 2 fois  pourcentage : 0.006116208%
+	hebdo : 2 fois  pourcentage : 0.006116208%
+20150120_057cb01233b25993e6258af320184133.txt : 
+	charlie : 1 fois  pourcentage : 0.0030487804%
+	hebdo : 1 fois  pourcentage : 0.0030487804%
+20150107_2d758ab5eb26601937aede1d9436e804.txt : 
+	charlie : 1 fois  pourcentage : 0.002444988%
+	hebdo : 1 fois  pourcentage : 0.002444988%
+20150107_310cb3de08a17ae7ce46f45df3600f6b.txt : 
+	charlie : 4 fois  pourcentage : 0.012987013%
+	hebdo : 2 fois  pourcentage : 0.0064935065%
+20150120_0dc339dddc25b6ce9ae105012ed49b5c.txt : 
+	charlie : 1 fois  pourcentage : 0.0030395137%
+	hebdo : 1 fois  pourcentage : 0.0030395137%
+20150107_3a9a832a99cf069ba8271912a895b60e.txt : 
+	charlie : 10 fois  pourcentage : 0.013513514%
+	hebdo : 10 fois  pourcentage : 0.013513514%
+20150107_439af0759b2ab5e7378e2a8811df6eee.txt : 
+	charlie : 3 fois  pourcentage : 0.011029412%
+	hebdo : 3 fois  pourcentage : 0.011029412%
+20150107_4e33ccefec1abb722384993c71928fa0.txt : 
+	charlie : 2 fois  pourcentage : 0.006153846%
+	hebdo : 2 fois  pourcentage : 0.006153846%
+20150107_5352c5ea47d6448132362b2ac235a41c.txt : 
+	charlie : 12 fois  pourcentage : 0.011846002%
+	hebdo : 11 fois  pourcentage : 0.010858835%
+20150107_5ae875083423ba277611ef6237f6abc3.txt : 
+	charlie : 2 fois  pourcentage : 0.016129032%
+	hebdo : 2 fois  pourcentage : 0.016129032%
+20150107_6a90529be2b8eb0372f88affe5e5cd8c.txt : 
+	charlie : 2 fois  pourcentage : 0.005524862%
+	hebdo : 2 fois  pourcentage : 0.005524862%
+20150107_6aff8fe8b7eaca1f9181e95f79a688ca.txt : 
+	charlie : 4 fois  pourcentage : 0.00913242%
+	hebdo : 3 fois  pourcentage : 0.006849315%
+20150120_454002bbf078540256605f7b89d41f89.txt : 
+	charlie : 6 fois  pourcentage : 0.008042895%
+	hebdo : 5 fois  pourcentage : 0.006702413%
+20150107_6fa61d0dd80c228b3c2f0c35de97d9b7.txt : 
+	charlie : 5 fois  pourcentage : 0.00499002%
+	hebdo : 5 fois  pourcentage : 0.00499002%
+20150120_4bace4b535408a40c903800ef3b41f20.txt : 
+	charlie : 1 fois  pourcentage : 0.0031746032%
+	hebdo : 1 fois  pourcentage : 0.0031746032%
