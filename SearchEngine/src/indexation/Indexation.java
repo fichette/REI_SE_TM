@@ -12,8 +12,10 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
 import java.util.TreeSet;
@@ -30,7 +32,7 @@ import org.w3c.dom.NodeList;
 import org.w3c.dom.Node;
 import org.w3c.dom.Element;
 import java.io.File;
-
+import indexation.Constantes;
 
 
 /**
@@ -40,21 +42,9 @@ import java.io.File;
  */
 public class Indexation {
 	
-	
-	/**
-	 * Le répertoire du corpus
-	 */
-	protected static String DIRNAME = "D:\\Users\\abdel\\Google Drive\\coursParisSud\\ExtractionInformation\\workspace\\TP2\\lemonde-utf8";
-	/**
-	 * Le fichier contenant les mots vides
-	 */
-	private static String STOPWORDS_FILENAME = "D:\\Users\\abdel\\Google Drive\\coursParisSud\\ExtractionInformation\\workspace\\TP2\\frenchST.txt";
 
-	public String out_index_files = "D:\\Users\\abdel\\Google Drive\\coursParisSud\\ExtractionInformation\\workspace\\REI_SE_TM\\SearchEngine\\index_files.txt";
-	public String out_index_words = "D:\\Users\\abdel\\Google Drive\\coursParisSud\\ExtractionInformation\\workspace\\REI_SE_TM\\SearchEngine\\index_words.txt";
-	
-	public String REP_SUBINDEX = "D:/Users/abdel/CORPUS/subindex";
-	public String REP_TEXT = "D:/Users/abdel/CORPUS/";
+	public String out_index_files;
+	public String out_index_words;
 	
 	public File index_file;
 	public Normalizer normalizer;
@@ -93,7 +83,7 @@ public class Indexation {
 		
 		ArrayList<File> corpus = new ArrayList<File>();
 		ArrayList<File> subindexFiles = new ArrayList<File>();
-		listFiles(new File(REP_SUBINDEX), subindexFiles);
+		listFiles(new File(Constantes.REP_SUBINDEX), subindexFiles);
 		
 		for (File fXmlFile :  subindexFiles)
 		{
@@ -124,7 +114,7 @@ public class Indexation {
 						String date = yyyy + mm + dd;
 						
 						String id = eElement.getAttribute("id");
-						File file = new File(REP_TEXT + "/" + yyyy + "/" + mm + "/" + dd + "/" + date + "_" + id +".txt");
+						File file = new File(Constantes.REP_TEXT + "/" + yyyy + "/" + mm + "/" + dd + "/" + date + "_" + id +".txt");
 						if(file.exists())
 							corpus.add(file);
 						
@@ -237,6 +227,62 @@ public class Indexation {
 	
 	/**
 	 * 
+	 * @return hashmap contenant le mot correspondant à chaque identifiant
+	 */
+	public HashMap<Integer, String> getWordById()
+	{
+		File index_name_word = new File(out_index_words);
+		
+		HashMap<Integer, String> ids_words = new HashMap<Integer, String>();
+		
+		try {
+			BufferedReader br = new BufferedReader(new FileReader(index_name_word));
+			
+			String line;
+			
+			while((line = br.readLine()) != null)
+			{
+				String[] line_split = line.split("\t");
+				ids_words.put(Integer.parseInt(line_split[0]), line_split[1]);
+			}
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return ids_words;
+	}
+	
+	/***
+	 * 
+	 * @return hashmap contenant les identifiants de chaque mots
+	 */
+	public HashMap<String, Integer> getIdWords()
+	{
+		File index_name_word = new File(out_index_words);
+		
+		HashMap<String, Integer> ids_words = new HashMap<String, Integer>();
+		
+		try {
+			BufferedReader br = new BufferedReader(new FileReader(index_name_word));
+			
+			String line;
+			
+			while((line = br.readLine()) != null)
+			{
+				String[] line_split = line.split("\t");
+				ids_words.put(line_split[1], Integer.parseInt(line_split[0]));
+			}
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return ids_words;
+	}
+	
+	/**
+	 * 
 	 * @return hashmap contenant les identifiants pour chaque fichiers
 	 */
 	private HashMap<String, Integer> getIdFiles()
@@ -268,57 +314,56 @@ public class Indexation {
 	 * exo 2.4 : Calcule le tf.idf des mots de tout les fichiers 
 	 * tf : nombre d'occurence du terme t dans le document d
 	 */
-	public TreeMap<String, HashMap<Integer, Double>> getTfIdf() throws IOException {
+	public TreeMap<Integer, HashMap<Integer, Double>> getTfIdf() throws IOException {
 		
 		
-		//récupère pour chaque mot le nombre d'occurence de chaque mots pour chaque fichiers
-		HashMap<String, HashMap<Integer, Integer>> tfs = new HashMap<String, HashMap<Integer, Integer>>();
-		TreeMap<String, HashMap<Integer, Double>> tfIdfs = new TreeMap<String, HashMap<Integer, Double>>();
+		//récupère pour chaque mot le nombre d'occurence normalisés de chaque mots pour chaque fichiers
+		HashMap<Integer, HashMap<Integer, Double>> tfs = new HashMap<Integer, HashMap<Integer, Double>>();
+		TreeMap<Integer, HashMap<Integer, Double>> tfIdfs = new TreeMap<Integer, HashMap<Integer, Double>>();
 		
 		//On récupère les identifiants pour les fichiers
 		HashMap<String, Integer> ids_files = getIdFiles();
+		HashMap<String, Integer> ids_words = getIdWords();
 		
 		ArrayList<File> files = getCorpusSubIndex();
 		int documentNumber = files.size();
 		
-		// On parcourt tout les fichiers du répertoire
+		// On parcourt tout les fichiers du répertoire pour calculer les tfs normalisés
 		for(File file : files) {
 			ArrayList<String> words = normalizer.normalize(file);
-			for(String word: words)
+			HashSet<String> words_set = new HashSet<String>(words);
+			Integer id_file = ids_files.get(file.getPath());
+			for(String word: words_set)
 			{
 				//on recupere la liste des fichiers avec les poids associees
-				HashMap<Integer, Integer> value = tfs.get(word);
+				Integer id_word = ids_words.get(word);
+				if(id_word == null)
+					continue;
+				HashMap<Integer, Double> value = tfs.get(id_word);
+				
 				if(value == null)//Le mot n'est pas present dans la treemap
 				{
-					value = new HashMap<Integer, Integer>();
-					value.put(ids_files.get(file.getPath()), 1);
-					tfs.put(word, value);
+					value = new HashMap<Integer, Double>();
 				}
-				else
-				{
-					Integer nb_occur = value.get(file.getPath());
-					if(nb_occur == null)//le fichier n'a pas encore ete rencontree pour ce mot
-						value.put(ids_files.get(file.getPath()), 1);
-					else
-						value.put(ids_files.get(file.getPath()), nb_occur + 1);
-					tfs.put(word, value);
-				}	
+				value.put(id_file, (double)Collections.frequency(words, word) / (float)words.size());
+				tfs.put(id_word, value);
+					
 			}
 		}
 		
 		//Caluls des dfs
-		HashMap<String, Integer> dfs = new HashMap<String, Integer>();
-		for(String word: tfs.keySet())
+		HashMap<Integer, Integer> dfs = new HashMap<Integer, Integer>();
+		for(Integer word: tfs.keySet())
 			dfs.put(word, tfs.get(word).size());
 		
 		// calcul du tf.idf
-		for (String word : tfs.keySet())
+		for (Integer word : tfs.keySet())
 		{
-			HashMap<Integer, Integer> docs = tfs.get(word);
+			HashMap<Integer, Double> docs = tfs.get(word);
 			HashMap<Integer, Double> tfidf = new HashMap<Integer, Double>();
 			for(Integer doc : docs.keySet())
 			{
-				Integer tf = docs.get(doc);
+				Double tf = docs.get(doc);
 				Double w = (double)tf * Math.log((double)(documentNumber) / dfs.get(word));
 				BigDecimal bd = new BigDecimal(w);
 				bd= bd.setScale(3,BigDecimal.ROUND_CEILING);
@@ -353,12 +398,12 @@ public class Indexation {
 			PrintWriter out = new PrintWriter (bw);
 			
 			//TODO : peut être utiliser une HashMap pour être plus rapide au niveau de l'insertion
-			TreeMap<String, HashMap<Integer, Double>> tfIdfsAllFiles = getTfIdf();
+			TreeMap<Integer, HashMap<Integer, Double>> tfIdfsAllFiles = getTfIdf();
 			
 			
 			
 			//On parcourt tout les mots et liste tout les documents auquels il apparaît et le poid associée.
-			for(String word: tfIdfsAllFiles.keySet())
+			for(Integer word: tfIdfsAllFiles.keySet())
 			{
 				// On récupère la liste de documents pour le mot
 				HashMap<Integer, Double> tfIdfsForWord = tfIdfsAllFiles.get(word);

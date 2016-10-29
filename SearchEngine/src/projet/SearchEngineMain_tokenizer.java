@@ -32,7 +32,7 @@ import tools.FrenchTokenizer;
 import tools.Normalizer;
 
 import searchEngine.SearchEngine;
-
+import indexation.Constantes;
 
 /**
  * TP 5
@@ -47,13 +47,7 @@ import searchEngine.SearchEngine;
  * Etape 2 utiliser la méthode vectoriel pour trouvez les documents les probables de correspondant à la requete
  **/
 public class SearchEngineMain_tokenizer {
-	
-	/**
-	/**
-	 * Le fichier contenant les mots vides
-	 */
-	private static String STOPWORDS_FILENAME = "D:\\Users\\abdel\\Google Drive\\coursParisSud\\ExtractionInformation\\workspace\\REI_SE_TM\\SearchEngine\\frenchST.txt";
-	
+
 	/**Moteur de recherche : **/
 	
 	/**
@@ -62,34 +56,29 @@ public class SearchEngineMain_tokenizer {
 	public static void main(String[] args) {
 		try {
 			Normalizer stemmerAllWords = new FrenchStemmer();
-			Normalizer stemmerNoStopWords = new FrenchStemmer(new File(STOPWORDS_FILENAME));
+			Normalizer stemmerNoStopWords = new FrenchStemmer(new File(Constantes.STOPWORDS_FILENAME));
 			Normalizer tokenizerAllWords = new FrenchTokenizer();
-			Normalizer tokenizerNoStopWords = new FrenchTokenizer(new File(STOPWORDS_FILENAME));
+			Normalizer tokenizerNoStopWords = new FrenchTokenizer(new File(Constantes.STOPWORDS_FILENAME));
 			Normalizer[] normalizers = {stemmerAllWords, stemmerNoStopWords, 
 					tokenizerAllWords, tokenizerNoStopWords};
 			
 			//Ce programme utilise le modèle tokenizer
 			Normalizer normalizer = tokenizerNoStopWords;
-
-			String index_dir = "D:\\Users\\abdel\\Google Drive\\coursParisSud\\ExtractionInformation\\workspace\\REI_SE_TM\\SearchEngine";
-			String index_file = index_dir + "\\index_tokenizer.txt";
 			
 			System.out.println("Enter your request ");
 			Scanner reader = new Scanner(System.in);  // Reading from System.in
 			String req = reader.nextLine();
 			
-			SearchEngine se = new SearchEngine(new File(index_file), normalizer);
-			List<String> docs = se.searchDocuments(req);
-			
-			//On les transforme en file
-			List<File> files_docs = docs.stream().map(item -> new File(item)).collect(Collectors.toList());
+			SearchEngine se = new SearchEngine(new File(Constantes.INDEX_TOKENIZER), Constantes.OUT_INDEX_WORDS_TOKENIZER,normalizer);
+			List<Map.Entry<File, Double>> docs = se.searchDocuments(req);
 			
 			//On affiche les résultats
-			files_docs.stream().forEach(item -> System.out.println(item.getName()));
+			for(Map.Entry<File, Double> file_simcos :  docs)
+				System.out.println(file_simcos.getKey().getName() + " : " + file_simcos.getValue());
 			
-			String stats_file = index_dir + "//stats//" + String.join("_", req.split(" ")) + "_tokenizer_stats.txt";
+			String stats_file = Constantes.DIR_PROJECT + "//stats//" + String.join("_", req.split(" ")) + "_tokenizer_stats.txt";
 			//On génere le fichier statistiques pour évaluer le modèle
-			se.computeStaticalResult(req, files_docs, new File(stats_file));
+			se.computeStaticalResult(req, docs, new File(stats_file));
 			
 		} catch (IOException e) {
 			e.printStackTrace();
