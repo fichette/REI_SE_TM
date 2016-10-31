@@ -1,0 +1,30 @@
+20150429_7fcc0ec2c82d9803867fac4b638b7360.txt : 1.0
+	galaxy : 3 fois  pourcentage : 0.009646302%
+20150301_5edf41bed312a8193714e059a87272f3.txt : 1.0
+	galaxy : 7 fois  pourcentage : 0.015521064%
+20150129_f4b8e7ca54ea299a75c6d8d0a1e03757.txt : 1.0
+	galaxy : 2 fois  pourcentage : 0.0061728396%
+20150108_182543049f646ba2acc15eb3b30ed63a.txt : 1.0
+	galaxy : 1 fois  pourcentage : 0.0028328612%
+20150409_1c6acc18e5c1ca51cad0b27580cdd46d.txt : 1.0
+	galaxy : 6 fois  pourcentage : 0.010695187%
+20150316_651548f98181f9a858300a633c280455.txt : 1.0
+	galaxy : 1 fois  pourcentage : 0.0045871558%
+20150319_733a6bc8ee7b2297205cc6a77c62af1e.txt : 1.0
+	galaxy : 3 fois  pourcentage : 0.0037546933%
+20150331_b9c225d9331f94f21df25f7b2c236dc9.txt : 1.0
+	galaxy : 34 fois  pourcentage : 0.023192361%
+20150407_2fbd1253e0ff4bf1b577e7fad6602fd6.txt : 1.0
+	galaxy : 1 fois  pourcentage : 0.003787879%
+20150316_4ecad7ecacb675a0f36ca51181dc8695.txt : 1.0
+	galaxy : 1 fois  pourcentage : 0.0045871558%
+20150125_e10e06a07e138906c9aa4396cff7339b.txt : 1.0
+	galaxy : 1 fois  pourcentage : 0.0010764262%
+20150404_b136afafc32d751d72a34959bfb34cb8.txt : 1.0
+	galaxy : 1 fois  pourcentage : 0.0011574074%
+20150407_4e7ece49d340ee26492b256ec5161145.txt : 1.0
+	galaxy : 1 fois  pourcentage : 0.003787879%
+20150129_f0a89280f25aa6b2c277b78dc1877eec.txt : 1.0
+	galaxy : 2 fois  pourcentage : 0.0061728396%
+20150429_a0742bae6e712be577dd6d0c991fa8bb.txt : 1.0
+	galaxy : 3 fois  pourcentage : 0.009646302%

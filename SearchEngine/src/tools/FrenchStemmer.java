@@ -3,9 +3,12 @@ package tools;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.HashSet;
 
@@ -32,7 +35,7 @@ public class FrenchStemmer extends org.tartarus.snowball.ext.frenchStemmer imple
 		this.stopWords = new HashSet<String>();
 		//lecture du fichier texte	
 		InputStream ips=new FileInputStream(stopWordFile); 
-		InputStreamReader ipsr=new InputStreamReader(ips);
+		InputStreamReader ipsr=new InputStreamReader(ips, "UTF8");
 		BufferedReader br=new BufferedReader(ipsr);
 		String line;
 		while ((line=br.readLine())!=null){
@@ -60,7 +63,7 @@ public class FrenchStemmer extends org.tartarus.snowball.ext.frenchStemmer imple
 		StringBuilder text = new StringBuilder();
 		//lecture du fichier texte	
 		InputStream ips=new FileInputStream(file); 
-		InputStreamReader ipsr=new InputStreamReader(ips);
+		InputStreamReader ipsr=new InputStreamReader(ips, "UTF8");
 		BufferedReader br=new BufferedReader(ipsr);
 		String line;
 		while ((line=br.readLine())!=null){
@@ -76,8 +79,8 @@ public class FrenchStemmer extends org.tartarus.snowball.ext.frenchStemmer imple
 		ArrayList<String> words = (new FrenchTokenizer()).tokenize(text.toLowerCase());
 		ArrayList<String> result = new ArrayList<String>();
 		for (String word : words) {
-			// on ajoute le mot dans la liste s'il n'appartient pas ï¿œ la liste des mots-clï¿œs.
-			// Idï¿œalement il faudrait utiliser une structure de donnï¿œes plus efficace que la liste,
+			// on ajoute le mot dans la liste s'il n'appartient pas à la liste des mots-clées.
+			// Idéalement il faudrait utiliser une structure de données plus efficace que la liste,
 			// mais ce n'est pas le sujet.
 			if (this.stopWords.isEmpty() || (!(this.stopWords.contains(word) || word.length() == 1 || word.equals("...")))) {
 				this.setCurrent(word);

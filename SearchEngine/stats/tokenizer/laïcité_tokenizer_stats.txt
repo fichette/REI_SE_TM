@@ -1,0 +1,176 @@
+20150224_ed1e199412f9a2bd3a9b47bfc54a193a.txt : 1.0
+	laïcité : 1 fois  pourcentage : 9.6153846E-4%
+20150211_a5139cf36fd127ca3f2c9ddbd76f83f2.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.002793296%
+20150204_d4abe662dac8b187ffde756f33dde7d6.txt : 1.0
+	laïcité : 5 fois  pourcentage : 0.011547344%
+20150317_0c2f15829c570c642e3ca5ec7b18c853.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.0034364262%
+20150323_761ed03f75abdbb1bf2b490474a239dc.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.003144654%
+20150331_80f54fd154b003de97a33764c4ba3ba2.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.003144654%
+20150119_c8b8a20255e0e109c4b6bc51ea79ba8d.txt : 1.0
+	laïcité : 2 fois  pourcentage : 0.016528925%
+20150108_546cf5cfcb8abe8cd6be4ef01b7f9e77.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.0028985508%
+20150108_e492d104c0d88f7b622d207e26c9b521.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.001618123%
+20150304_203953077ef006f9e0decd95252fd726.txt : 1.0
+	laïcité : 5 fois  pourcentage : 0.012019231%
+20150113_bd66d94a695e51eca8cb64ceaf0eb5b0.txt : 1.0
+	laïcité : 4 fois  pourcentage : 0.0016992353%
+20150121_ba1a65d140cf06106d152759f74d4f47.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.0032258064%
+20150113_94eb803792ab997dd58260784b50d48c.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.0048076925%
+20150415_960b65e0f90ca2316fe1e097d58b3b6d.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.0012391574%
+20150112_bf05b939dd33560e27ab742fe4eb21b1.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.003968254%
+20150331_3599f0bb65720ec66d204f8811949e8b.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.0015673981%
+20150211_ac242c10915ebc2df9720646d716e99d.txt : 1.0
+	laïcité : 1 fois  pourcentage : 9.5602294E-4%
+20150204_fef6a1a9f0dbe98c4d20fc07b039ee98.txt : 1.0
+	laïcité : 2 fois  pourcentage : 0.0035273368%
+20150114_1805231f1bd9c0269d44ccf1422f191f.txt : 1.0
+	laïcité : 2 fois  pourcentage : 0.0038387715%
+20150216_e57144a2f3bc2c4a5de64ccb95f98065.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.0025510204%
+20150106_a1187d71175cfbcf0eb27722ed88535b.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.002232143%
+20150421_6b472da135c022a21d4bf9975119a91f.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.0045871558%
+20150324_b2a478740c006016a60f9bb9ef4f876c.txt : 1.0
+	laïcité : 11 fois  pourcentage : 0.013580247%
+20150130_9c7ce857c129b1f679f019430c093130.txt : 1.0
+	laïcité : 4 fois  pourcentage : 0.0049875313%
+20150306_0af071fe90e35de5abd02897c8559b89.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.0014619883%
+20150326_8a680af013c5fa147390f9e7c97b2562.txt : 1.0
+	laïcité : 3 fois  pourcentage : 0.004385965%
+20150421_6ecfa1aa0d5ccda086b11a44bfbf2a4f.txt : 1.0
+	laïcité : 3 fois  pourcentage : 0.0031880978%
+20150125_fea500234117dd5bb8637bba7d3e851e.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.005376344%
+20150306_e2f167819a95b114a5c18de0c19c1610.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.00862069%
+20150225_4f6c4afd0af14dea04e505ce59ac9da3.txt : 1.0
+	laïcité : 2 fois  pourcentage : 0.004576659%
+20150108_512ea28894bd2ad289a58f954de88c6c.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.0023809525%
+20150110_736cccc6c89b4291187188703d6e6a94.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.002386635%
+20150303_5667ba07da95dee491785dc8e5f9539a.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.003968254%
+20150204_7a8b8caf30b40ee258e8329a7cbd60d0.txt : 1.0
+	laïcité : 2 fois  pourcentage : 0.0035149385%
+20150328_99733107033546c311efe127f5b38a1b.txt : 1.0
+	laïcité : 5 fois  pourcentage : 0.0066755675%
+20150115_80ecce363d66bcf7ea33e12e03064cfb.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.0024213076%
+20150119_1a681c55173a8720667cac0f503e6382.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.0032051282%
+20150415_6e7acf979ec0653856179b6b94d74d51.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.0011441647%
+20150122_11170f45e898bda3e70e992ebd0af386.txt : 1.0
+	laïcité : 2 fois  pourcentage : 0.0069444445%
+20150326_c9e9d1d7157cc98bf0e8f7641945c0d8.txt : 1.0
+	laïcité : 3 fois  pourcentage : 0.004385965%
+20150115_18ab061b496579563277ee3357483662.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.0022271716%
+20150119_38a3f73b25a154913a22424253f73e7b.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.0028089888%
+20150128_0f2360fbd2270a36bf74091394209e43.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.0017035775%
+20150211_3790d100ccec538dd54f47e0b136fbfb.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.0010559662%
+20150220_339e966f3e4acdadf14dee2aa42d76e3.txt : 1.0
+	laïcité : 2 fois  pourcentage : 0.004310345%
+20150303_7dc67891300f1cf0e59305cc3f321416.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.003968254%
+20150314_a1e355235193553ab8898eabe2b1a4a3.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.0023696683%
+20150325_fc0a83fece7538bfb0e9272b3d032881.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.0017730496%
+20150119_84ce7512f45eeb8488b6f44fc7d60559.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.0032051282%
+20150106_cb1eca95232585df0143f5530ef4fd0e.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.002232143%
+20150123_e7604ba8142b0ff3121447d032decdb4.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.0034843206%
+20150204_726ffdbc131e434d45f9a3b1c71043ee.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.0014858841%
+20150123_70f562a59e7edf0318910fda8b221311.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.003717472%
+20150415_50699c3bf954b5b65aa84852dbcb6d53.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.0011441647%
+20150317_17f8832f0f8ec9be53e44a4e7fb00311.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.0034364262%
+20150317_8b24bee2d8f1d2c9f3e57866765bc598.txt : 1.0
+	laïcité : 5 fois  pourcentage : 0.013477089%
+20150114_8f7f2d3288eaeefcd0e18662afded29f.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.0029761905%
+20150114_96dfb4c0dbec6b351d0d4af90c6c7109.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.0029761905%
+20150108_be5af76c554cc8c18188f8d5dcf54ad6.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.001345895%
+20150123_78b90a62963a9f0b06395803ce0d6558.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.0037453184%
+20150205_79e7d9f499ea65aa54137928e244ed24.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.0017421603%
+20150120_454002bbf078540256605f7b89d41f89.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.0017921147%
+20150324_826b4f1427df2de0d058c906844f3b06.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.0027855153%
+20150202_3a71915a459511b4bdc6fe0f134335bf.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.0014265336%
+20150106_6cbfb2a411473d8e7658d78c1f7a9d61.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.004405286%
+20150111_c15be823ac6781c89093ecd3748616ed.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.0019646366%
+20150327_857fd96d4986cb04b2c349f8f86adae5.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.0012870013%
+20150317_e11467e30f5ff5252ad9c7b4c4be4e35.txt : 1.0
+	laïcité : 5 fois  pourcentage : 0.013477089%
+20150415_ebd7b42823bc7f3dff5deea0f17704d1.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.0012391574%
+20150220_3c0034994c6ba37af7dce60c2c942d47.txt : 1.0
+	laïcité : 2 fois  pourcentage : 0.004310345%
+20150327_2f6aea08f97728ecb5e76ffa2c22df9d.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.0011086474%
+20150111_9325d34f8efc53c97d0efed5ca0566d9.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.003030303%
+20150324_ca058d5eb35f9a3995446907061f82db.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.0027855153%
+20150115_f75f111fa876fab5d546cae5b2c53618.txt : 1.0
+	laïcité : 6 fois  pourcentage : 0.005167959%
+20150114_8097ecb44fa08950e5da4cc93804da2d.txt : 1.0
+	laïcité : 6 fois  pourcentage : 0.015%
+20150113_9e50a2a75e029564741502c339da435d.txt : 1.0
+	laïcité : 4 fois  pourcentage : 0.0016985137%
+20150204_14e8ef32ea1ada219fcf34e8e9bfeb01.txt : 1.0
+	laïcité : 5 fois  pourcentage : 0.011547344%
+20150112_31da7b8c0720d40513d938cddde29837.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.003968254%
+20150108_ff0a7831324c7f69bcd68a60f9172bfe.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.001345895%
+20150116_b770fff407981c610f14bd24ffe103bc.txt : 1.0
+	laïcité : 2 fois  pourcentage : 0.007067138%
+20150406_ffb2643feaf24850769c24c7b351b4c9.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.0015503876%
+20150122_e4dc1560b633f1e822c525ca74b14e53.txt : 1.0
+	laïcité : 6 fois  pourcentage : 0.014184397%
+20150109_88e10a55af9d6f740bb92e17662e28de.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.0014306152%
+20150106_15690634eac4d36ef66bfb1dde484707.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.004405286%
+20150404_2517d29d0a5146ab6a28cbb9b44de24c.txt : 1.0
+	laïcité : 2 fois  pourcentage : 0.0056657223%
+20150211_954ac5b56731c895f830e715c74db24d.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.002793296%
+20150422_a5cf95077b401e4a3f2037b514084bc6.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.0021459227%
+20150112_102676be854911eb9fa8447eb33b9414.txt : 1.0
+	laïcité : 1 fois  pourcentage : 0.003968254%

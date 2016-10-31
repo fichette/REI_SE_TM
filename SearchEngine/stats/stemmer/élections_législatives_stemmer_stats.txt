@@ -1,0 +1,300 @@
+20150126_844212a25ccb1ce1cdf3c3d95ac9ad18.txt : 0.999600599305608
+	élect : 3 fois  pourcentage : 0.015625%
+	législ : 2 fois  pourcentage : 0.010416667%
+20150323_323acc17580b775062d84dd30d012c85.txt : 0.999600599305608
+	élect : 3 fois  pourcentage : 0.010909091%
+	législ : 2 fois  pourcentage : 0.0072727273%
+20150218_53ab09247be71f3a0352fcb920278a5c.txt : 0.999600599305608
+	élect : 3 fois  pourcentage : 0.01875%
+	législ : 2 fois  pourcentage : 0.0125%
+20150318_7b5624c53c127e9f073468785a1942bf.txt : 0.999600599305608
+	élect : 3 fois  pourcentage : 0.0060975607%
+	législ : 2 fois  pourcentage : 0.0040650405%
+20150126_8b89f5d8e1876c444eac66f629b5990d.txt : 0.999600599305608
+	élect : 3 fois  pourcentage : 0.013636364%
+	législ : 2 fois  pourcentage : 0.009090909%
+20150202_cd3e2d3027efe37edf51090511010135.txt : 0.999600599305608
+	élect : 3 fois  pourcentage : 0.03846154%
+	législ : 2 fois  pourcentage : 0.025641026%
+20150403_a515d8fb3a471694f8c1e480b4988277.txt : 0.999600599305608
+	élect : 3 fois  pourcentage : 0.009646302%
+	législ : 2 fois  pourcentage : 0.006430868%
+20150202_dff380299c4221915dff1f03404ceb1b.txt : 0.9995320608821919
+	élect : 4 fois  pourcentage : 0.010256411%
+	législ : 3 fois  pourcentage : 0.0076923077%
+20150205_42ee9f7bd078767b269aa939940c2ef6.txt : 0.9995320608821919
+	élect : 4 fois  pourcentage : 0.011594203%
+	législ : 3 fois  pourcentage : 0.008695652%
+20150216_fca995009197e0cf89bcaefb0cf45a83.txt : 0.9967529401382232
+	élect : 5 fois  pourcentage : 0.012658228%
+	législ : 3 fois  pourcentage : 0.0075949365%
+20150402_f30261543fd552942b5144facf702e7c.txt : 0.9857840427987622
+	élect : 4 fois  pourcentage : 0.0056338026%
+	législ : 2 fois  pourcentage : 0.0028169013%
+20150125_be5ca389118ea7e1c92d4670aecb4f69.txt : 0.9857840427987622
+	élect : 4 fois  pourcentage : 0.007827789%
+	législ : 2 fois  pourcentage : 0.0039138943%
+20150209_7415e23b2c9c2119a49731ad97c1343d.txt : 0.9857840427987622
+	élect : 4 fois  pourcentage : 0.011173184%
+	législ : 2 fois  pourcentage : 0.005586592%
+20150404_3010aebd23bc5da7fd697886f92a2b12.txt : 0.9857840427987622
+	élect : 4 fois  pourcentage : 0.014184397%
+	législ : 2 fois  pourcentage : 0.0070921984%
+20150126_ebf3de6f7817884956771108ef0377be.txt : 0.9857840427987622
+	élect : 4 fois  pourcentage : 0.011560693%
+	législ : 2 fois  pourcentage : 0.0057803467%
+20150318_bdf6e91736d71140b88c6edfb74a0565.txt : 0.9857840378574179
+	élect : 2 fois  pourcentage : 0.0058479533%
+	législ : 1 fois  pourcentage : 0.0029239766%
+20150206_96404689a8ecaebb2cc2b0c0a882772b.txt : 0.9857840378574179
+	élect : 2 fois  pourcentage : 0.0032948928%
+	législ : 1 fois  pourcentage : 0.0016474464%
+20150331_8f9c089374e360824c335dea8a04b787.txt : 0.9857840378574179
+	élect : 2 fois  pourcentage : 0.005449591%
+	législ : 1 fois  pourcentage : 0.0027247956%
+20150428_09c269f7d4d47fab4759f2962987ed2a.txt : 0.9857840378574179
+	élect : 2 fois  pourcentage : 0.008368201%
+	législ : 1 fois  pourcentage : 0.0041841003%
+20150120_4913e79765ea9a0b256c4edc5c83fd80.txt : 0.9857840378574179
+	élect : 2 fois  pourcentage : 0.005291005%
+	législ : 1 fois  pourcentage : 0.0026455026%
+20150127_c4a09516f93a9609e35412260c5c6a61.txt : 0.9857840378574179
+	élect : 2 fois  pourcentage : 0.006472492%
+	législ : 1 fois  pourcentage : 0.003236246%
+20150206_ba3d41e7c8e6646e8efc2492edc5f2fe.txt : 0.9857840378574179
+	élect : 2 fois  pourcentage : 0.0032948928%
+	législ : 1 fois  pourcentage : 0.0016474464%
+20150319_9ff2a29620497bbf32156a095f2aee7a.txt : 0.9857840378574179
+	élect : 2 fois  pourcentage : 0.007662835%
+	législ : 1 fois  pourcentage : 0.0038314175%
+20150204_726ffdbc131e434d45f9a3b1c71043ee.txt : 0.9857840378574179
+	élect : 2 fois  pourcentage : 0.0035842294%
+	législ : 1 fois  pourcentage : 0.0017921147%
+20150222_fda1371dba64470769abf4e9a5a48072.txt : 0.9857840378574179
+	élect : 2 fois  pourcentage : 0.006802721%
+	législ : 1 fois  pourcentage : 0.0034013605%
+20150127_772e5acbd1e0b50f661ef943f0c1d54c.txt : 0.9857840378574179
+	élect : 2 fois  pourcentage : 0.006472492%
+	législ : 1 fois  pourcentage : 0.003236246%
+20150129_5cee719f4d584c26700cf9f37a91fe7f.txt : 0.9857840378574179
+	élect : 2 fois  pourcentage : 0.0058479533%
+	législ : 1 fois  pourcentage : 0.0029239766%
+20150324_aa5c3867bcbd8a1d808a9866847e202b.txt : 0.9857840378574179
+	élect : 2 fois  pourcentage : 0.009302326%
+	législ : 1 fois  pourcentage : 0.004651163%
+20150302_bf7a6e43b06b13b94b387215c32dcfa0.txt : 0.9857840378574179
+	élect : 2 fois  pourcentage : 0.0034013605%
+	législ : 1 fois  pourcentage : 0.0017006802%
+20150207_543e687a5b0894a676c3cb3b701266a4.txt : 0.9857840378574179
+	élect : 2 fois  pourcentage : 0.0034129692%
+	législ : 1 fois  pourcentage : 0.0017064846%
+20150318_53e4d1f767b858017ea0255861046e06.txt : 0.9857840378574179
+	élect : 2 fois  pourcentage : 0.004716981%
+	législ : 1 fois  pourcentage : 0.0023584906%
+20150131_feaba738bacf7795f6f0186f4875686a.txt : 0.9857840378574179
+	élect : 2 fois  pourcentage : 0.009009009%
+	législ : 1 fois  pourcentage : 0.0045045046%
+20150120_84d2eaebacb37287fce513efa9a33e7b.txt : 0.9857840378574179
+	élect : 2 fois  pourcentage : 0.005291005%
+	législ : 1 fois  pourcentage : 0.0026455026%
+20150325_7fa87da557711cc308fc4f3c94265907.txt : 0.9857840378574179
+	élect : 2 fois  pourcentage : 0.008%
+	législ : 1 fois  pourcentage : 0.004%
+20150126_577b59b75bfc0262d5c840e8fd9f054a.txt : 0.9857840378574179
+	élect : 2 fois  pourcentage : 0.0047393367%
+	législ : 1 fois  pourcentage : 0.0023696683%
+20150123_0e0e73de13cc6211c51d50cb6f477ef9.txt : 0.9857840378574179
+	élect : 2 fois  pourcentage : 0.004201681%
+	législ : 1 fois  pourcentage : 0.0021008404%
+20150220_325cb694de871801d9333ac5751be05d.txt : 0.985412032363453
+	élect : 2 fois  pourcentage : 0.003327787%
+	législ : 2 fois  pourcentage : 0.003327787%
+20150126_b8206ea82438b8b7bccb8bea508fd68e.txt : 0.985412032363453
+	élect : 2 fois  pourcentage : 0.006688963%
+	législ : 2 fois  pourcentage : 0.006688963%
+20150210_5bec1e1d69306926a41aa3c5b3997be6.txt : 0.985412032363453
+	élect : 2 fois  pourcentage : 0.00877193%
+	législ : 2 fois  pourcentage : 0.00877193%
+20150317_31e6bf815f7f0e1ce49515976f42fd08.txt : 0.985412032363453
+	élect : 2 fois  pourcentage : 0.008%
+	législ : 2 fois  pourcentage : 0.008%
+20150312_e20b94697dcd34aa9b7de0f2d6113cce.txt : 0.985412032363453
+	élect : 2 fois  pourcentage : 0.008%
+	législ : 2 fois  pourcentage : 0.008%
+20150128_c6bd3298b95fff320cbc9fc99fdc793d.txt : 0.985412032363453
+	élect : 2 fois  pourcentage : 0.006430868%
+	législ : 2 fois  pourcentage : 0.006430868%
+20150104_7b4784157e791d5cb004c08aedb3db3e.txt : 0.985412032363453
+	élect : 2 fois  pourcentage : 0.0078125%
+	législ : 2 fois  pourcentage : 0.0078125%
+20150314_05e54ec3963314653d64bae1b3e44f5b.txt : 0.985412032363453
+	élect : 2 fois  pourcentage : 0.004115226%
+	législ : 2 fois  pourcentage : 0.004115226%
+20150418_05921a40a95d48e22d32b8eb097f5f30.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.0013477089%
+	législ : 1 fois  pourcentage : 0.0013477089%
+20150313_d0b48bb5320ac8ea188c58e1e3ccc8be.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.004830918%
+	législ : 1 fois  pourcentage : 0.004830918%
+20150218_c5d3c78c43b53881a4bcf5070523d504.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.003267974%
+	législ : 1 fois  pourcentage : 0.003267974%
+20150401_f5a2b518e8a58ada043f1ed33acce3e5.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.0036363637%
+	législ : 1 fois  pourcentage : 0.0036363637%
+20150327_3ed5cf1f76d3ad75b6208030d4c0d69c.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.0021881838%
+	législ : 1 fois  pourcentage : 0.0021881838%
+20150305_e8124e3ce17953fc6288117533661e28.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.008196721%
+	législ : 1 fois  pourcentage : 0.008196721%
+20150119_2899e7d555a04f8404d9e6282be2cbc1.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.0043668123%
+	législ : 1 fois  pourcentage : 0.0043668123%
+20150304_7262102b750865119926655bb8a165f5.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.0028011205%
+	législ : 1 fois  pourcentage : 0.0028011205%
+20150204_15c9bbcb17bc4322fe3c27e33fe10623.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.0028169013%
+	législ : 1 fois  pourcentage : 0.0028169013%
+20150107_d5b0c04ce12edc15c34da16c90c518c9.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.0024813896%
+	législ : 1 fois  pourcentage : 0.0024813896%
+20150304_c4f8e1993984b67bc5dbf4d83f9ff7fa.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.0028011205%
+	législ : 1 fois  pourcentage : 0.0028011205%
+20150218_9379b5f353e041cf8a87f5d392716eff.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.0047393367%
+	législ : 1 fois  pourcentage : 0.0047393367%
+20150407_7e13617bf02ff4781e15d96759ffb2c7.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.002631579%
+	législ : 1 fois  pourcentage : 0.002631579%
+20150209_322d601b0d4861d63a595f6198d2328d.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.014705882%
+	législ : 1 fois  pourcentage : 0.014705882%
+20150311_1b9391bcd103ccecdfd7e11c6a5ab8c9.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.0021321962%
+	législ : 1 fois  pourcentage : 0.0021321962%
+20150211_a5139cf36fd127ca3f2c9ddbd76f83f2.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.0034843206%
+	législ : 1 fois  pourcentage : 0.0034843206%
+20150319_7dfaba5fbf2accb7e09bcabb6dc614da.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.0056818184%
+	législ : 1 fois  pourcentage : 0.0056818184%
+20150218_805a9092f59c4b6b90f36d222fc0a63a.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.003267974%
+	législ : 1 fois  pourcentage : 0.003267974%
+20150205_9d73245f4206c17b8e41b480eda8609c.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.0016313214%
+	législ : 1 fois  pourcentage : 0.0016313214%
+20150313_eed9439739f463cff403a69196fa7683.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.004830918%
+	législ : 1 fois  pourcentage : 0.004830918%
+20150217_25657b793038d9ed1a258cb4c2847540.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.0019880715%
+	législ : 1 fois  pourcentage : 0.0019880715%
+20150216_e57144a2f3bc2c4a5de64ccb95f98065.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.0033898305%
+	législ : 1 fois  pourcentage : 0.0033898305%
+20150129_3d3890dbb4de601bc1dee013d323b8e8.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.0021367522%
+	législ : 1 fois  pourcentage : 0.0021367522%
+20150126_089696d9674bbddaa45ceb06fdd81b96.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.0057471264%
+	législ : 1 fois  pourcentage : 0.0057471264%
+20150427_47483f802acc0a55be82db731a89da57.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.004651163%
+	législ : 1 fois  pourcentage : 0.004651163%
+20150310_3fabb2bf5b6c5df942c9cd2ab75bb4f1.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.009090909%
+	législ : 1 fois  pourcentage : 0.009090909%
+20150113_da8eb690daa41999b7294d136380755f.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.0016611295%
+	législ : 1 fois  pourcentage : 0.0016611295%
+20150216_d8941cdc9a25c101698ec3e4b859f04c.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.004854369%
+	législ : 1 fois  pourcentage : 0.004854369%
+20150401_0e9cf3764a3e8e39c18dd26a28af20d6.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.004784689%
+	législ : 1 fois  pourcentage : 0.004784689%
+20150316_dab5f58c37922d94efa309785fba9aed.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.0037037036%
+	législ : 1 fois  pourcentage : 0.0037037036%
+20150322_32613dcbb36b1066e8bd1e853cb82a5c.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.0013605442%
+	législ : 1 fois  pourcentage : 0.0013605442%
+20150106_cc647e977e29600aa5f3ced3470eba62.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.0019607844%
+	législ : 1 fois  pourcentage : 0.0019607844%
+20150202_57bfd1daabaf3d1a83814b9b323ece3d.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.006535948%
+	législ : 1 fois  pourcentage : 0.006535948%
+20150320_0aaeda535cae7bda5e82154bcf9debe5.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.005235602%
+	législ : 1 fois  pourcentage : 0.005235602%
+20150429_44a9bbbff4af931c11dd1cadc65675b3.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.0034129692%
+	législ : 1 fois  pourcentage : 0.0034129692%
+20150323_22eede06239b50c376417303f99b373f.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.005%
+	législ : 1 fois  pourcentage : 0.005%
+20150205_e10eab5646bf45af3685a24a419c9395.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.0027027028%
+	législ : 1 fois  pourcentage : 0.0027027028%
+20150118_f3d4a1d811a2d5ea8a17157f6b430e18.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.0034246575%
+	législ : 1 fois  pourcentage : 0.0034246575%
+20150419_802036812c9cb94441f0edd2a567ee38.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.004310345%
+	législ : 1 fois  pourcentage : 0.004310345%
+20150215_a0fd9df214123d49904731a8ff2bdd3d.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.0028735632%
+	législ : 1 fois  pourcentage : 0.0028735632%
+20150402_5ffbd23c16b8dd0e8f568171af53a7b0.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.0033557047%
+	législ : 1 fois  pourcentage : 0.0033557047%
+20150126_056d0f1d79a926f766055c595b050701.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.0057471264%
+	législ : 1 fois  pourcentage : 0.0057471264%
+20150402_b888c5b2ae4b38ef4ae9ab3cb7706f78.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.0034013605%
+	législ : 1 fois  pourcentage : 0.0034013605%
+20150120_29462e70a51a39ab7c86bd8546492186.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.0014771048%
+	législ : 1 fois  pourcentage : 0.0014771048%
+20150409_352332cac0eb6b9ef0746a31fc84ca88.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.0034722222%
+	législ : 1 fois  pourcentage : 0.0034722222%
+20150331_e816427e917619f259c14397026e2d04.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.0052083335%
+	législ : 1 fois  pourcentage : 0.0052083335%
+20150428_42785110ce34fc1b7eb9c7615933c710.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.003164557%
+	législ : 1 fois  pourcentage : 0.003164557%
+20150211_9f562cba3f84aa5c3d77cf489d7fc303.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.0027027028%
+	législ : 1 fois  pourcentage : 0.0027027028%
+20150119_7f8b3789b34c902d0a27084cd77e8b2f.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.0054945056%
+	législ : 1 fois  pourcentage : 0.0054945056%
+20150206_3613ced747dc3365c1c922dc4d655bf2.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.004672897%
+	législ : 1 fois  pourcentage : 0.004672897%
+20150428_74c5118f2e072de85aa808b92d5c3f33.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.0013812155%
+	législ : 1 fois  pourcentage : 0.0013812155%
+20150125_27c76e1891673b9a5b4602a76e5dad24.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.007936508%
+	législ : 1 fois  pourcentage : 0.007936508%
+20150202_4fd95b71706c92b2904a10f40e1b4da7.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.006535948%
+	législ : 1 fois  pourcentage : 0.006535948%
+20150204_bca2be3387d24245592f4d045d180fcd.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.0028169013%
+	législ : 1 fois  pourcentage : 0.0028169013%
+20150215_724363c82d774ef4536a6a3943d1f98e.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.0028735632%
+	législ : 1 fois  pourcentage : 0.0028735632%
+20150128_fb819139317b65aba1c6640b733aa84a.txt : 0.9854120318193972
+	élect : 1 fois  pourcentage : 0.0054945056%
+	législ : 1 fois  pourcentage : 0.0054945056%

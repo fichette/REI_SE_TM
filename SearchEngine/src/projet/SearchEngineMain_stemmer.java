@@ -65,21 +65,25 @@ public class SearchEngineMain_stemmer {
 			
 			//Ce programme utilise le modèle tokenizer
 			Normalizer normalizer = stemmerNoStopWords;
-
-			System.out.println("Enter your request ");
-			Scanner reader = new Scanner(System.in);  // Reading from System.in
-			String req = reader.nextLine();
 			
-			SearchEngine se = new SearchEngine(new File(Constantes.INDEX_STEEMER), Constantes.OUT_INDEX_WORDS_STEEMER, normalizer);
-			List<Map.Entry<File, Double>> docs = se.searchDocuments(req);
+			while(true)
+			{
+				System.out.println("Enter your request ");
+				Scanner reader = new Scanner(System.in);  // Reading from System.in
+				String req = reader.nextLine();
+				
+				SearchEngine se = new SearchEngine(new File(Constantes.INDEX_STEEMER), Constantes.OUT_INDEX_WORDS_STEEMER, normalizer);
+				List<Map.Entry<File, Double>> docs = se.searchDocuments(req);
+				
+				//On affiche les résultats
+				for(Map.Entry<File, Double> file_simcos :  docs)
+					System.out.println(file_simcos.getKey().getName() + " : " + file_simcos.getValue());
+				
+				String stats_file = Constantes.DIR_PROJECT + "//stats//stemmer//" + String.join("_", req.split(" ")) + "_stemmer_stats.txt";
+				//On génere le fichier statistiques pour évaluer le modèle
+				se.computeStaticalResult(req, docs, new File(stats_file));
+			}
 			
-			//On affiche les résultats
-			for(Map.Entry<File, Double> file_simcos :  docs)
-				System.out.println(file_simcos.getKey().getName() + " : " + file_simcos.getValue());
-			
-			String stats_file = Constantes.DIR_PROJECT + "//stats//" + String.join("_", req.split(" ")) + "_stemmer_stats.txt";
-			//On génere le fichier statistiques pour évaluer le modèle
-			se.computeStaticalResult(req, docs, new File(stats_file));
 			
 			
 		} catch (IOException e) {

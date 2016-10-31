@@ -1,0 +1,300 @@
+20150430_4418bbf3462aab23b3c8824ffbdded56.txt : 0.9964405441236052
+	budget : 1 fois  pourcentage : 0.0054644807%
+	défens : 1 fois  pourcentage : 0.0054644807%
+20150218_4f421ec7b1e8cf56d9c42844457925ca.txt : 0.9964405441236052
+	budget : 1 fois  pourcentage : 0.0023980816%
+	défens : 1 fois  pourcentage : 0.0023980816%
+20150219_ed20696a01ec8bc5851342db85b64e99.txt : 0.9964405441236052
+	budget : 1 fois  pourcentage : 0.0018050541%
+	défens : 1 fois  pourcentage : 0.0018050541%
+20150219_94d57853a8acc1418d7defc9b7205420.txt : 0.9964405441236052
+	budget : 1 fois  pourcentage : 0.0018050541%
+	défens : 1 fois  pourcentage : 0.0018050541%
+20150203_28bdf50f4af97ab60edd5970853c22ad.txt : 0.9964405441236052
+	budget : 1 fois  pourcentage : 0.002283105%
+	défens : 1 fois  pourcentage : 0.002283105%
+20150304_721bf6b3d3a3b6a24a308af244aa0e95.txt : 0.9964405441236052
+	budget : 1 fois  pourcentage : 0.0025510204%
+	défens : 1 fois  pourcentage : 0.0025510204%
+20150218_571dd313a7005ccbdb7374e84b26111d.txt : 0.9964405441236052
+	budget : 1 fois  pourcentage : 0.0016501651%
+	défens : 1 fois  pourcentage : 0.0016501651%
+20150222_42234850a066e95b9445f6ad43c77005.txt : 0.9964405441236052
+	budget : 1 fois  pourcentage : 0.0018484289%
+	défens : 1 fois  pourcentage : 0.0018484289%
+20150113_b442becce7d9f09b6a6e820828698b3f.txt : 0.9964405441236052
+	budget : 1 fois  pourcentage : 0.0016806723%
+	défens : 1 fois  pourcentage : 0.0016806723%
+20150317_3bde67317b2a0d6b9e472bab4792a1d7.txt : 0.9964405441236052
+	budget : 1 fois  pourcentage : 6.6401064E-4%
+	défens : 1 fois  pourcentage : 6.6401064E-4%
+20150121_795931bfa69494ba11ef2c6b06ed4824.txt : 0.9964405441236052
+	budget : 1 fois  pourcentage : 0.0018691589%
+	défens : 1 fois  pourcentage : 0.0018691589%
+20150401_3800498a4337d6a40af72ce604cb37ec.txt : 0.9964405441236052
+	budget : 1 fois  pourcentage : 0.0025839794%
+	défens : 1 fois  pourcentage : 0.0025839794%
+20150211_e750e37b7f0fab00fb559937abb65c6d.txt : 0.9964405441236052
+	budget : 1 fois  pourcentage : 0.0022573364%
+	défens : 1 fois  pourcentage : 0.0022573364%
+20150331_da20be33dcb64a1274c13554dec42684.txt : 0.9964405441236052
+	budget : 1 fois  pourcentage : 0.0030487804%
+	défens : 1 fois  pourcentage : 0.0030487804%
+20150106_a6dbdc44f35ff6bb95ace9e581cc7546.txt : 0.9964405441236052
+	budget : 1 fois  pourcentage : 0.0051020407%
+	défens : 1 fois  pourcentage : 0.0051020407%
+20150321_bdb7f5d20f9abc123fd1a86470efada8.txt : 0.9964405441236052
+	budget : 1 fois  pourcentage : 0.0010526315%
+	défens : 1 fois  pourcentage : 0.0010526315%
+20150304_b7845bba79dd68bd9574c0ca0fb67873.txt : 0.9964405441236052
+	budget : 1 fois  pourcentage : 0.0025510204%
+	défens : 1 fois  pourcentage : 0.0025510204%
+20150119_10e1949195a3a16e1589e3d51cac85b0.txt : 0.9964405441236052
+	budget : 1 fois  pourcentage : 0.004166667%
+	défens : 1 fois  pourcentage : 0.004166667%
+20150108_6226a17e76b0e4cf274655e3825fc01d.txt : 0.9964405441236052
+	budget : 1 fois  pourcentage : 0.0017452007%
+	défens : 1 fois  pourcentage : 0.0017452007%
+20150121_8d36d24786d97efa3fc5bdf6325794e3.txt : 0.9964405441236052
+	budget : 1 fois  pourcentage : 0.0014064697%
+	défens : 1 fois  pourcentage : 0.0014064697%
+20150121_3b2873bcc0d9fe46aea4fb1cf1a72dc1.txt : 0.9964405441236052
+	budget : 1 fois  pourcentage : 0.0014204546%
+	défens : 1 fois  pourcentage : 0.0014204546%
+20150218_054c1f79879035e9c21e62b8b40bb839.txt : 0.9964405441236052
+	budget : 1 fois  pourcentage : 0.0023980816%
+	défens : 1 fois  pourcentage : 0.0023980816%
+20150203_113bc1b154de0eebfb8b742c7be07b00.txt : 0.9964405441236052
+	budget : 1 fois  pourcentage : 0.002283105%
+	défens : 1 fois  pourcentage : 0.002283105%
+20150304_f4d042924d5e4673ec91b5f985c5745e.txt : 0.9964405441236052
+	budget : 1 fois  pourcentage : 0.0025510204%
+	défens : 1 fois  pourcentage : 0.0025510204%
+20150114_a42757d5f9b8762991691e40ba3734cb.txt : 0.9964405426814955
+	budget : 2 fois  pourcentage : 0.0063091484%
+	défens : 2 fois  pourcentage : 0.0063091484%
+20150413_189faed9b46981f4a4a67ef41ed42392.txt : 0.9931806015631277
+	budget : 2 fois  pourcentage : 0.00862069%
+	défens : 3 fois  pourcentage : 0.012931035%
+20150221_39bce5fdde5040e8709f1ed5687c6f71.txt : 0.9931806015631277
+	budget : 2 fois  pourcentage : 0.003125%
+	défens : 3 fois  pourcentage : 0.0046875%
+20150429_719f9a2bc754d6039ffdc6226ff99ec9.txt : 0.9860224912187846
+	budget : 6 fois  pourcentage : 0.016260162%
+	défens : 10 fois  pourcentage : 0.02710027%
+20150430_7772eebfb889a281704bb418831c26e1.txt : 0.9687707156466387
+	budget : 2 fois  pourcentage : 0.009569378%
+	défens : 4 fois  pourcentage : 0.019138755%
+20150212_c82ddda9c7f5acd01647a3e5e65a2dae.txt : 0.9687707098261633
+	budget : 1 fois  pourcentage : 0.0010141988%
+	défens : 2 fois  pourcentage : 0.0020283975%
+20150319_836f44d156681020abdc571463738b9d.txt : 0.9687707098261633
+	budget : 1 fois  pourcentage : 0.0011428571%
+	défens : 2 fois  pourcentage : 0.0022857143%
+20150219_a1e76eef84353dbcba8fe8b4b3f089cd.txt : 0.9687707098261633
+	budget : 1 fois  pourcentage : 0.002415459%
+	défens : 2 fois  pourcentage : 0.004830918%
+20150219_690d27ca182db7d610b2017b1c3b089c.txt : 0.9687707098261633
+	budget : 1 fois  pourcentage : 0.0036764706%
+	défens : 2 fois  pourcentage : 0.007352941%
+20150420_1c244918593c0ca4c6cb2f9af8ee7653.txt : 0.9687707098261633
+	budget : 1 fois  pourcentage : 0.0012004802%
+	défens : 2 fois  pourcentage : 0.0024009603%
+20150427_e916521d689305874d251f30ae971e9f.txt : 0.9629979194654579
+	budget : 3 fois  pourcentage : 0.014778325%
+	défens : 2 fois  pourcentage : 0.009852217%
+20150427_e651134f2b45d013365fa96d6515ab51.txt : 0.9629979194654579
+	budget : 3 fois  pourcentage : 0.014778325%
+	défens : 2 fois  pourcentage : 0.009852217%
+20150427_0a0f78ff1b2b1105ec694a8c8006e2c2.txt : 0.9629979194654579
+	budget : 3 fois  pourcentage : 0.014778325%
+	défens : 2 fois  pourcentage : 0.009852217%
+20150429_e11669645c9dbd25ebb5fd36a7122fce.txt : 0.9263953073716372
+	budget : 2 fois  pourcentage : 0.008733625%
+	défens : 1 fois  pourcentage : 0.0043668123%
+20150106_46c95490293ba4f1a5aac74a717759b9.txt : 0.9263953073716372
+	budget : 2 fois  pourcentage : 0.0017683466%
+	défens : 1 fois  pourcentage : 8.841733E-4%
+20150305_6dc5bdcad6f152ff2b8c7b8e8818f2d8.txt : 0.9263953073716372
+	budget : 2 fois  pourcentage : 0.0036363637%
+	défens : 1 fois  pourcentage : 0.0018181818%
+20150305_7bc64459c80d74607b47ae93550620e2.txt : 0.9263953073716372
+	budget : 2 fois  pourcentage : 0.0036363637%
+	défens : 1 fois  pourcentage : 0.0018181818%
+20150416_8e0edb308453f44208ab950590bef827.txt : 0.9263953073716372
+	budget : 2 fois  pourcentage : 0.002670227%
+	défens : 1 fois  pourcentage : 0.0013351135%
+20150318_658a6b55165dcb8da08e3c55df4e8d19.txt : 0.9263953032723518
+	budget : 6 fois  pourcentage : 0.016483517%
+	défens : 3 fois  pourcentage : 0.008241759%
+20150422_9a673bd10f8ac79ccabe56d07b89d397.txt : 0.9174168516236599
+	budget : 1 fois  pourcentage : 0.0018656716%
+	défens : 3 fois  pourcentage : 0.005597015%
+20150412_031c9bd3046975fb9dd3314ad88e8bd9.txt : 0.9174168516236599
+	budget : 1 fois  pourcentage : 0.0027855153%
+	défens : 3 fois  pourcentage : 0.008356546%
+20150427_784aedad63e64ac2599e628673782e49.txt : 0.8965036756496433
+	budget : 2 fois  pourcentage : 0.0034188034%
+	défens : 7 fois  pourcentage : 0.011965812%
+20150121_c6a12dd2435e5ff4158612078917e74f.txt : 0.8788151935101483
+	budget : 1 fois  pourcentage : 0.005586592%
+	défens : 4 fois  pourcentage : 0.022346368%
+20150121_d51e4ec5160c15bc0fca9ee36579df6f.txt : 0.8788151935101483
+	budget : 1 fois  pourcentage : 0.005586592%
+	défens : 4 fois  pourcentage : 0.022346368%
+20150202_76264c7a55db300691872a50ede36dfc.txt : 0.872180570780808
+	budget : 3 fois  pourcentage : 0.010067114%
+	défens : 1 fois  pourcentage : 0.0033557047%
+20150429_714e65f9a76a9bfa8f63f1837d49adfa.txt : 0.872180570780808
+	budget : 3 fois  pourcentage : 0.0036407767%
+	défens : 1 fois  pourcentage : 0.0012135922%
+20150120_0893e1f2ab9ffd614c908140f5b2d088.txt : 0.8510982497562259
+	budget : 1 fois  pourcentage : 0.0034013605%
+	défens : 5 fois  pourcentage : 0.017006803%
+20150217_9d460c35bca1687ab5a547325bd39a69.txt : 0.8510982497562259
+	budget : 1 fois  pourcentage : 0.001459854%
+	défens : 5 fois  pourcentage : 0.00729927%
+20150120_56c3fd1ec075847e38dd29eedef72830.txt : 0.8510982497562259
+	budget : 1 fois  pourcentage : 0.0034013605%
+	défens : 5 fois  pourcentage : 0.017006803%
+20150217_16691cae0cd511beb890bce546687c62.txt : 0.8510982497562259
+	budget : 1 fois  pourcentage : 0.001459854%
+	défens : 5 fois  pourcentage : 0.00729927%
+20150311_4222c0d3f28a6bda0234ad012de2e492.txt : 0.8401611681534136
+	budget : 2 fois  pourcentage : 0.0027359782%
+	défens : 11 fois  pourcentage : 0.01504788%
+20150429_788a8f0ccbb1f4eb47416396993ef395.txt : 0.8401611681534136
+	budget : 2 fois  pourcentage : 0.0032733225%
+	défens : 11 fois  pourcentage : 0.018003274%
+20150406_006cb79d8a284e44c1e7425538b05a42.txt : 0.837858045251916
+	budget : 4 fois  pourcentage : 0.006289308%
+	défens : 1 fois  pourcentage : 0.001572327%
+20150409_352332cac0eb6b9ef0746a31fc84ca88.txt : 0.8149375717401516
+	budget : 5 fois  pourcentage : 0.017361112%
+	défens : 1 fois  pourcentage : 0.0034722222%
+20150312_640cdd38fe8c5ac781d3d4cce3ad3fe0.txt : 0.7071067811865475
+	budget : 0 fois  pourcentage : 0.0%
+	défens : 1 fois  pourcentage : 0.0013717421%
+20150326_517f1d2553cc0d941deec2c528d06426.txt : 0.7071067811865475
+	budget : 0 fois  pourcentage : 0.0%
+	défens : 1 fois  pourcentage : 0.002739726%
+20150317_10a057f7ad4c42db00e53479e5d1f557.txt : 0.7071067811865475
+	budget : 1 fois  pourcentage : 0.0037037036%
+	défens : 0 fois  pourcentage : 0.0%
+20150103_7d1d18e22c6053a1eebbc624e65b7e3a.txt : 0.7071067811865475
+	budget : 1 fois  pourcentage : 0.0024038462%
+	défens : 0 fois  pourcentage : 0.0%
+20150108_546cf5cfcb8abe8cd6be4ef01b7f9e77.txt : 0.7071067811865475
+	budget : 0 fois  pourcentage : 0.0%
+	défens : 1 fois  pourcentage : 0.004%
+20150329_386b6c60d74da3d6968917a2955d8366.txt : 0.7071067811865475
+	budget : 0 fois  pourcentage : 0.0%
+	défens : 1 fois  pourcentage : 0.0012771392%
+20150324_72e8ebb72daf6381bba619441ecb9cbc.txt : 0.7071067811865475
+	budget : 0 fois  pourcentage : 0.0%
+	défens : 6 fois  pourcentage : 0.00802139%
+20150419_17b565b774705e8e074378ffa655f454.txt : 0.7071067811865475
+	budget : 0 fois  pourcentage : 0.0%
+	défens : 1 fois  pourcentage : 0.0037593986%
+20150406_dbb46eb99da860f21b184c98d2348eff.txt : 0.7071067811865475
+	budget : 0 fois  pourcentage : 0.0%
+	défens : 2 fois  pourcentage : 0.01724138%
+20150313_cb92d1347ab051fdf2ad31d045d31b2b.txt : 0.7071067811865475
+	budget : 0 fois  pourcentage : 0.0%
+	défens : 2 fois  pourcentage : 0.0028653296%
+20150127_16369cc7dad78132d588422e7d96def8.txt : 0.7071067811865475
+	budget : 2 fois  pourcentage : 0.001196888%
+	défens : 0 fois  pourcentage : 0.0%
+20150329_cb51e9b9cb81a8f50dc8f4c1bb2c7115.txt : 0.7071067811865475
+	budget : 0 fois  pourcentage : 0.0%
+	défens : 1 fois  pourcentage : 0.0012771392%
+20150426_aef51331bd3bafead5b5eda56609b5a4.txt : 0.7071067811865475
+	budget : 0 fois  pourcentage : 0.0%
+	défens : 1 fois  pourcentage : 0.0034965035%
+20150130_a3cf70517bd3c2d59f5ecb03150840ae.txt : 0.7071067811865475
+	budget : 1 fois  pourcentage : 0.003773585%
+	défens : 0 fois  pourcentage : 0.0%
+20150202_395435a92bed17ef42e327234ad1a8a0.txt : 0.7071067811865475
+	budget : 2 fois  pourcentage : 0.0055710305%
+	défens : 0 fois  pourcentage : 0.0%
+20150310_44e094ecdd0603dae6ecc179d8010aa3.txt : 0.7071067811865475
+	budget : 0 fois  pourcentage : 0.0%
+	défens : 1 fois  pourcentage : 0.0021786492%
+20150317_a01df8090be4b4aac72ea99c79f79d3e.txt : 0.7071067811865475
+	budget : 0 fois  pourcentage : 0.0%
+	défens : 4 fois  pourcentage : 0.014814815%
+20150306_5a6669a4f51c1267ba8866586603c5c5.txt : 0.7071067811865475
+	budget : 2 fois  pourcentage : 0.004484305%
+	défens : 0 fois  pourcentage : 0.0%
+20150323_c73d8ac24ed57a043248b7a29c1a008a.txt : 0.7071067811865475
+	budget : 0 fois  pourcentage : 0.0%
+	défens : 1 fois  pourcentage : 0.0012738854%
+20150220_16b68b340216f2b1f8b0bfaa91c1306e.txt : 0.7071067811865475
+	budget : 3 fois  pourcentage : 0.008379889%
+	défens : 0 fois  pourcentage : 0.0%
+20150330_2e3e2fd3506a5e18634d9a60e0c71246.txt : 0.7071067811865475
+	budget : 1 fois  pourcentage : 0.0011223345%
+	défens : 0 fois  pourcentage : 0.0%
+20150327_5c093e25456bb251b12fe037bebe8e37.txt : 0.7071067811865475
+	budget : 0 fois  pourcentage : 0.0%
+	défens : 1 fois  pourcentage : 0.004032258%
+20150423_23cbff489ab91919b44f7f6bc3f5662b.txt : 0.7071067811865475
+	budget : 0 fois  pourcentage : 0.0%
+	défens : 1 fois  pourcentage : 0.0031055901%
+20150128_99c4b8fd2e19f56f433f258a8f1972ab.txt : 0.7071067811865475
+	budget : 0 fois  pourcentage : 0.0%
+	défens : 1 fois  pourcentage : 0.005952381%
+20150412_c6c84903b4c9c56d933e0d2b6679209b.txt : 0.7071067811865475
+	budget : 0 fois  pourcentage : 0.0%
+	défens : 1 fois  pourcentage : 0.0010050251%
+20150108_182543049f646ba2acc15eb3b30ed63a.txt : 0.7071067811865475
+	budget : 0 fois  pourcentage : 0.0%
+	défens : 1 fois  pourcentage : 0.0028328612%
+20150129_a5a4d216f3a0bf6c0eb613fe8bf7a0b1.txt : 0.7071067811865475
+	budget : 1 fois  pourcentage : 0.0014858841%
+	défens : 0 fois  pourcentage : 0.0%
+20150224_8e79dea984caf944511fe65fa3781d2f.txt : 0.7071067811865475
+	budget : 1 fois  pourcentage : 0.0046948357%
+	défens : 0 fois  pourcentage : 0.0%
+20150326_597a4bf86cf4ee7bed9709aafa1ba17e.txt : 0.7071067811865475
+	budget : 0 fois  pourcentage : 0.0%
+	défens : 3 fois  pourcentage : 0.0032822757%
+20150424_a5f21c5ed9b6deff1da657363396e327.txt : 0.7071067811865475
+	budget : 1 fois  pourcentage : 0.004310345%
+	défens : 0 fois  pourcentage : 0.0%
+20150310_b31af3dcd1e0f68718782a3186f4a712.txt : 0.7071067811865475
+	budget : 1 fois  pourcentage : 0.008695652%
+	défens : 0 fois  pourcentage : 0.0%
+20150213_7d368d0d14d6532e2fd0d9466ce469c2.txt : 0.7071067811865475
+	budget : 1 fois  pourcentage : 0.0032894737%
+	défens : 0 fois  pourcentage : 0.0%
+20150313_c3f3b0be33a25dd9d2e224f5e679f511.txt : 0.7071067811865475
+	budget : 1 fois  pourcentage : 0.0041841003%
+	défens : 0 fois  pourcentage : 0.0%
+20150206_7780e19ed2f131fdec42cacc8e543150.txt : 0.7071067811865475
+	budget : 1 fois  pourcentage : 0.0030674846%
+	défens : 0 fois  pourcentage : 0.0%
+20150114_a9dac0c335f58abfb9d0de7210927242.txt : 0.7071067811865475
+	budget : 0 fois  pourcentage : 0.0%
+	défens : 3 fois  pourcentage : 0.0121951215%
+20150205_b18b94129184d95bc2afc5f3b3cd892e.txt : 0.7071067811865475
+	budget : 0 fois  pourcentage : 0.0%
+	défens : 1 fois  pourcentage : 0.0042918455%
+20150120_0dc339dddc25b6ce9ae105012ed49b5c.txt : 0.7071067811865475
+	budget : 0 fois  pourcentage : 0.0%
+	défens : 1 fois  pourcentage : 0.005263158%
+20150312_534a4add2c8467ffc655f844f177fd71.txt : 0.7071067811865475
+	budget : 0 fois  pourcentage : 0.0%
+	défens : 1 fois  pourcentage : 0.0052083335%
+20150116_c72f1a4cac24bebdbe0f2cbf234b9416.txt : 0.7071067811865475
+	budget : 0 fois  pourcentage : 0.0%
+	défens : 1 fois  pourcentage : 0.002074689%
+20150124_d00a659d81a63b6ed3ef474939d99f99.txt : 0.7071067811865475
+	budget : 0 fois  pourcentage : 0.0%
+	défens : 3 fois  pourcentage : 0.013274336%
+20150209_68ddf072b58e751344d762346d376e87.txt : 0.7071067811865475
+	budget : 2 fois  pourcentage : 0.0042643924%
+	défens : 0 fois  pourcentage : 0.0%
+20150323_42a30290703551e0c84be029f2a3e05f.txt : 0.7071067811865475
+	budget : 2 fois  pourcentage : 0.0056657223%
+	défens : 0 fois  pourcentage : 0.0%

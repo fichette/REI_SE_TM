@@ -1,0 +1,24 @@
+20150427_3b95f67cd1f753ed0de298ba600611a4.txt : 0.7071067811865475
+	playoffs : 4 fois  pourcentage : 0.011594203%
+	NBA : 0 fois  pourcentage : 0.0%
+20150331_3c9a969297463829781b7d6279531751.txt : 0.7071067811865475
+	playoffs : 1 fois  pourcentage : 0.0010277493%
+	NBA : 0 fois  pourcentage : 0.0%
+20150429_545c4f7b09443cf9214decbae744d3cf.txt : 0.7071067811865475
+	playoffs : 2 fois  pourcentage : 0.0124223605%
+	NBA : 0 fois  pourcentage : 0.0%
+20150420_0b1268065539062f917af4b5e979e836.txt : 0.7071067811865475
+	playoffs : 2 fois  pourcentage : 0.006993007%
+	NBA : 0 fois  pourcentage : 0.0%
+20150420_4c4c86487909fc52fe941162fc679df7.txt : 0.7071067811865475
+	playoffs : 2 fois  pourcentage : 0.006993007%
+	NBA : 0 fois  pourcentage : 0.0%
+20150429_8d3d9203cd2b0fba906a8093a8f0e5fe.txt : 0.7071067811865475
+	playoffs : 2 fois  pourcentage : 0.0124223605%
+	NBA : 0 fois  pourcentage : 0.0%
+20150331_f3a9c2c2492c94b710cb29943fb15f5a.txt : 0.7071067811865475
+	playoffs : 1 fois  pourcentage : 0.0010277493%
+	NBA : 0 fois  pourcentage : 0.0%
+20150429_c60736045a4bde2c67147506a60e8b4a.txt : 0.7071067811865475
+	playoffs : 1 fois  pourcentage : 0.0018450185%
+	NBA : 0 fois  pourcentage : 0.0%
