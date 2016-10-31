@@ -1,1 +1,30 @@
 \chapter{Partie 1 - Moteur de Recherche}
+
+\section{But}
+	Le but ici était de développer un moteur de recherche capable d'indexer 10 000 documents et de retourner les documents les plus similaires à une requète. Pour cela, des contraines nous sont imposées, le programme ne doit pas utiliser plus de 1GO de mémoire RAM et le fichier index ne doit pas dépasser 60\% de la taille du corpus.
+\section{Dataset utilisé}
+	Le corpus utilsé ici est celui fournit pour le projet. Un corpus contenant environ 10000 documents datant entre janvier et avril 2015.
+\section{Structures de données utilisées}
+% Expliquer les avantages des hashset, hashmap, treemap
+
+\section{Méthodes utilisées pour l'indexation}
+	L'index contient pour chaque mot, la liste des fichiers auquel il apparait, ainsi que son poid dans ce fichier.
+	
+	Pour obtnir un fichier index peu volumineux, il a été nécessaire de donner un identifiant aux mots et aux fichiers. Ainsi, nous avons 3 fichiers. Un fichier qui continent les identifiants de chaque mots, un autre qui contient les identifiants pour chaque fichiers, et pour finir l'index contenant pour chaque mot, la liste des fichiers auquel il apparait, ainsi que son poid dans ce fichier.
+	
+	Là encore, les poids (tfidf) contiennent plusieurs chiffres décimales après la virgule. Pour diminuer la taille de l'index, on a décidé de ne garder que les premier chiffres après la virgule pour chaque poids. Ce choix implique une légère perte de précision.
+
+\section{Méthodes utilisées pour la recherche}
+\section{Evaluation}
+	\subsection{Pertinences}
+	\subsection{Performances}
+	Pour évaluer, les performances du programmes, l'outil JConsole a été utilisé.
+	
+	% Montrer la performance mémoire durant l'algorithme
+	% Différence entre les deux normaliseurs
+
+\subsection{Difficultés rencontrés}
+ % Parler des problèmes d'encodage
+ % Difficultés à utiliser moins de 10 
+	
+	
