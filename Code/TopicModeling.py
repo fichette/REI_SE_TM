@@ -10,6 +10,7 @@ import pickle
 from nltk.stem.snowball import FrenchStemmer
 stemmer = FrenchStemmer()
 
+
 ponctuation = set(string.punctuation)
 
 def remove_infrequent_words(content_file, min_freq):
@@ -19,6 +20,13 @@ def remove_infrequent_words(content_file, min_freq):
         if freq_dist[elt] < min_freq:
             content_file = np.delete(content_file, np.where(content_file==elt)[0])
     return ' '.join(content_file)
+
+def stemming(content_file):
+    content_file = content_file.split()
+    for word in range(len(content_file)):
+        content_file[word] = stemmer.stem(content_file[word].decode("utf-8"))
+    return ' '.join(content_file)
+
 
 
 def preprocess_data_file(content_file):
@@ -30,7 +38,9 @@ def preprocess_data_file(content_file):
     content_file = content_file.replace('\'', " ")
     #content_file = content_file.replace('©', " ")
     content_file = ''.join(char for char in content_file if char not in ponctuation) #remove ponctuation
+    content_file_1 = []
     content_file = remove_infrequent_words(content_file, 2)
+    content_file = stemming(content_file)
     return content_file
 
 
@@ -43,7 +53,7 @@ for dir_annee in list_dir:
         sub_sub_dirs = os.listdir(chemin_corpus+dir_annee+"/"+sub_dir)
         for sub_sub_dir in sub_sub_dirs:
             files = os.listdir(chemin_corpus+dir_annee+"/"+sub_dir+"/"+sub_sub_dir)
-            for f in files[0:2]:
+            for f in files:
                 open_file = open(chemin_corpus+dir_annee+"/"+sub_dir+"/"+sub_sub_dir+"/"+f, "r")
                 content_file = open_file.read()
                 content_file = preprocess_data_file(content_file)
@@ -70,3 +80,7 @@ print lda.get_topic_terms(3) #----> 'topic_term_dists'
 print len(corpus[0]) #----> 'doc_lengths'
 print dictionary.token2id #----> Vocabulaire de tout le corpus
 print corpus #---->term frequency for each doc
+
+
+
+#lda.update(other_corpus)
