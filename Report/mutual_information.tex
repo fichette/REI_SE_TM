@@ -19,4 +19,38 @@ Outline:
 \item Implémentation de la PMI
 \item Tests et Résultats 
 	
+	
+\subsection{brouillon}
+
+\textbf{Topic Coherence} measures score a single topic by measuring the degree of semantic similarity between
+high scoring words in the topic.  These measure-
+ments help distinguish between topics that are se-
+mantically interpretable topics and topics that are artifacts of statistical inference \cite{Stevens:2012}
+
+\textbf{Mutual information} measures how much information – in the information-
+theoretic sense – a term contains about the class. If a term’s distribution is
+the same in the class as it is in the collection as a whole, then I (U; C) =
+0. MI reaches its maximum value if the term is a perfect indicator for class
+membership, that is, if the term is present in a document if and only if the
+document is in the class. \cite{schutze2008introduction}
+
+
+ To apply topic modeling to solve
+ real world problems, we need an easy way to identify “junk”
+ topics (e.g. banana sky canoe furious), which may be sta-
+ tistically well founded, but of no use to end users. 
+ 
+ 
+ The intuition behind the scoring model comes from the
+ idea that the coherence of a set of ten words implies re-
+ latedness of most or all pairs of words taken from the set.
+ This leads to the idea of a scoring model based on word
+ association between pairs of words, for all word pairs in a
+ topic. But instead of using the collection itself to measure
+ word association — which could reinforce noise or unusual
+ word statistics — we use a large external text data source.
+ Specifically, we measured co-occurrence of word pairs from
+ large external text datasets such as all articles from English
+ Wikipedia,
+
 \end{enumerate}

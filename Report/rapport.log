@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.25)  30 OCT 2016 14:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.25)  1 NOV 2016 10:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -865,39 +865,48 @@ Chapter 1.
 
 ]
 Chapter 2.
-) (./part2_LDA.tex [2
+[2
 
-]
+]) (./part2_LDA.tex [3]
 Chapter 3.
-) (./LDA.tex) (./Visualisation.tex) (./mutual_information.tex)
-(./Conclusion.tex [3
+) (./LDA.tex) (./Visualisation.tex) (./mutual_information.tex
+Overfull \hbox (2.05766pt too wide) in paragraph at lines 30--36
+[]\T1/cmr/bx/n/12 Mutual in-for-ma-tion \T1/cmr/m/n/12 mea-sures how much in-fo
+r-ma-tion ^^U in the information-
+ []
 
-]
+[4
+
+]) (./Conclusion.tex [5]
 Chapter 4.
-) [4
+) [6
 
-] [5
+] (./rapport.bbl [7
+
+]) [8
 
 ] (./rapport.aux) ) 
 Here is how much of TeX's memory you used:
- 5781 strings out of 493029
- 74227 string characters out of 6136233
- 136984 words of memory out of 5000000
- 9169 multiletter control sequences out of 15000+600000
- 17727 words of font info for 50 fonts, out of 8000000 for 9000
+ 5794 strings out of 493029
+ 74385 string characters out of 6136233
+ 139026 words of memory out of 5000000
+ 9175 multiletter control sequences out of 15000+600000
+ 20775 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,9n,32p,253b,281s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/fo
+ 38i,9n,32p,438b,281s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{
+/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf/fo
 nts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-
-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb><
-/usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fon
-ts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-s
-uper/sfti1095.pfb>
-Output written on rapport.pdf (8 pages, 107065 bytes).
+super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb><
+/usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fon
+ts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-s
+uper/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl1200.pfb></
+usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/font
+s/type1/public/cm-super/sfti1200.pfb>
+Output written on rapport.pdf (11 pages, 173273 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+ 80 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

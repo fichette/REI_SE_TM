@@ -1,8 +1,19 @@
 \contentsline {chapter}{Abstract}{i}
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {chapter}{\numberline {2}Partie 1 - Moteur de Recherche}{2}
-\contentsline {chapter}{\numberline {3}Partie 2 - Topic Modeling}{3}
-\contentsline {section}{\numberline {3.1}LDA}{3}
-\contentsline {section}{\numberline {3.2}Visualisation}{3}
-\contentsline {section}{\numberline {3.3}Mutual Information}{3}
-\contentsline {chapter}{\numberline {4}Conclusion}{4}
+\contentsline {section}{\numberline {2.1}But}{2}
+\contentsline {section}{\numberline {2.2}Dataset utilis\IeC {\'e}}{2}
+\contentsline {section}{\numberline {2.3}Structures de donn\IeC {\'e}es utilis\IeC {\'e}es}{2}
+\contentsline {section}{\numberline {2.4}M\IeC {\'e}thodes utilis\IeC {\'e}es pour l'indexation}{2}
+\contentsline {section}{\numberline {2.5}M\IeC {\'e}thodes utilis\IeC {\'e}es pour la recherche}{3}
+\contentsline {section}{\numberline {2.6}Evaluation}{3}
+\contentsline {subsection}{\numberline {2.6.1}Pertinences}{3}
+\contentsline {subsection}{\numberline {2.6.2}Performances}{3}
+\contentsline {subsection}{\numberline {2.6.3}Difficult\IeC {\'e}s rencontr\IeC {\'e}s}{3}
+\contentsline {chapter}{\numberline {3}Partie 2 - Topic Modeling}{4}
+\contentsline {section}{\numberline {3.1}LDA}{4}
+\contentsline {section}{\numberline {3.2}Visualisation}{4}
+\contentsline {section}{\numberline {3.3}Mutual Information}{4}
+\contentsline {subsection}{\numberline {3.3.1}brouillon}{4}
+\contentsline {chapter}{\numberline {4}Conclusion}{6}
+\contentsline {chapter}{References}{8}

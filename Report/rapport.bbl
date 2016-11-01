@@ -1,0 +1,17 @@
+\begin{thebibliography}{}
+
+\bibitem[Sch{\"u}tze, 2008]{schutze2008introduction}
+Sch{\"u}tze, H. (2008).
+\newblock Introduction to information retrieval.
+\newblock In {\em Proceedings of the international communication of association
+  for computing machinery conference}.
+
+\bibitem[Stevens et~al., 2012]{Stevens:2012}
+Stevens, K., Kegelmeyer, P., Andrzejewski, D., and Buttler, D. (2012).
+\newblock Exploring topic coherence over many models and many topics.
+\newblock In {\em Proceedings of the 2012 Joint Conference on Empirical Methods
+  in Natural Language Processing and Computational Natural Language Learning},
+  EMNLP-CoNLL '12, pages 952--961, Stroudsburg, PA, USA. Association for
+  Computational Linguistics.
+
+\end{thebibliography}
