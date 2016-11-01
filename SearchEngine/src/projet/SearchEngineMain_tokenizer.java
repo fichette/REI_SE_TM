@@ -44,7 +44,7 @@ import indexation.Constantes;
  * Etapes pour faire le moteur de recherche
  * Etape 1 : indexation de tout les documents. 
  * 		Poids de tout les mots pour chaque documents
- * Etape 2 utiliser la méthode vectoriel pour trouvez les documents les probables de correspondant à la requete
+ * Etape 2 utiliser la mï¿½thode vectoriel pour trouvez les documents les probables de correspondant ï¿½ la requete
  **/
 public class SearchEngineMain_tokenizer {
 
@@ -62,7 +62,7 @@ public class SearchEngineMain_tokenizer {
 			Normalizer[] normalizers = {stemmerAllWords, stemmerNoStopWords, 
 					tokenizerAllWords, tokenizerNoStopWords};
 			
-			//Ce programme utilise le modèle tokenizer
+			//Ce programme utilise le modï¿½le tokenizer
 			Normalizer normalizer = tokenizerNoStopWords;
 			
 			while(true)
@@ -71,16 +71,18 @@ public class SearchEngineMain_tokenizer {
 				Scanner reader = new Scanner(System.in);  // Reading from System.in
 				String req = reader.nextLine();
 				
-				SearchEngine se = new SearchEngine(new File(Constantes.INDEX_TOKENIZER), Constantes.OUT_INDEX_WORDS_TOKENIZER,normalizer);
+				SearchEngine se = new SearchEngine(new File(Constantes.INDEX_TOKENIZER), normalizer);
+				long start_time = System.nanoTime();
 				List<Map.Entry<File, Double>> docs = se.searchDocuments(req);
+				long duration = (System.nanoTime()-start_time)/1000000; 
 				
-				//On affiche les résultats
+				//On affiche les rï¿½sultats
 				for(Map.Entry<File, Double> file_simcos :  docs)
 					System.out.println(file_simcos.getKey().getName() + " : " + file_simcos.getValue());
 				
 				String stats_file = Constantes.DIR_PROJECT + "//stats//tokenizer//" + String.join("_", req.split(" ")) + "_tokenizer_stats.txt";
-				//On génere le fichier statistiques pour évaluer le modèle
-				se.computeStaticalResult(req, docs, new File(stats_file));
+				//On gï¿½nere le fichier statistiques pour ï¿½valuer le modï¿½le
+				se.computeStaticalResult(req, docs, new File(stats_file), duration);
 			}
 			
 		} catch (IOException e) {

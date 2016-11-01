@@ -33,6 +33,7 @@ import java.util.stream.Collectors;
 import tools.FrenchStemmer;
 import tools.FrenchTokenizer;
 import tools.Normalizer;
+import tools.String_id;
 
 
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -52,18 +53,18 @@ import indexation.Constantes;
  */
 public class Indexation {
 	
-
+	//caracteres utilisés pour donner un identifiant à chaque fichier
+	public String caracteres = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	
 	public String out_index_files;
-	public String out_index_words;
 	
 	public File index_file;
 	public Normalizer normalizer;
 	
-	public Indexation(Normalizer normalizer, String out_index_files, String out_index_words, File index_file)
+	public Indexation(Normalizer normalizer, String out_index_files, File index_file)
 	{
 		this.normalizer = normalizer;
 		this.out_index_files = out_index_files;
-		this.out_index_words = out_index_words;
 		this.index_file = index_file;
 	}
 	
@@ -83,6 +84,8 @@ public class Indexation {
 				files.add(file);
 		}
 	}
+
+	
 	
 	/**
 	 * Va lire les fichiers xml contenus dans subindex et va retourner la liste de fichier du corpus
@@ -138,9 +141,6 @@ public class Indexation {
 			e.printStackTrace();
 		    }
 		}
-		
-
-		
 
 		System.out.println("size corpus : " + size_corpus);
 		
@@ -148,13 +148,33 @@ public class Indexation {
 		
 	}
 	
+   /***
+    *  va générer tout les sous chaines de caracteres de this.caracteres et de taille length
+    *  Permet de donner un identfiant à chaque fichiers
+    ****/
+   private int generate(String str, int pos, ArrayList<String> ids, int length)
+    {
+        if (length == 0)//si on a générer un id pour chaque fichier
+            return -1;
+        else {
+            for (int i = pos; i < caracteres.length(); i++) {
+            	String id = str + caracteres.charAt(i);
+            	ids.add(id);
+            	generate(id, 0, ids, length-1);
+ 
+            }
+            
+        }
+        
+        return 0;
+    }
+	
 	/***
-	 * Pour gagner de la place en m�moire on va donner un num�ro � chaque mots et chaque fichier
+	 * Pour gagner de la place en mémoire on va donner un num�ro � chaque mots et chaque fichier
 	 */
-	public void make_indexes_words_file()
+	public void make_indexe_file()
 	{
 		
-		File index_word_file = new File(out_index_words);
 		File index_name_file = new File(out_index_files);
 		
 		
@@ -167,7 +187,7 @@ public class Indexation {
 			OutputStreamWriter os;
 			
 			if (index_name_file.exists())
-				   os = new OutputStreamWriter(new FileOutputStream(index_word_file), "UTF-8");//if file exists we remove everything.
+				   os = new OutputStreamWriter(new FileOutputStream(index_name_file), "UTF-8");//if file exists we remove everything.
 			else
 			{
 				new File(index_name_file.getParentFile().getPath()).mkdirs();
@@ -178,52 +198,20 @@ public class Indexation {
 			PrintWriter out_index_files = new PrintWriter (os, true);
 			
 			//Les fichiers ayant le moins de mots recevront un index plus grand
-			files.sort(Comparator.comparingDouble(File::length).reversed());;
-	
+			files.sort(Comparator.comparingDouble(File::length).reversed());
+			
+			ArrayList<String> ids = new ArrayList<String>();
+			generate("", 0, ids, (int)Math.ceil(Math.log(files.size()) / Math.log(caracteres.length())));
+			ids.sort(Comparator.comparingInt(String::length));
+			
+			//write_index_file(out_index_files, files, "", 0, 0);
+			//out_index_files.close();
+			
+			//String id = "A";
 			for(int i = 0; i < files.size(); i++)
-				out_index_files.println(i + "\t" + files.get(i).getPath());
+				out_index_files.println(ids.get(i) + "\t" + files.get(i).getPath());
+			
 			out_index_files.close();
-			
-			
-			//Création du fichier qui va indexé tout les mots
-			
-			if (index_word_file.exists())
-				   os = new OutputStreamWriter(new FileOutputStream(index_word_file), "UTF8");//if file exists we remove everything.
-			else
-			{
-				new File(index_word_file.getParentFile().getPath()).mkdirs();
-				index_word_file.createNewFile();
-				os = new OutputStreamWriter(new FileOutputStream(index_word_file), "UTF8");
-			}
-			PrintWriter out_index_words = new PrintWriter (os, true);
-			
-			
-			/*HashSet<String> setWords = new HashSet<String>();
-			// On parcourt tout les fichiers du r�pertoire
-			for(File file : files)
-				setWords.addAll(normalizer.normalize(file));*/
-			
-			//On calcule les dfs dans le but dassigner un petit index aux mot les plus fréquents
-			HashMap<String, Integer> dfs = new HashMap<String, Integer>();	
-			for (File file : files) {
-				HashSet<String> setWords = new HashSet(normalizer.normalize(file));
-				for (String word : setWords) {
-					Integer n = dfs.get(word);
-					if( n == null)
-						dfs.put(word, 1);
-					else
-						dfs.put(word, n+1);
-					
-				}
-			}
-			
-			
-			//on index tout les mots
-			Integer index = 0;
-			for(Entry<String, Integer> word : dfs.entrySet().stream().sorted(Map.Entry.<String, Integer>comparingByValue().reversed()).collect(Collectors.toList()))
-				out_index_words.println(index++ + "\t" +  word.getKey());
-			
-			out_index_words.close();
 		
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
@@ -236,11 +224,11 @@ public class Indexation {
 	 * 
 	 * @return hashmap contenant le nom de fichier correspondant à chaque identifiant
 	 */
-	public HashMap<Integer, String> getFilesById()
+	public HashMap<String, String> getFilesById()
 	{
 		File index_name_file = new File(out_index_files);
 		
-		HashMap<Integer, String> ids_files = new HashMap<Integer, String>();
+		HashMap<String, String> ids_files = new HashMap<String, String>();
 		
 		try {
 			BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(index_name_file), "UTF-8"));
@@ -250,7 +238,7 @@ public class Indexation {
 			while((line = br.readLine()) != null)
 			{
 				String[] line_split = line.split("\t");
-				ids_files.put(Integer.parseInt(line_split[0]), line_split[1]);
+				ids_files.put(line_split[0], line_split[1]);
 			}
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
@@ -260,71 +248,16 @@ public class Indexation {
 		return ids_files;
 	}
 	
-	/**
-	 * 
-	 * @return hashmap contenant le mot correspondant � chaque identifiant
-	 */
-	public HashMap<Integer, String> getWordById()
-	{
-		File index_name_word = new File(out_index_words);
-		
-		HashMap<Integer, String> ids_words = new HashMap<Integer, String>();
-		
-		try {
-			BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(index_name_word), "UTF-8"));
-			
-			String line;
-			
-			while((line = br.readLine()) != null)
-			{
-				String[] line_split = line.split("\t");
-				ids_words.put(Integer.parseInt(line_split[0]), line_split[1]);
-			}
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-		return ids_words;
-	}
-	
-	/***
-	 * 
-	 * @return hashmap contenant les identifiants de chaque mots
-	 */
-	public HashMap<String, Integer> getIdWords()
-	{
-		File index_name_word = new File(out_index_words);
-		
-		HashMap<String, Integer> ids_words = new HashMap<String, Integer>();
-		
-		try {
-			BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(index_name_word), "UTF-8"));
-			
-			String line;
-			
-			while((line = br.readLine()) != null)
-			{
-				String[] line_split = line.split("\t");
-				ids_words.put(line_split[1], Integer.parseInt(line_split[0]));
-			}
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-		return ids_words;
-	}
 	
 	/**
 	 * 
 	 * @return hashmap contenant les identifiants pour chaque fichiers
 	 */
-	private HashMap<String, Integer> getIdFiles()
+	private HashMap<String, String> getIdFiles()
 	{
 		File index_name_file = new File(out_index_files);
 		
-		HashMap<String, Integer> ids_files = new HashMap<String, Integer>();
+		HashMap<String, String> ids_files = new HashMap<String, String>();
 		
 		try {
 			BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(index_name_file), "UTF-8"));
@@ -334,7 +267,7 @@ public class Indexation {
 			while((line = br.readLine()) != null)
 			{
 				String[] line_split = line.split("\t");
-				ids_files.put(line_split[1], Integer.parseInt(line_split[0]));
+				ids_files.put(line_split[1], line_split[0]);
 			}
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
@@ -367,109 +300,64 @@ public class Indexation {
 		PrintWriter out = new PrintWriter (os);
 		
 		//récupère pour chaque documments le nombre d'occurence de chaque mots pour chaque fichiers
-		HashMap<Integer, HashMap<Integer, Integer>> tfs = new HashMap<Integer, HashMap<Integer, Integer>>();
+		HashMap<String, HashMap<String, Integer>> tfs = new HashMap<String, HashMap<String, Integer>>();
 		//TreeMap<Integer, HashMap<Integer, Float>> tfIdfs = new TreeMap<Integer, HashMap<Integer, Float>>();
 		
 		//On récupère les identifiants pour les fichiers
-		HashMap<String, Integer> ids_files = getIdFiles();
-		HashMap<String, Integer> ids_words = getIdWords();
+		HashMap<String, String> ids_files = getIdFiles();
 		
-		ArrayList<File> files = getCorpusSubIndex();
-		int documentNumber = files.size();
+		//ArrayList<File> files = getCorpusSubIndex();
+		int documentNumber = 0;
 		
 		// On parcourt tout les fichiers du répertoire pour calculer les tfs
-		for(File file : files) {
+		for(File file : getCorpusSubIndex()) {
 			ArrayList<String> words = normalizer.normalize(file);
 			HashSet<String> words_set = new HashSet<String>(words);
-			Integer id_file = ids_files.get(file.getPath());
+			String id_file = ids_files.get(file.getPath());
 			for(String word: words_set)
 			{
-				//on recupere la liste des fichiers avec les poids associees
-				Integer id_word = ids_words.get(word);
-				if(id_word == null)
+				if(word == null)
 					continue;
-				HashMap<Integer, Integer> value = tfs.get(id_word);
+				HashMap<String, Integer> value = tfs.get(word);
 				
 				if(value == null)//Le mot n'est pas present dans la hashmap
-					value = new HashMap<Integer, Integer>();
+					value = new HashMap<String, Integer>();
 				
 				value.put(id_file, Collections.frequency(words, word));
-				tfs.put(id_word, value);
+				tfs.put(word, value);
 					
 			}
+			
+			documentNumber++;
 		}
 		
 		//Caluls des dfs
-		HashMap<Integer, Integer> dfs = new HashMap<Integer, Integer>();
-		for(Integer word: tfs.keySet())
-			dfs.put(word, tfs.get(word).size());
+		/*HashMap<String, Integer> dfs = new HashMap<String, Integer>();
+		for(String word: tfs.keySet())
+			dfs.put(word, tfs.get(word).size());*/
 		
 		// calcul du tf.idf
-		for (Integer word : tfs.keySet())
+		//On convertit tfs en treemap pour pouvoir stocker les mots dans l'ordre alphabétique
+		for (String word : (new TreeMap<String, HashMap<String, Integer>>(tfs)).keySet())
 		{
-			HashMap<Integer, Integer> docs = tfs.get(word);
-			HashMap<Integer, Float> tfidf = new HashMap<Integer, Float>();
-			for(Integer doc : docs.keySet())
+			HashMap<String, Integer> docs = tfs.get(word);
+			HashMap<String, Float> tfidf = new HashMap<String, Float>();
+			for(String doc : docs.keySet())
 			{
 				Integer tf = docs.get(doc);
-				Double w = (double)tf * Math.log((double)(documentNumber) / dfs.get(word));
+				Integer df = docs.size();
+				Double w = (double)tf * Math.log((double)(documentNumber) / df);
 				BigDecimal bd = new BigDecimal(w);
-				bd = bd.setScale(3, RoundingMode.HALF_UP);
+				bd = bd.setScale(2, RoundingMode.HALF_UP);
 				tfidf.put(doc, bd.floatValue());
 			}
 			//tfIdfs.put(word, tfidf);
-			
 			out.println(word + "\t" + tfidf.keySet().toString().replaceAll("[\\[\\] ]", "") + "\t" + tfidf.values().toString().replaceAll("[\\[\\] ]", ""));
 		}
 		out.close();
 		
 		//return tfIdfs;
 	}
-	
-	/**
-	 * Cette fonction va index� tout le corpus avec le normalizer normalizer
-	 * */
-	/*public void index_corpus()
-	{
-		try {
-			
-			//Cr�ation du fichier index
-			FileWriter fw;
-			if (index_file.exists())
-			   fw = new FileWriter(index_file,false);//if file exists we remove everything.
-			else
-			{
-				new File(index_file.getParentFile().getPath()).mkdirs();
-				index_file.createNewFile();
-				fw = new FileWriter(index_file);
-			}
-			
-			BufferedWriter bw = new BufferedWriter (fw);
-			PrintWriter out = new PrintWriter (bw);
-			
-			//TODO : peut �tre utiliser une HashMap pour �tre plus rapide au niveau de l'insertion
-			TreeMap<Integer, HashMap<Integer, Float>> tfIdfsAllFiles = getTfIdf();
-			
-			
-			
-			//On parcourt tout les mots et liste tout les documents auquels il appara�t et le poid associ�e.
-			for(Integer word: tfIdfsAllFiles.keySet())
-			{
-				// On r�cup�re la liste de documents pour le mot
-				HashMap<Integer, Float> tfIdfsForWord = tfIdfsAllFiles.get(word);
-				Set<Integer> listDocs = tfIdfsForWord.keySet();
-				
-				out.println(word + "\t" + listDocs.size() + "\t" + listDocs.toString().replaceAll("[\\[\\] ]", "") + "\t" + tfIdfsForWord.values().toString().replaceAll("[\\[\\] ]", ""));
-			}
-			
-			
-			fw.close();
-			
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-	}*/
 	
 	
 }

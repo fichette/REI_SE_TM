@@ -23,27 +23,22 @@ import java.util.stream.Stream;
 import indexation.Indexation;
 import tools.Normalizer;
 import indexation.Constantes;
-import tools.ValueComparator;
 
 public class SearchEngine {
 	
 	private File index_file;
-	private String out_index_words;
-	HashMap<String, Integer> ids_words;
 	
 	public Normalizer normalizer;
 	
-	public SearchEngine(File index_file, String out_index_words, Normalizer normalizer)
+	public SearchEngine(File index_file, Normalizer normalizer)
 	{
 		this.index_file = index_file;
 		this.normalizer = normalizer;
-		this.out_index_words = out_index_words;
-		this.ids_words = new Indexation(normalizer, null, out_index_words, null).getIdWords();
 	}
 	
 	/**
-	 * Retourne la similarit� cosinus entre une requete te un fichier*/
-	private double getSimilarityRequest(ArrayList<String> request, Integer file_name, HashMap<Integer, HashMap<Integer, Double>> best_files, HashMap<Integer, HashMap<Integer, Double>> weight_by_file)
+	 * Retourne la similarité cosinus entre une requete te un fichier*/
+	private double getSimilarityRequest(ArrayList<String> request, String file_name, HashMap<String, HashMap<String, Double>> best_files, HashMap<String, HashMap<String, Double>> weight_by_file)
 	{		
 		//On calcule la mesure de similaritee avec la m�thode cosinus
 		Double simCos = 0.0;
@@ -51,7 +46,7 @@ public class SearchEngine {
 		Double words_squareq = (double) request.size(); //va contenir la somme des poids au carr� pour la requete, on concid�re ici que chaque mot de la requete a un poid de 1
 		Double words_squaref = 0.0; //va contenir la somme des poids au carr� pour le doc 2
 		
-		HashMap<Integer, Double> weights = weight_by_file.get(file_name);
+		HashMap<String, Double> weights = weight_by_file.get(file_name);
 		// On calcule la somme des poids au carr�e pour le document
 		for(Double w : weights.values())
 			words_squaref += Math.pow(w, 2);
@@ -60,8 +55,7 @@ public class SearchEngine {
 		{
 			for(String word : request)
 			{
-				long start_time = System.nanoTime();
-				HashMap<Integer, Double> tfidf = best_files.get(ids_words.get(word));
+				HashMap<String, Double> tfidf = best_files.get(word);
 				if(tfidf == null)
 					continue;
 				Double val_word_f = tfidf.get(file_name);
@@ -87,16 +81,15 @@ public class SearchEngine {
 	 * @param best_files
 	 * @param weight_by_file
 	 */
-	private List<Map.Entry<File, Double>> getSimilarDocumentsForRequest(ArrayList<String> request, HashMap<Integer, HashMap<Integer, Double>> best_files, HashMap<Integer, HashMap<Integer, Double>> weight_by_file)
+	private List<Map.Entry<File, Double>> getSimilarDocumentsForRequest(ArrayList<String> request, HashMap<String, HashMap<String, Double>> best_files, HashMap<String, HashMap<String, Double>> weight_by_file)
 	{
 		HashMap<File, Double> simDocs = new HashMap<File, Double>(); //va stoquer la liste des similarit� 
 		
 		//On r�cup�re le nom de fichier correspondant � chaque id
-		Indexation indexation = new Indexation(null, Constantes.OUT_INDEX_FILES, out_index_words, null);
-		HashMap<Integer, String> ids_files = indexation.getFilesById();
+		Indexation indexation = new Indexation(null, Constantes.OUT_INDEX_FILES, null);
+		HashMap<String, String> ids_files = indexation.getFilesById();
 		
-		System.out.println("debut");
-		for(Integer file_name : weight_by_file.keySet())
+		for(String file_name : weight_by_file.keySet())
 			simDocs.put(new File(ids_files.get(file_name)), getSimilarityRequest(request, file_name, best_files, weight_by_file));
 		
 
@@ -104,11 +97,6 @@ public class SearchEngine {
         .sorted(Map.Entry.<File, Double>comparingByValue().reversed())
         .limit(100)
         .collect(Collectors.toList());
-		
-        //.collect(Collectors.toMap(e->new File(ids_files.get(e.getKey())), Map.Entry::getValue));
-	
-		/*result.putAll(simDocs);
-		Stream.of(result).limit(100).toMap(Map.Entry::getKey , Map.Entry::getValue, (a,b) -> a, new TreeMap<File, Double>(comparator));*/
 		
 		return docs;
 	}
@@ -126,43 +114,42 @@ public class SearchEngine {
 			//Avant de commencer quoi que ce soit, on normalise la requ�te
 			ArrayList<String> request = normalizer.normalize(req);
 			
-			Indexation indexation = new Indexation(null, null, out_index_words, null);
-			HashMap<Integer, String> wordById = indexation.getWordById();
+			Indexation indexation = new Indexation(null, null, null);
 			
 			BufferedReader br_if = new BufferedReader(new FileReader(this.index_file));
 			
 			//va contenir pour chaque mot la liste des fichiers avec le poid associ�s
-			HashMap<Integer, HashMap<Integer, Double>> best_files = new HashMap<Integer, HashMap<Integer, Double>>();
+			HashMap<String, HashMap<String, Double>> best_files = new HashMap<String, HashMap<String, Double>>();
 			//va contenir pour chaque fichier la liste des mots avec le poid associes
-			HashMap<Integer, HashMap<Integer, Double>> weight_by_file = new HashMap<Integer, HashMap<Integer, Double>>();
+			HashMap<String, HashMap<String, Double>> weight_by_file = new HashMap<String, HashMap<String, Double>>();
 			String line;
 			
-			//On r�cupere pour chaque mot de la requete les fichiers qui matchent et les tfidfs correspondant
+			//On récupere pour chaque mot de la requete les fichiers qui matchent et les tfidfs correspondant
 			while ((line = br_if.readLine()) != null)
 			{
 				String[] line_parts = line.split("\t");
-				Integer word = Integer.parseInt(line_parts[0]);
+				String word = line_parts[0];
 				
-				if(!request.contains(wordById.get(word)))
+				if(!request.contains(word))
 					continue;
 				
 				//Identifiants des fichiers
-				int[] files_names = Stream.of((line_parts[1].split(","))).mapToInt(Integer::parseInt).toArray();
+				String[] files_names = line_parts[1].split(",");
 				//tfidfs des fichiers
 				double[] tfidfs_word = Arrays.asList(line_parts[2].split(",")).stream().mapToDouble(Double::parseDouble).toArray();
 
-				HashMap<Integer, Double> val_word = best_files.get(word);
+				HashMap<String, Double> val_word = best_files.get(word);
 				for(int i = 0; i < files_names.length; i++)
 				{
 					if(val_word == null)
-						val_word = new HashMap<Integer, Double>();
+						val_word = new HashMap<String, Double>();
 					
 					val_word.put(files_names[i], tfidfs_word[i]);
 					best_files.put(word, val_word);
 					
-					HashMap<Integer, Double> val_files = weight_by_file.get(files_names[i]);
+					HashMap<String, Double> val_files = weight_by_file.get(files_names[i]);
 					if(val_files == null)
-						val_files = new HashMap<Integer, Double>();
+						val_files = new HashMap<String, Double>();
 					val_files.put(word, tfidfs_word[i]);
 					weight_by_file.put(files_names[i], val_files);
 					
@@ -185,8 +172,9 @@ public class SearchEngine {
 	 * @param req
 	 * @param docs
 	 * @param stats_file
+	 * @param duration 
 	 */
-	public void computeStaticalResult(String req, List<Map.Entry<File, Double>> docs, File stats_file)
+	public void computeStaticalResult(String req, List<Map.Entry<File, Double>> docs, File stats_file, long duration)
 	{
 		try
 		{
@@ -208,6 +196,8 @@ public class SearchEngine {
 			PrintWriter out = new PrintWriter (bw);
 			
 			//On calcule le % des mots de la requete dans chaque documents
+			out.println("Requete renvoyée en " + duration + "ms");
+			out.println("");
 			for(Map.Entry<File, Double> file_tfidf: docs)
 			{
 				File file = file_tfidf.getKey();

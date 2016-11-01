@@ -24,9 +24,9 @@ public class IndexationMain_tokenizer {
 			
 			File index_file = new File(Constantes.INDEX_TOKENIZER);
 			
-			Indexation indexation = new Indexation(normalizer, Constantes.OUT_INDEX_FILES, Constantes.OUT_INDEX_WORDS_TOKENIZER, index_file);
+			Indexation indexation = new Indexation(normalizer, Constantes.OUT_INDEX_FILES, index_file);
 			//On donne un id au fichiers et aux mots
-			indexation.make_indexes_words_file();
+			indexation.make_indexe_file();
 			System.out.println("Fin indexation identifiant");
 			
 			//Test de l'indexation
