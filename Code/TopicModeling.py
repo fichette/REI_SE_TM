@@ -4,11 +4,15 @@ from gensim import corpora, models
 import string
 import nltk
 import numpy as np
+from string import digits
+from langdetect import detect
 import pickle
+
 
 
 from nltk.stem.snowball import FrenchStemmer
 stemmer = FrenchStemmer()
+
 
 ponctuation = set(string.punctuation)
 
@@ -26,6 +30,24 @@ def stemming(content_file):
         content_file[word] = stemmer.stem(content_file[word].decode("utf-8"))
     return ' '.join(content_file)
 
+from pattern.text.fr import conjugate
+from pattern.text.fr import INFINITIVE
+from pattern.text.fr import predicative
+from pattern.text.fr import singularize
+
+
+
+def normalisation_fr(content_file):
+    content_file = content_file.split()
+    for word in range(len(content_file)):
+        content_file[word] = singularize(content_file[word])
+        content_file[word] = conjugate(content_file[word], INFINITIVE)
+        content_file[word] = predicative(content_file[word])
+    return ' '.join(content_file)
+
+
+
+
 
 
 def preprocess_data_file(content_file):
@@ -35,10 +57,12 @@ def preprocess_data_file(content_file):
     content_file = content_file.replace('»', " ")
     content_file = content_file.replace('—', " ")
     content_file = content_file.replace('\'', " ")
+    content_file = content_file.translate(None, digits)
     #content_file = content_file.replace('©', " ")
     content_file = ''.join(char for char in content_file if char not in ponctuation) #remove ponctuation
-
+    content_file = content_file.translate(None, digits)
     content_file = remove_infrequent_words(content_file, 2)
+    #content_file = normalisation_fr(content_file)
     #content_file = stemming(content_file)
     return content_file
 
@@ -56,14 +80,16 @@ for dir_annee in list_dir:
             for f in files[0:2]:
                 open_file = open(chemin_corpus+dir_annee+"/"+sub_dir+"/"+sub_sub_dir+"/"+f, "r")
                 content_file = open_file.read()
-                content_file = preprocess_data_file(content_file)
-                #Eliminer les fichiers qui après pré-traitement deviennent trop petits
-                if len(content_file.split()) > 10:
-                    documents.append(content_file)
-                    info = []
-                    info.append(chemin_corpus+dir_annee+"/"+sub_dir+"/"+sub_sub_dir+"/"+f)
-                    info.append(len(content_file.split()))
-                    list_Files_len.append(info)
+                langue = detect(content_file.decode("utf-8")) #Detecter la langue
+                if langue == "fr":
+                    content_file = preprocess_data_file(content_file)
+                    #Eliminer les fichiers qui après pré-traitement deviennent trop petits
+                    if len(content_file.split()) > 10:
+                        documents.append(content_file)
+                        info = []
+                        info.append(chemin_corpus+dir_annee+"/"+sub_dir+"/"+sub_sub_dir+"/"+f)
+                        info.append(len(content_file.split()))
+                        list_Files_len.append(info)
                 open_file.close()
 
 file_stopwords = open("frenchST.txt", "r")
@@ -79,7 +105,12 @@ corpus = [dictionary.doc2bow(text) for text in texts] #term_frequency
 
 lda = models.LdaMulticore(corpus=corpus, id2word=dictionary, num_topics=5, workers = 2,chunksize=10000, passes=1)
 
+
+# Enregistrer le output LDA
 #pickle.dump(lda, open(os.getcwd()+"/lda_output", "wb"))
+
+
+# Recharger le output LDA
 #lda = pickle.load(open(os.getcwd()+"/lda_output", "rb"))
 
 
@@ -138,6 +169,10 @@ def get_vocabularyAlpha(dictionary_tokens):
 # vocabulary_alpha = get_vocabularyAlpha(dictionary.token2id) #Pour avoir tout le vocabulaire où chaque mot est représenté dans sa forme normale
 
 
+
+
+
+#lda.update(other_corpus)
 
 
 
