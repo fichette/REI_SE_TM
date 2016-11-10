@@ -78,19 +78,20 @@ for dir_annee in list_dir:
         for sub_sub_dir in sub_sub_dirs:
             files = os.listdir(chemin_corpus+dir_annee+"/"+sub_dir+"/"+sub_sub_dir)
             for f in files[0:2]:
-                open_file = open(chemin_corpus+dir_annee+"/"+sub_dir+"/"+sub_sub_dir+"/"+f, "r")
-                content_file = open_file.read()
-                langue = detect(content_file.decode("utf-8")) #Detecter la langue
-                if langue == "fr":
-                    content_file = preprocess_data_file(content_file)
-                    #Eliminer les fichiers qui après pré-traitement deviennent trop petits
-                    if len(content_file.split()) > 10:
-                        documents.append(content_file)
-                        info = []
-                        info.append(chemin_corpus+dir_annee+"/"+sub_dir+"/"+sub_sub_dir+"/"+f)
-                        info.append(len(content_file.split()))
-                        list_Files_len.append(info)
-                open_file.close()
+                if os.stat(chemin_corpus+dir_annee+"/"+sub_dir+"/"+sub_sub_dir+"/"+f).st_size!=0:
+                    open_file = open(chemin_corpus+dir_annee+"/"+sub_dir+"/"+sub_sub_dir+"/"+f, "r")
+                    content_file = open_file.read()
+                    langue = detect(content_file.decode("utf-8")) #Detecter la langue
+                    if langue == "fr":
+                        content_file = preprocess_data_file(content_file)
+                        #Eliminer les fichiers qui après pré-traitement deviennent trop petits
+                        if len(content_file.split()) > 10:
+                            documents.append(content_file)
+                            info = []
+                            info.append(chemin_corpus+dir_annee+"/"+sub_dir+"/"+sub_sub_dir+"/"+f)
+                            info.append(len(content_file.split()))
+                            list_Files_len.append(info)
+                    open_file.close()
 
 file_stopwords = open("frenchST.txt", "r")
 stopwords = file_stopwords.read()
