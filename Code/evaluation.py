@@ -84,3 +84,35 @@ def coherence_umass(searcher,topic_words,epsilon=0.1):
             
             somme+=math.log((pocc+epsilon)/pwj,2)
     return (somme*2)/(N*(N-1))
+
+#compute p(k|w)
+def marginal_k_w(doc_dist_topic_k,infolength,word_proba_topic_k):
+    return word_proba_topic_k*sum([a*b for a,b in zip(doc_dist_topic_k,infolength)])
+
+#compute entropy en w
+def entropy(topic_doc_dist,infolength,topic_dist_word_w)
+    #compute entropy for word w
+    entropy_w=0
+    for k in range(len(topic_doc_dist)):
+        entropy_w+=marginal_k_w(topic_doc_dist[k],infolength,topic_dist_word_w[k])  
+    return entropy_w
+
+# Relevance
+def relevance(word,topic_id,topic_doc_dist,infolength, topic_dist_word_w):
+    # divide p(w|k) by entropy
+    entropy_w=entropy(topic_doc_dist,infolength,topic_dist_word_w)
+    return topic_dist_word_w(topic_id)/entropy_w
+    
+# PMI average
+def pmi_average(searcher,topic_words)
+    pmi_average=[]
+    for i in range(len(topic_words)):
+        w1=topic_words[i]
+        avg=0
+        for j in range(len(topic_words)):
+            if i!=j:
+                w2=topic_words[j]
+                avg+=pmi(searcher, w1, w2,epsilon=0.1, window=10)
+        pmi_average.append(avg/(len(topic_words)-1))
+    return pmi_average
+                
