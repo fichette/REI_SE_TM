@@ -129,13 +129,13 @@ def doc_lengths(texts):
 
 
 
-def doc_topic_dists(corpus, lda):
+def doc_topic_dists(corpus, lda, num_topics):
     doc_topic_dists = []
     for doc in range(len(corpus)):
-        list_topic_proba = []
+        list_topic_proba = [0]*num_topics
         temp = lda.get_document_topics(corpus[doc], minimum_probability=0)
         for topic, proba in temp:
-            list_topic_proba.append(proba)
+            list_topic_proba[topic]=proba
         doc_topic_dists.append(list_topic_proba)
     return doc_topic_dists
 doc_topic_dists = doc_topic_dists(corpus, lda)
