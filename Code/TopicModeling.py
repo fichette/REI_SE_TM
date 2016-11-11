@@ -66,7 +66,8 @@ def preprocess_data_file(content_file):
 
 chemin_corpus = os.getcwd()+"/Corpus/"
 list_dir = os.listdir(chemin_corpus)
-list_Files_len = []
+infopath = []
+infolength=[]
 texts  =[]
 
 for dir_annee in list_dir:
@@ -100,9 +101,8 @@ for dir_annee in list_dir:
                             # print ' '.join(content_file)
                             # print
                             info = []
-                            info.append(chemin_corpus+dir_annee+"/"+sub_dir+"/"+sub_sub_dir+"/"+f)
-                            info.append(len(content_file))
-                            list_Files_len.append(info)
+                            infopath.append(chemin_corpus+dir_annee+"/"+sub_dir+"/"+sub_sub_dir+"/"+f)
+                            infolength.append(len(content_file))
                     open_file.close()
 
 
