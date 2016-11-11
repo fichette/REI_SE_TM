@@ -155,7 +155,7 @@ def topic_term_dists(lda, num_topics, len_vocab):
         list_term_proba = [0]*len_vocab
         temp = lda.get_topic_terms(topic,  topn=len_vocab)
         for term, proba in temp:
-            list_term_proba[term] = proba
+            list_term_proba[term-1] = proba
         topic_term_dists.append(list_term_proba)
     return topic_term_dists
 
