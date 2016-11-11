@@ -142,3 +142,61 @@ def cloudTag(cnt, mask):
 # Pour le mask, télécharger l'une de ces photos :     
 cnt = topics_to_counter(1, 100)
 cloudTag(cnt, 'mask.png')
+
+# 4 - Topic shares
+
+import random
+def get_topics_documents_matrice(data, info, topics, documents):
+    indexes = [random.randrange(len(data)) for i in range(documents)]
+    doctopic = np.array([])
+    docnames = []
+    for i in range(0,len(indexes)):
+        if (i==0):
+            doctopic =  np.hstack((doctopic, np.array(data[indexes[i]])))
+            docnames.append(list_Files_len[indexes[i]][0][18:])
+        else:
+            doctopic =  np.vstack((doctopic, np.array(data[indexes[i]])))
+            docnames.append(list_Files_len[indexes[i]][0][18:])
+    return doctopic, docnames
+
+def topics_share_graphe(doctopic, docnames):
+    N, K = np.array(doctopic).shape # N documents, K topics
+    ind = np.arange(N)  # the x-axis locations for the novels
+    width = 0.5  # the width of the bars
+    plots = []
+    height_cumulative = np.zeros(N)
+    prop_iter = iter(plt.rcParams['axes.prop_cycle'])
+    for k in range(K):
+        if k == 0:
+            p = plt.bar(ind, doctopic[:, k], width, color=next(prop_iter)['color'])
+        else:
+            p = plt.bar(ind, doctopic[:, k], width, bottom=height_cumulative, color=next(prop_iter)['color'])
+        height_cumulative += doctopic[:, k]
+        plots.append(p)
+
+    plt.ylim((0, 1))
+    plt.ylabel('Topics')
+    plt.title('Topics in novels')
+    plt.xticks(ind+width/2, docnames)
+    plt.setp(plt.xticks()[1], rotation=90)
+    plt.yticks(np.arange(0, 1, 10))
+    topic_labels = ['Topic #{}'.format(k) for k in range(K)]
+    plt.legend([p[0] for p in plots], topic_labels)
+    
+    plt.show()
+def heatmap(doctopic, docnames):
+    plt.pcolor(doctopic, norm=None, cmap='Blues')
+    plt.yticks(np.arange(doctopic.shape[0])+0.5, docnames);
+    plt.xticks(np.arange(doctopic.shape[1])+0.5, topic_labels);
+    plt.gca().invert_yaxis()
+    plt.xticks(rotation=90)
+    plt.colorbar(cmap='Blues')
+    plt.tight_layout() 
+    plt.figure(figsize=(400,40))
+    plt.show()
+
+doctopic, docnames = get_topics_documents_matrice(data['doc_topic_dists'], list_Files_len, 5,5)
+topics_share_graphe(doctopic, docnames)
+
+# 5 - Heatmap
+heatmap(doctopic, docnames)
