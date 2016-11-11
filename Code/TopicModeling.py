@@ -76,34 +76,34 @@ for dir_annee in list_dir:
         for sub_sub_dir in sub_sub_dirs:
             files = os.listdir(chemin_corpus+dir_annee+"/"+sub_dir+"/"+sub_sub_dir)
             for f in files:
-                open_file = codecs.open(chemin_corpus+dir_annee+"/"+sub_dir+"/"+sub_sub_dir+"/"+f, "r", encoding="utf-8")
-                content_file = open_file.read()
-                if detect(content_file)== "fr": #Detecter la langue
-                    content_file = lemmatization(content_file)
-                    content_file = preprocess_data_file(content_file)
+                if os.stat(chemin_corpus+dir_annee+"/"+sub_dir+"/"+sub_sub_dir+"/"+f).st_size!=0:
+                    open_file = codecs.open(chemin_corpus+dir_annee+"/"+sub_dir+"/"+sub_sub_dir+"/"+f, "r", encoding="utf-8")
+                    content_file = open_file.read()
+                    if detect(content_file)== "fr": #Detecter la langue
+                        content_file = lemmatization(content_file)
+                        content_file = preprocess_data_file(content_file)
+                        content_file2 = []
+                        for word in content_file.lower().split():
+                            existe = False
+                            for stopword in stopwords:
+                                if word == stopword:
+                                    existe = True
+                                    break
+                            if existe != True:
+                                content_file2.append(word)
 
-                    content_file2 = []
-                    for word in content_file.lower().split():
-                        existe = False
-                        for stopword in stopwords:
-                            if word == stopword:
-                                existe = True
-                                break
-                        if existe != True:
-                            content_file2.append(word)
+                        content_file = content_file2
 
-                    content_file = content_file2
-
-                    # Eliminer les fichiers qui après pré-traitement deviennent trop petits
-                    if len(content_file) > 5:
-                        texts.append(content_file)
-                        # print ' '.join(content_file)
-                        # print
-                        info = []
-                        info.append(chemin_corpus+dir_annee+"/"+sub_dir+"/"+sub_sub_dir+"/"+f)
-                        info.append(len(content_file))
-                        list_Files_len.append(info)
-                open_file.close()
+                        # Eliminer les fichiers qui après pré-traitement deviennent trop petits
+                        if len(content_file) > 5:
+                            texts.append(content_file)
+                            # print ' '.join(content_file)
+                            # print
+                            info = []
+                            info.append(chemin_corpus+dir_annee+"/"+sub_dir+"/"+sub_sub_dir+"/"+f)
+                            info.append(len(content_file))
+                            list_Files_len.append(info)
+                    open_file.close()
 
 
 
