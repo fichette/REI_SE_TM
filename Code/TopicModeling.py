@@ -173,7 +173,7 @@ def get_vocabularyIDs(dictionary_tokens):
 def get_vocabularyAlpha(dictionary_tokens):
     vocabulary = []
     for token in dictionary_tokens:
-        vocabulary.append(token)
+        vocabulary.append(dictionary_tokens[token])
     return vocabulary
 # vocabulary_alpha = get_vocabularyAlpha(dictionary.token2id) #Pour avoir tout le vocabulaire où chaque mot est représenté dans sa forme normale
 
