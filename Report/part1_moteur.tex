@@ -1,30 +1,215 @@
 \chapter{Partie 1 - Moteur de Recherche}
 
 \section{But}
-	Le but ici était de développer un moteur de recherche capable d'indexer 10 000 documents et de retourner les documents les plus similaires à une requète. Pour cela, des contraines nous sont imposées, le programme ne doit pas utiliser plus de 1GO de mémoire RAM et le fichier index ne doit pas dépasser 60\% de la taille du corpus.
+Le but ici était de développer un moteur de recherche capable d'indexer 10 000 documents et de retourner les documents les plus similaires à une requête. Pour cela, des contraintes nous sont imposées, le programme ne doit pas utiliser plus de 1GO de mémoire RAM et le fichier index ne doit pas dépasser 60\% de la taille du corpus.
+
+Deux versions de ce moteur sont proposé, un utilisant le normalisation stemmer et un autre utilisant la normalisation tokenizer(pas de normalisation à part rendre toutes les lettres en miniscule). Les deux normaliseurs suppriment les mots vide.  En effet, ici l'ordre des mots n'est pas prit en compte dans la recherche, les mots vides n'ont donc plus aucune utilité.
+
 \section{Dataset utilisé}
-	Le corpus utilsé ici est celui fournit pour le projet. Un corpus contenant environ 10000 documents datant entre janvier et avril 2015.
+Le corpus utilisé ici est celui fournit pour le projet. Un corpus contenant environ 10000 documents datant entre janvier et avril 2015.
 \section{Structures de données utilisées}
+
+La structure de donnée la plus utilisée durant ce projet est sans aucun doute, la hashmap. En effet, il est souvent nécéssaires de stocker en mémoire différentes associations (comme par exemple le tfidf de chaque mots pour chaque fichiers). Une hashmap permet de faire ça de manière efficace et simple. 
+La TreeMap est ici utilisée que lors de la création de l'index, dans le but d'avoir notre index dans l'ordre alphabétique des mots. Cela simplifiera la tache si l'on souhaite faire de la fusion d'index dans le future.
+
+Bien que solution de facilité ici, utiliser des hashmap ou treemap pour indexer un grand volume de données n'est pas la meilleur solution. En effet, une HashMap prend beaucoup de places en mémoire en raison des entêtes ajoutées à chaque entrées. En effet, cette structure de donnée à besoin de 48 octets pour l'entête et 40 octets d'entêtes pour chaque entrées. On à donc à la fin une grande majorité de la mémoire RAM qui est occupée par les entêtes. Utiliser deux tableaux à la place diminuerait considérablement l'espace mémoire.
+Néanmoins, étant donner la taille de notre corpus, on a privilégier l'écriture d'un code simple et facile à lire. 
+
+
 % Expliquer les avantages des hashset, hashmap, treemap
+\section{Méthode utilisée pour l'indexation}
 
-\section{Méthodes utilisées pour l'indexation}
-	L'index contient pour chaque mot, la liste des fichiers auquel il apparait, ainsi que son poid dans ce fichier.
-	
-	Pour obtnir un fichier index peu volumineux, il a été nécessaire de donner un identifiant aux mots et aux fichiers. Ainsi, nous avons 3 fichiers. Un fichier qui continent les identifiants de chaque mots, un autre qui contient les identifiants pour chaque fichiers, et pour finir l'index contenant pour chaque mot, la liste des fichiers auquel il apparait, ainsi que son poid dans ce fichier.
-	
-	Là encore, les poids (tfidf) contiennent plusieurs chiffres décimales après la virgule. Pour diminuer la taille de l'index, on a décidé de ne garder que les premier chiffres après la virgule pour chaque poids. Ce choix implique une légère perte de précision.
+\subsection{Méthode}
+L'index contient pour chaque mot, la liste des fichiers auquel il apparaît, ainsi que son poids dans ce fichier.
 
-\section{Méthodes utilisées pour la recherche}
-\section{Evaluation}
-	\subsection{Pertinences}
-	\subsection{Performances}
-	Pour évaluer, les performances du programmes, l'outil JConsole a été utilisé.
-	
-	% Montrer la performance mémoire durant l'algorithme
-	% Différence entre les deux normaliseurs
+Pour obtenir un fichier index peu volumineux, il a été nécessaire de donner un identifiant aux fichiers. Ainsi, nous avons 2 fichiers, un qui contient les identifiants pour chaque fichier, et l'index contenant pour chaque mot, la liste des fichiers auquel il apparaît, ainsi que son poids dans ce fichier.
+
+Pour donner un identifiants aux fichiers, nous générons une suite de caractère composé des lettres "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz". Aussi, on donne aux fichiers les plus volumineux les identifiants contenant les moins de lettres. En effet, un fichiers contenant beaucoup de mots apparaîtra plus souvent dans l'index, cela permet d'économiser de l'espace. Avec cette méthode là, on a besoin d'au maximum 3 caractère pour identifier un fichier. En effet, avec 3 caractères on peut générer $(26*2+9)^3=226981$ identifiants différents. Si nous avions choisit l'identification par entier, 9000 fichiers auraient eu besoin de 4 caractère pour être identifier.\\
+
+Pour calculer le poids d'un mot dans un documents, on utilise la méthode du tfidf qui correspond à calculer :
+\begin{align*}
+w_{t,d} = tf_{t,d} * log(\frac{n}{df_t})
+\end{align*}
+
+Avec :
+\begin{itemize}
+	\item $w_{t,d}$ est le poids du terme t dans le document d, relativement au corpus.
+	\item $tf_{t,d}$ est le nombre d'occurrences du terme t dans le document d.
+	\item n est le nombre de documents dans le corpus. 
+	\item $df_t$ est le nombre de documents du corps contenant le terme t.
+\end{itemize}
+
+La caractéristique la plus intéressante du tfidf est la prise en compte de la rareté du mot dans le corpus. Calculer $log(\frac{n}{df_t})$ permet de donner un poids plus élevée au mots très peu présent dans le corpus. 
+
+Les poids (tfidf) contiennent plusieurs chiffres décimales après la virgule. Pour diminuer la taille de l'index, on a décidé de ne garder que le premier chiffre après la virgule pour chaque poids. Ce choix implique une légère perte de précision mais un gain non négligeable en mémoire.
+
+\subsection{Limitations et améliorations possible}
+L'indexation faite ici présente beaucoup de limitations et est sujette à des améliorations possible.
+
+Premièrement, l'ordre des mots dans les documents est totalement perdu avec cette méthode d'indexation. Pour pouvoir  garder l'ordre des mots, il faudrait utiliser des n-grammes, ce qui augmente la taille de notre index de façon polynomiale. 
+
+Un autre point important, est la perte en précision en raison du choix que nous avons fait de tronquer les tfidfs.
+
+La mise à jour de l'index implique la réécriture de l'index car celui-ci est enregistré dans l'ordre alphabétique des mots.
+
+La fusion d'index n'est pas implémentée et pas nécessaire ici, si le corpus grandit il faudra le faire.
+
+Le mot ayant le tfidf le plus élevée dans un fichier, n'a pas forcément un rapport avec le topic du document.
+
+Le choix d'identifier un fichier par une chaîne de caractère implique une place en mémoire RAM. En effet, l'entête d'un String occupe plus d'espace mémoire que l'entête d'un Integer. Par conséquent une HashMap<String,String> consommera plus de mémoire RAM qu'une HashMap<String, Integer>. Ce choix a été privilégier pour réduire la taille de l'index sur le disque dur.
+
+Malgré toutes ces limitations, l'indexation respecte toutes les contraintes du projet comme nous le verrons dans la section~~\ref{sec:performance}.
+
+\section{Méthode utilisée pour la recherche}
+
+Le moteur de recherche utilise le modèle vectoriel pour représenter une requête et un document. Par conséquent pour mesurer la similarité entre une requête et un document, la similarité par cosinus est utilisée : 
+\begin{align*}    
+sim(\vec{Q}, \vec{D}) &= \frac{\vec{Q} \bullet \vec{D}}{|\vec{Q}| \times |\vec{D}|}
+= \frac{\sum\limits_{i=1}^n w_{i,Q} \times w_{i,D}}{\sqrt{\sum w^2_{i,Q}} \times \sqrt{\sum w^2_{i,D}}}
+\end{align*}
+
+Avec $\vec{Q}$ représentant la requête et $\vec{D}$ le document.
+
+On représente la requête avec la moyenne des tfidfs de chaque mot de la requête.
+
+L'avantage de la similarité cosinus est qu'elle normalise suivant la longueur des vecteurs(et donc la somme des poids des mots dans un documents). Cela permet d'avoir une mesure de distance qui est invariant à la taille du document. De plus, cette distance se situe obligatoirement entre 0 et 1.
+
+Pour retourner les documents les plus pertinents, le programme suit les étapes suivantes : 
+
+\begin{itemize}
+	\item Lecture de l'index pour récupérer les documents qui contiennent au moins un des mots de la requête
+	\item Calcule de la distance de similarité entre la requête et chacun de ces documents
+	\item Trie des documents par ordre de similarité
+	\item Renvoie les 100 documents les plus pertinents
+\end{itemize}
+
+\subsection{Limitations}
+Il suffit que tout les mots de la requête soit présent dans le document pour que la distance par cosinus soit très proche de 1.\\
+Limitation du tfidf (ne prend pas en compte la position des mots). La recherche ne prend donc pas en compte l'ordre des mots dans la requête de l'utilisateur.\\
+
+Aussi, prendre la moyenne des tfidfs de chaque mots pour représenter la requête n'est pas toujours la meilleure solution. En effet, les poids calculés sur le corpus, ne sont pas forcément représentatif de la volonté de l'utilisateur. On pourrait aussi demander à l'utilisateur de trier les mots de sa requête par ordre d'importance, mais cela rendrait la recherche pénible pour ce dernier.
+
+
+\section{Évaluation}
+\subsection{Pertinences}
+
+Le moteur de recherche a été testé sur les 10 requêtes suivantes : 
+\begin{multicols}{2}
+	\begin{itemize}
+		\item Charlie Hebdo
+		\item volcan
+		\item playoffs NBA
+		\item accidents d'avion
+		\item laïcité
+		\item élections législatives
+		\item Sepp Blatter
+		\item  budget de la défense
+		\item Galaxy S6
+		\item Kurdes
+	\end{itemize}
+\end{multicols}
+
+
+Pour juger de la pertinence des résultats retournées, un fichier est générée à la fin de chaque requête. Ce script est de la forme suivante :
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{images/example_stat}
+	\caption{Extrait fichier générée après recherche avec normalisation tokenizer}
+	\label{fig:example_stat_tokenizer}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{images/example_stat_steemer}
+	\caption{Extrait fichier générée après recherche avec normalisation stemmer}
+	\label{fig:example_stat_stemmer}
+\end{figure}
+
+Il permet de savoir pour chaque fichier retourné, le nombre de fois qu'est présent chaque mot de la requête ainsi que son pourcentage par rapport au document. Les fichiers sont listés dans l'ordre décroissant des tfidf. Ainsi, juste en regardant le fichier, nous sommes capables de jugés approximativement la pertinence des résultats retournées par le moteur de recherche.
+
+\subsection{Performances}
+\subsubsection{Mémoire RAM consommée}
+\label{sec:performance}
+Pour évaluer, la mémoire RAM consommée par le programme, l'outil JConsole a été utilisé.
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.4]{images/memory_search_stemmer}
+	\caption{Evolution de la mémoire consomée lors de l'utilisation du moteur de recherche avec l'index stemmer}
+	\label{fig:memory_search_stemmer}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.4]{images/memory_search_tokenizer}
+	\caption{Evolution de la mémoire consomée lors de l'utilisation du moteur de recherche avec l'index tokenizer}
+	\label{fig:memory_search_tokenizer}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.4]{images/memory_indexation_steemer}
+	\caption{Evolution de la mémoire consomée lors de l'indexation du corpus en utilisant le normaliseur stemmer}
+	\label{fig:memory_indexation_stemmer}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.4]{images/memory_indexation_tokenizer}
+	\caption{Evolution de la mémoire consomée lors de l'indexation du corpus en utilisant le normaliseur tokenizer}
+	\label{fig:memory_indexation_tokenizer}
+\end{figure}
+
+
+
+On remarque sur les figures si haut qu'utiliser une normalisation de type tokenizer augemente la mémoire consomée(comparée à la normalisation de type stemming), aussi bien par le programme d'indexation que par le moteur de recherche. En effet, avec une normalisation basique(juste séparer les mots et les mettre en miniscule) on doit stocker beaucoup plus de mots que si l'on concidère que la base du mot.
+
+D'autres part, on atteint jamais les 1 GO de RAM. La contrainte du projet est donc respectée.
+
+\subsubsection{Temps d'exécution}
+
+\begin{figure}[H]
+	\begin{tabular}{|l|l|l|}
+		\hline
+		Indexation identifiants fichiers & Indexation Corpus Steemer & Indexation Corpus Tokenizer\\
+		\hline
+		1840 ms& 10612 ms& 11037 ms\\
+		\hline
+	\end{tabular}
+	\caption{Temps d'indexation en ms}
+	\label{tab:indexation_time}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{tabular}{|l|l|}
+		\hline
+		Moteur de recherche Steemer & Moteur de recherche Tokenizer\\
+		\hline
+		~270 ms & ~290 ms \\
+		\hline
+	\end{tabular}
+	\caption{Temps de recherche en ms}
+	\label{tab:search_time}
+\end{figure}
+
+TODO : parler de l'étape identitifiant -> fichier
+
+\subsubsection{Tailles de l'index sur le disque dur}
+\begin{figure}[H]
+	\begin{tabular}{|l|l|l|l|}
+		\hline
+		Corpus & Fichier d'indexation des identifiants & Index stemmer & Index tokenizer\\
+		\hline
+		31967 ko & 795Ko &  14 365Ko & 16 595Ko\\
+		\hline
+	\end{tabular}
+	\caption{Taille des différents fichiers d'indexation(comparaison avec la taille du corpus)}
+	\label{tab:indexation_space}
+\end{figure}
+
+On remarque que les deux index ne dépassent pas 60\% de la taille du corpus. Le contrainte est donc respectée
+
 
 \subsection{Difficultés rencontrés}
- % Parler des problèmes d'encodage
- % Difficultés à utiliser moins de 10 
-	
-	
+TODO : 
+Parler des problèmes d'encodage
+Difficultés à utiliser moins de 1 go de mémoire ram
+
