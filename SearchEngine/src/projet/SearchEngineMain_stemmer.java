@@ -83,7 +83,7 @@ public class SearchEngineMain_stemmer {
 					System.out.println(file_simcos.getKey().getName() + " : " + file_simcos.getValue());
 				
 				String stats_file = Constantes.DIR_PROJECT + "//stats//stemmer//" + String.join("_", req.split(" ")) + "_stemmer_stats.txt";
-				//On génere le fichier statistiques pour �valuer le mod�le
+				//On génere le fichier statistiques pour �valuer le modéle
 				se.computeStaticalResult(req, docs, new File(stats_file), duration);
 			}
 			

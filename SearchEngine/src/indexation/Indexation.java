@@ -23,6 +23,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
@@ -33,7 +34,6 @@ import java.util.stream.Collectors;
 import tools.FrenchStemmer;
 import tools.FrenchTokenizer;
 import tools.Normalizer;
-import tools.String_id;
 
 
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -56,8 +56,10 @@ public class Indexation {
 	//caracteres utilisés pour donner un identifiant à chaque fichier
 	public String caracteres = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	
+	//fichier pour stocker les identifiants des fichiers
 	public String out_index_files;
 	
+	//fichier ou sera stocké l'index
 	public File index_file;
 	public Normalizer normalizer;
 	
@@ -148,10 +150,15 @@ public class Indexation {
 		
 	}
 	
-   /***
-    *  va générer tout les sous chaines de caracteres de this.caracteres et de taille length
-    *  Permet de donner un identfiant à chaque fichiers
-    ****/
+	/***
+	 va générer tout les sous chaines de caracteres de this.caracteres et de taille length
+	 *  Permet de donner un identfiant à chaque fichiers
+	 * @param str
+	 * @param pos
+	 * @param ids
+	 * @param length
+	 * @return
+	 */
    private int generate(String str, int pos, ArrayList<String> ids, int length)
     {
         if (length == 0)//si on a générer un id pour chaque fichier
@@ -331,32 +338,25 @@ public class Indexation {
 			documentNumber++;
 		}
 		
-		//Caluls des dfs
-		/*HashMap<String, Integer> dfs = new HashMap<String, Integer>();
-		for(String word: tfs.keySet())
-			dfs.put(word, tfs.get(word).size());*/
 		
 		// calcul du tf.idf
 		//On convertit tfs en treemap pour pouvoir stocker les mots dans l'ordre alphabétique
 		for (String word : (new TreeMap<String, HashMap<String, Integer>>(tfs)).keySet())
 		{
 			HashMap<String, Integer> docs = tfs.get(word);
-			HashMap<String, Float> tfidf = new HashMap<String, Float>();
+			LinkedHashMap<String, Float> tfidf = new LinkedHashMap<String, Float>();
 			for(String doc : docs.keySet())
 			{
-				Integer tf = docs.get(doc);
-				Integer df = docs.size();
-				Double w = (double)tf * Math.log((double)(documentNumber) / df);
+				int tf = docs.get(doc);
+				int df = docs.size();
+				double w = (double)tf * Math.log((double)(documentNumber) / df);
 				BigDecimal bd = new BigDecimal(w);
-				bd = bd.setScale(2, RoundingMode.HALF_UP);
+				bd = bd.setScale(1, RoundingMode.HALF_UP);
 				tfidf.put(doc, bd.floatValue());
 			}
-			//tfIdfs.put(word, tfidf);
 			out.println(word + "\t" + tfidf.keySet().toString().replaceAll("[\\[\\] ]", "") + "\t" + tfidf.values().toString().replaceAll("[\\[\\] ]", ""));
 		}
 		out.close();
-		
-		//return tfIdfs;
 	}
 	
 	

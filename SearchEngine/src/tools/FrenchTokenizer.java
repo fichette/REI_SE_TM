@@ -135,7 +135,17 @@ public class FrenchTokenizer implements Normalizer {
 
 	@Override
 	public ArrayList<String> normalize(String text) {
-		return this.tokenize(text);
+		ArrayList<String> tmpResult = this.tokenize(text.toLowerCase());
+		ArrayList<String> result = new ArrayList<String>();
+		if (!this.stopWords.isEmpty()) {
+			for (String word : tmpResult) {
+				if (!this.stopWords.contains(word))
+					result.add(word);
+			}
+		} else {
+			result = tmpResult;
+		}
+		return result;
 	}
 	
 }

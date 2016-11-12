@@ -1,7 +1,9 @@
-20150224_ed1e199412f9a2bd3a9b47bfc54a193a.txt : 1.0
-	laïcit : 1 fois  pourcentage : 0.0012121212%
+Requete renvoyée en 91ms
+
 20150211_a5139cf36fd127ca3f2c9ddbd76f83f2.txt : 1.0
 	laïcit : 1 fois  pourcentage : 0.0034843206%
+20150224_ed1e199412f9a2bd3a9b47bfc54a193a.txt : 1.0
+	laïcit : 1 fois  pourcentage : 0.0012121212%
 20150204_d4abe662dac8b187ffde756f33dde7d6.txt : 1.0
 	laïcit : 5 fois  pourcentage : 0.015060241%
 20150317_0c2f15829c570c642e3ca5ec7b18c853.txt : 1.0
@@ -12,16 +14,16 @@
 	laïcit : 1 fois  pourcentage : 0.004115226%
 20150119_c8b8a20255e0e109c4b6bc51ea79ba8d.txt : 1.0
 	laïcit : 2 fois  pourcentage : 0.02173913%
-20150108_546cf5cfcb8abe8cd6be4ef01b7f9e77.txt : 1.0
-	laïcit : 1 fois  pourcentage : 0.004%
 20150108_e492d104c0d88f7b622d207e26c9b521.txt : 1.0
 	laïcit : 1 fois  pourcentage : 0.0022222223%
-20150304_203953077ef006f9e0decd95252fd726.txt : 1.0
-	laïcit : 5 fois  pourcentage : 0.015822785%
-20150113_bd66d94a695e51eca8cb64ceaf0eb5b0.txt : 1.0
-	laïcit : 4 fois  pourcentage : 0.0021929825%
+20150108_546cf5cfcb8abe8cd6be4ef01b7f9e77.txt : 1.0
+	laïcit : 1 fois  pourcentage : 0.004%
 20150121_ba1a65d140cf06106d152759f74d4f47.txt : 1.0
 	laïcit : 1 fois  pourcentage : 0.004405286%
+20150113_bd66d94a695e51eca8cb64ceaf0eb5b0.txt : 1.0
+	laïcit : 4 fois  pourcentage : 0.0021929825%
+20150304_203953077ef006f9e0decd95252fd726.txt : 1.0
+	laïcit : 5 fois  pourcentage : 0.015822785%
 20150113_94eb803792ab997dd58260784b50d48c.txt : 1.0
 	laïcit : 1 fois  pourcentage : 0.0060975607%
 20150415_960b65e0f90ca2316fe1e097d58b3b6d.txt : 1.0
@@ -30,10 +32,10 @@
 	laïcit : 1 fois  pourcentage : 0.0054347827%
 20150331_3599f0bb65720ec66d204f8811949e8b.txt : 1.0
 	laïcit : 1 fois  pourcentage : 0.00203666%
-20150211_ac242c10915ebc2df9720646d716e99d.txt : 1.0
-	laïcit : 1 fois  pourcentage : 0.0011641444%
 20150204_fef6a1a9f0dbe98c4d20fc07b039ee98.txt : 1.0
 	laïcit : 2 fois  pourcentage : 0.004484305%
+20150211_ac242c10915ebc2df9720646d716e99d.txt : 1.0
+	laïcit : 1 fois  pourcentage : 0.0011641444%
 20150114_1805231f1bd9c0269d44ccf1422f191f.txt : 1.0
 	laïcit : 2 fois  pourcentage : 0.0050890585%
 20150216_e57144a2f3bc2c4a5de64ccb95f98065.txt : 1.0
@@ -42,26 +44,26 @@
 	laïcit : 1 fois  pourcentage : 0.003012048%
 20150421_6b472da135c022a21d4bf9975119a91f.txt : 1.0
 	laïcit : 1 fois  pourcentage : 0.0058479533%
-20150324_b2a478740c006016a60f9bb9ef4f876c.txt : 1.0
-	laïcit : 11 fois  pourcentage : 0.017828202%
 20150130_9c7ce857c129b1f679f019430c093130.txt : 1.0
 	laïcit : 4 fois  pourcentage : 0.0070422534%
-20150306_0af071fe90e35de5abd02897c8559b89.txt : 1.0
-	laïcit : 1 fois  pourcentage : 0.0018181818%
+20150324_b2a478740c006016a60f9bb9ef4f876c.txt : 1.0
+	laïcit : 11 fois  pourcentage : 0.017828202%
 20150326_8a680af013c5fa147390f9e7c97b2562.txt : 1.0
 	laïcit : 3 fois  pourcentage : 0.005524862%
-20150421_6ecfa1aa0d5ccda086b11a44bfbf2a4f.txt : 1.0
-	laïcit : 3 fois  pourcentage : 0.0043541365%
+20150306_0af071fe90e35de5abd02897c8559b89.txt : 1.0
+	laïcit : 1 fois  pourcentage : 0.0018181818%
 20150125_fea500234117dd5bb8637bba7d3e851e.txt : 1.0
 	laïcit : 1 fois  pourcentage : 0.0069444445%
+20150421_6ecfa1aa0d5ccda086b11a44bfbf2a4f.txt : 1.0
+	laïcit : 3 fois  pourcentage : 0.0043541365%
 20150306_e2f167819a95b114a5c18de0c19c1610.txt : 1.0
 	laïcit : 1 fois  pourcentage : 0.011235955%
-20150225_4f6c4afd0af14dea04e505ce59ac9da3.txt : 1.0
-	laïcit : 2 fois  pourcentage : 0.0057306592%
-20150108_512ea28894bd2ad289a58f954de88c6c.txt : 1.0
-	laïcit : 1 fois  pourcentage : 0.0029850747%
 20150110_736cccc6c89b4291187188703d6e6a94.txt : 1.0
 	laïcit : 1 fois  pourcentage : 0.0032786885%
+20150108_512ea28894bd2ad289a58f954de88c6c.txt : 1.0
+	laïcit : 1 fois  pourcentage : 0.0029850747%
+20150225_4f6c4afd0af14dea04e505ce59ac9da3.txt : 1.0
+	laïcit : 2 fois  pourcentage : 0.0057306592%
 20150303_5667ba07da95dee491785dc8e5f9539a.txt : 1.0
 	laïcit : 1 fois  pourcentage : 0.0054054055%
 20150204_7a8b8caf30b40ee258e8329a7cbd60d0.txt : 1.0
@@ -94,14 +96,14 @@
 	laïcit : 1 fois  pourcentage : 0.0031152647%
 20150325_fc0a83fece7538bfb0e9272b3d032881.txt : 1.0
 	laïcit : 1 fois  pourcentage : 0.0022271716%
-20150119_84ce7512f45eeb8488b6f44fc7d60559.txt : 1.0
-	laïcit : 1 fois  pourcentage : 0.004237288%
 20150106_cb1eca95232585df0143f5530ef4fd0e.txt : 1.0
 	laïcit : 1 fois  pourcentage : 0.003012048%
 20150123_e7604ba8142b0ff3121447d032decdb4.txt : 1.0
 	laïcit : 1 fois  pourcentage : 0.004464286%
 20150204_726ffdbc131e434d45f9a3b1c71043ee.txt : 1.0
 	laïcit : 1 fois  pourcentage : 0.0017921147%
+20150119_84ce7512f45eeb8488b6f44fc7d60559.txt : 1.0
+	laïcit : 1 fois  pourcentage : 0.004237288%
 20150123_70f562a59e7edf0318910fda8b221311.txt : 1.0
 	laïcit : 1 fois  pourcentage : 0.0050251256%
 20150415_50699c3bf954b5b65aa84852dbcb6d53.txt : 1.0
@@ -112,10 +114,10 @@
 	laïcit : 5 fois  pourcentage : 0.017301038%
 20150114_8f7f2d3288eaeefcd0e18662afded29f.txt : 1.0
 	laïcit : 1 fois  pourcentage : 0.003773585%
-20150114_96dfb4c0dbec6b351d0d4af90c6c7109.txt : 1.0
-	laïcit : 1 fois  pourcentage : 0.003773585%
 20150108_be5af76c554cc8c18188f8d5dcf54ad6.txt : 1.0
 	laïcit : 1 fois  pourcentage : 0.0017667845%
+20150114_96dfb4c0dbec6b351d0d4af90c6c7109.txt : 1.0
+	laïcit : 1 fois  pourcentage : 0.003773585%
 20150123_78b90a62963a9f0b06395803ce0d6558.txt : 1.0
 	laïcit : 1 fois  pourcentage : 0.005076142%
 20150205_79e7d9f499ea65aa54137928e244ed24.txt : 1.0
@@ -128,20 +130,20 @@
 	laïcit : 1 fois  pourcentage : 0.001968504%
 20150106_6cbfb2a411473d8e7658d78c1f7a9d61.txt : 1.0
 	laïcit : 1 fois  pourcentage : 0.0058139535%
-20150111_c15be823ac6781c89093ecd3748616ed.txt : 1.0
-	laïcit : 1 fois  pourcentage : 0.002762431%
 20150327_857fd96d4986cb04b2c349f8f86adae5.txt : 1.0
 	laïcit : 1 fois  pourcentage : 0.0016583748%
+20150111_c15be823ac6781c89093ecd3748616ed.txt : 1.0
+	laïcit : 1 fois  pourcentage : 0.002762431%
 20150317_e11467e30f5ff5252ad9c7b4c4be4e35.txt : 1.0
 	laïcit : 5 fois  pourcentage : 0.017301038%
-20150415_ebd7b42823bc7f3dff5deea0f17704d1.txt : 1.0
-	laïcit : 1 fois  pourcentage : 0.0015974441%
 20150220_3c0034994c6ba37af7dce60c2c942d47.txt : 1.0
 	laïcit : 2 fois  pourcentage : 0.0053908355%
-20150327_2f6aea08f97728ecb5e76ffa2c22df9d.txt : 1.0
-	laïcit : 1 fois  pourcentage : 0.0014492754%
+20150415_ebd7b42823bc7f3dff5deea0f17704d1.txt : 1.0
+	laïcit : 1 fois  pourcentage : 0.0015974441%
 20150111_9325d34f8efc53c97d0efed5ca0566d9.txt : 1.0
 	laïcit : 1 fois  pourcentage : 0.003968254%
+20150327_2f6aea08f97728ecb5e76ffa2c22df9d.txt : 1.0
+	laïcit : 1 fois  pourcentage : 0.0014492754%
 20150324_ca058d5eb35f9a3995446907061f82db.txt : 1.0
 	laïcit : 1 fois  pourcentage : 0.0035714286%
 20150115_f75f111fa876fab5d546cae5b2c53618.txt : 1.0

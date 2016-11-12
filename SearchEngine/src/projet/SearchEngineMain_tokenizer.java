@@ -74,14 +74,15 @@ public class SearchEngineMain_tokenizer {
 				SearchEngine se = new SearchEngine(new File(Constantes.INDEX_TOKENIZER), normalizer);
 				long start_time = System.nanoTime();
 				List<Map.Entry<File, Double>> docs = se.searchDocuments(req);
-				long duration = (System.nanoTime()-start_time)/1000000; 
+				long duration = (System.nanoTime()-start_time)/1000000;
+				System.out.println("Résultats retournées en " + duration + "ms");
 				
-				//On affiche les r�sultats
+				//On affiche les résultats
 				for(Map.Entry<File, Double> file_simcos :  docs)
 					System.out.println(file_simcos.getKey().getName() + " : " + file_simcos.getValue());
 				
 				String stats_file = Constantes.DIR_PROJECT + "//stats//tokenizer//" + String.join("_", req.split(" ")) + "_tokenizer_stats.txt";
-				//On g�nere le fichier statistiques pour �valuer le mod�le
+				//On génere le fichier statistiques pour �valuer le mod�le
 				se.computeStaticalResult(req, docs, new File(stats_file), duration);
 			}
 			

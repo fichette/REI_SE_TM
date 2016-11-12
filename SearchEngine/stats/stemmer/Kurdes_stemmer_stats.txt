@@ -1,3 +1,5 @@
+Requete renvoyée en 90ms
+
 20150121_48cf340af46eb24e36c9bd03c2f16623.txt : 1.0
 	kurd : 1 fois  pourcentage : 0.003164557%
 20150210_c160e98eab259467473e55731e3e9604.txt : 1.0
@@ -8,10 +10,10 @@
 	kurd : 1 fois  pourcentage : 0.0016025641%
 20150206_cf0e395632a4a26811beb8b2c1dc6746.txt : 1.0
 	kurd : 5 fois  pourcentage : 0.030303031%
-20150108_5a06a5b7f2e2d2aed00007fdf0b5f574.txt : 1.0
-	kurd : 1 fois  pourcentage : 0.0016977929%
 20150116_9b6b672951d8d702a4e0c6be48daba49.txt : 1.0
 	kurd : 1 fois  pourcentage : 0.0068965517%
+20150108_5a06a5b7f2e2d2aed00007fdf0b5f574.txt : 1.0
+	kurd : 1 fois  pourcentage : 0.0016977929%
 20150421_5c308f39fdbdf164871d8f36d37c6b9e.txt : 1.0
 	kurd : 2 fois  pourcentage : 0.014814815%
 20150118_d21b6c53311e0fb86ad8cca11ca42bbe.txt : 1.0
@@ -26,14 +28,14 @@
 	kurd : 4 fois  pourcentage : 0.018779343%
 20150321_9b32c70231b3415f8133c1fe25ca8869.txt : 1.0
 	kurd : 9 fois  pourcentage : 0.03797468%
-20150220_bc7a19430c6fa64c2457120c427bbab9.txt : 1.0
-	kurd : 3 fois  pourcentage : 0.019354839%
 20150226_116c419285cdf3290417104d13defb90.txt : 1.0
 	kurd : 4 fois  pourcentage : 0.037037037%
-20150205_d2f6b7d1eec3dc542a084f884fee94c1.txt : 1.0
-	kurd : 1 fois  pourcentage : 0.0025062656%
+20150220_bc7a19430c6fa64c2457120c427bbab9.txt : 1.0
+	kurd : 3 fois  pourcentage : 0.019354839%
 20150314_9282c2dc945308eb280fb55011a332d5.txt : 1.0
 	kurd : 1 fois  pourcentage : 0.005952381%
+20150205_d2f6b7d1eec3dc542a084f884fee94c1.txt : 1.0
+	kurd : 1 fois  pourcentage : 0.0025062656%
 20150425_f1c0807c96c919e75b3fd0bf65b634ea.txt : 1.0
 	kurd : 3 fois  pourcentage : 0.005042017%
 20150228_d65301fdb042edad41061128ec1687ab.txt : 1.0
@@ -50,28 +52,28 @@
 	kurd : 1 fois  pourcentage : 0.0032467532%
 20150311_75c6335f212cace919c4990134b6834b.txt : 1.0
 	kurd : 5 fois  pourcentage : 0.05102041%
-20150319_ac702a8acab29a7a5b9b7d5e3820a55f.txt : 1.0
-	kurd : 1 fois  pourcentage : 0.0057471264%
 20150408_e22bdaffd289d975ea7d96daf186fa8b.txt : 1.0
 	kurd : 2 fois  pourcentage : 0.0070921984%
-20150423_d7a163b410f4ff1f7258b0bc049682bc.txt : 1.0
-	kurd : 1 fois  pourcentage : 0.006993007%
+20150319_ac702a8acab29a7a5b9b7d5e3820a55f.txt : 1.0
+	kurd : 1 fois  pourcentage : 0.0057471264%
 20150107_e9296c2826ac207009c89c286bdafa9d.txt : 1.0
 	kurd : 4 fois  pourcentage : 0.033333335%
+20150423_d7a163b410f4ff1f7258b0bc049682bc.txt : 1.0
+	kurd : 1 fois  pourcentage : 0.006993007%
 20150224_40ff2efaf0185bc4db81e62c8d5ec8d5.txt : 1.0
 	kurd : 8 fois  pourcentage : 0.039408866%
 20150406_ab63e02b49f5de4a0eb5d64efc7f0e14.txt : 1.0
 	kurd : 2 fois  pourcentage : 0.009049774%
-20150126_3f4db8ae965fdc2fd80d80dfe6907aaa.txt : 1.0
-	kurd : 1 fois  pourcentage : 0.0068965517%
 20150421_4077968c44c9951c5e76ec59f0a43476.txt : 1.0
 	kurd : 1 fois  pourcentage : 0.002570694%
+20150126_3f4db8ae965fdc2fd80d80dfe6907aaa.txt : 1.0
+	kurd : 1 fois  pourcentage : 0.0068965517%
 20150327_211c5381381dc992a5d50c718d3e7a4c.txt : 1.0
 	kurd : 1 fois  pourcentage : 0.0023584906%
-20150331_2fbfac111da290a7f772a315ff9e6b68.txt : 1.0
-	kurd : 2 fois  pourcentage : 0.00952381%
 20150115_eece83142efce71677a021d6b7317268.txt : 1.0
 	kurd : 1 fois  pourcentage : 0.0049751243%
+20150331_2fbfac111da290a7f772a315ff9e6b68.txt : 1.0
+	kurd : 2 fois  pourcentage : 0.00952381%
 20150406_530a1ceb7c9599f3624f70d152428bff.txt : 1.0
 	kurd : 6 fois  pourcentage : 0.033707865%
 20150301_79e38fdc326b3ce01bc190ff2cc9757f.txt : 1.0

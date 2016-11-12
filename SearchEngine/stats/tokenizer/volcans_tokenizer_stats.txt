@@ -1,0 +1,18 @@
+Requete renvoyée en 205ms
+
+20150319_8776b6b0b6e4a0fa115cfdb948b0c50c.txt : 1.0
+	volcans : 2 fois  pourcentage : 0.0027739252%
+20150303_a1c604d3c12544630c3dcbb9ce1c0242.txt : 1.0
+	volcans : 1 fois  pourcentage : 0.004524887%
+20150214_d5fcaadf46fb865a459aba04f09adb86.txt : 1.0
+	volcans : 1 fois  pourcentage : 4.7370914E-4%
+20150405_9a709cd0b16c22cbe46ba26c164d8510.txt : 1.0
+	volcans : 1 fois  pourcentage : 0.007751938%
+20150425_9b05efb966c8dff4da9ca8727f56d12e.txt : 1.0
+	volcans : 2 fois  pourcentage : 0.005509642%
+20150426_e85d4eebc20db7167a47f6fbcbb00aca.txt : 1.0
+	volcans : 1 fois  pourcentage : 0.0036363637%
+20150409_d78c52a2b73e23c65ba56a87c190e43b.txt : 1.0
+	volcans : 14 fois  pourcentage : 0.009549796%
+20150219_d8878c27e9633fffc9aba5e1748ebd0d.txt : 1.0
+	volcans : 1 fois  pourcentage : 0.005952381%

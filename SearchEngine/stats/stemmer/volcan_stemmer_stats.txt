@@ -1,3 +1,5 @@
+Requete renvoyée en 99ms
+
 20150121_a09ced5b9e2b213fbaf75198c96382dc.txt : 1.0
 	volcan : 2 fois  pourcentage : 0.0026990552%
 20150306_fd842d12ac8686ba234000e3295825c1.txt : 1.0
@@ -16,10 +18,10 @@
 	volcan : 2 fois  pourcentage : 0.027027028%
 20150306_b4b48d2d496a56451b2c2d86ab1d5014.txt : 1.0
 	volcan : 3 fois  pourcentage : 0.016759777%
-20150424_2e15ac2bc5e54a6f4f00e009f490cb9b.txt : 1.0
-	volcan : 4 fois  pourcentage : 0.033613447%
 20150306_f6b76afd1dfae3d71caca45df377a59b.txt : 1.0
 	volcan : 3 fois  pourcentage : 0.016759777%
+20150424_2e15ac2bc5e54a6f4f00e009f490cb9b.txt : 1.0
+	volcan : 4 fois  pourcentage : 0.033613447%
 20150116_17e883f55e8d4a229d3d549174828136.txt : 1.0
 	volcan : 4 fois  pourcentage : 0.031746034%
 20150108_be5af76c554cc8c18188f8d5dcf54ad6.txt : 1.0
@@ -62,10 +64,10 @@
 	volcan : 4 fois  pourcentage : 0.00896861%
 20150303_6574f498bbc1b5424ec1e89de36e04bd.txt : 1.0
 	volcan : 1 fois  pourcentage : 0.00729927%
-20150121_f9ca82fffae2c81f8676f758a73cd2bd.txt : 1.0
-	volcan : 2 fois  pourcentage : 0.0026990552%
 20150227_727ceef5bc0064f2ef2322175217cf72.txt : 1.0
 	volcan : 1 fois  pourcentage : 0.013333334%
+20150121_f9ca82fffae2c81f8676f758a73cd2bd.txt : 1.0
+	volcan : 2 fois  pourcentage : 0.0026990552%
 20150430_751a2ff556fd89ed6b12e4c6c324ace2.txt : 1.0
 	volcan : 5 fois  pourcentage : 0.02793296%
 20150227_33908769697ef3d4e0089ab80626ecb9.txt : 1.0
@@ -76,10 +78,10 @@
 	volcan : 1 fois  pourcentage : 6.0459494E-4%
 20150303_a1c604d3c12544630c3dcbb9ce1c0242.txt : 1.0
 	volcan : 4 fois  pourcentage : 0.022727273%
-20150424_ff42f20ae52e11009641eff33de6476e.txt : 1.0
-	volcan : 3 fois  pourcentage : 0.0154639175%
 20150108_ff0a7831324c7f69bcd68a60f9172bfe.txt : 1.0
 	volcan : 1 fois  pourcentage : 0.0017667845%
+20150424_ff42f20ae52e11009641eff33de6476e.txt : 1.0
+	volcan : 3 fois  pourcentage : 0.0154639175%
 20150423_6d086f5111f09554e769e89f6e7ad27d.txt : 1.0
 	volcan : 3 fois  pourcentage : 0.014423077%
 20150406_d254834e18160294a9501d3e5bb3b510.txt : 1.0
@@ -88,7 +90,7 @@
 	volcan : 4 fois  pourcentage : 0.00896861%
 20150304_b02fee125bd11e5aec5bfbf548cfb45c.txt : 1.0
 	volcan : 1 fois  pourcentage : 0.0014409221%
-20150428_a2f1e763e32c91021feac0094d67c9b1.txt : 1.0
-	volcan : 1 fois  pourcentage : 0.005154639%
 20150324_9709774cdafd99010d7cf302ed51ac7f.txt : 1.0
 	volcan : 1 fois  pourcentage : 0.0018867925%
+20150428_a2f1e763e32c91021feac0094d67c9b1.txt : 1.0
+	volcan : 1 fois  pourcentage : 0.005154639%

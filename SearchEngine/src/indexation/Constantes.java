@@ -15,9 +15,11 @@ public class Constantes {
 	
 	
 	
-	public static String OUT_INDEX_FILES = DIR_PROJECT  + "\\index_files.txt";;
+	public static String OUT_INDEX_FILES = DIR_PROJECT  + "\\index_files.txt";
+	public static String OUT_INDEX_WORDS_STEEMER = DIR_PROJECT  + "\\index_words_stemmer.txt";
 	public static String INDEX_STEEMER = DIR_PROJECT + "\\index_stemmer.txt";
 	
+	public static String OUT_INDEX_WORDS_TOKENIZER = DIR_PROJECT + "\\index_words_tokenizer.txt";
 	public static String INDEX_TOKENIZER = DIR_PROJECT + "\\index_tokenizer.txt";
 	
 

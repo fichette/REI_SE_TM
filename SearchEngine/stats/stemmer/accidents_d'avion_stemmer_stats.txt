@@ -1,0 +1,402 @@
+Requete renvoyée en 118ms
+
+20150127_becbcca4b2ca3bcecb9eafb59e452387.txt : 0.9990506979477783
+	accident : 3 fois  pourcentage : 0.011857707%
+	d' : 9 fois  pourcentage : 0.03557312%
+	avion : 3 fois  pourcentage : 0.011857707%
+20150325_75437ad0374c840e98ee9e45aa67d0b6.txt : 0.9987176415919348
+	accident : 3 fois  pourcentage : 0.013513514%
+	d' : 10 fois  pourcentage : 0.045045044%
+	avion : 3 fois  pourcentage : 0.013513514%
+20150324_14ce00a69515e283f4e3c847f9962216.txt : 0.9982246819632987
+	accident : 4 fois  pourcentage : 0.013468013%
+	d' : 10 fois  pourcentage : 0.033670034%
+	avion : 4 fois  pourcentage : 0.013468013%
+20150403_f9bb7ddeb7275d42ff29fc0dc1926ba9.txt : 0.987299088236245
+	accident : 2 fois  pourcentage : 0.00877193%
+	d' : 6 fois  pourcentage : 0.02631579%
+	avion : 3 fois  pourcentage : 0.013157895%
+20150206_41fd0b608238f9ce0729abee93dd1af9.txt : 0.987299088236245
+	accident : 2 fois  pourcentage : 0.008438818%
+	d' : 6 fois  pourcentage : 0.025316456%
+	avion : 3 fois  pourcentage : 0.012658228%
+20150126_2b33042ef18a8404d8f107757850950d.txt : 0.9871992127912905
+	accident : 2 fois  pourcentage : 0.01904762%
+	d' : 9 fois  pourcentage : 0.08571429%
+	avion : 3 fois  pourcentage : 0.028571429%
+20150325_aa087d4833e3ed1bbc946ab69472d84d.txt : 0.9871992127912905
+	accident : 2 fois  pourcentage : 0.007874016%
+	d' : 9 fois  pourcentage : 0.035433073%
+	avion : 3 fois  pourcentage : 0.011811024%
+20150129_47eb2c4b0b7d59e37e01e19e1a14fdd2.txt : 0.9865776035252265
+	accident : 3 fois  pourcentage : 0.011764706%
+	d' : 3 fois  pourcentage : 0.011764706%
+	avion : 3 fois  pourcentage : 0.011764706%
+20150418_f9627eecf277323a32000b72b29eec35.txt : 0.9862972993851582
+	accident : 1 fois  pourcentage : 0.0010718113%
+	d' : 1 fois  pourcentage : 0.0010718113%
+	avion : 1 fois  pourcentage : 0.0010718113%
+20150204_110bb68cc0775b758041aceb7caa64c2.txt : 0.9862972993851582
+	accident : 1 fois  pourcentage : 0.0011173184%
+	d' : 1 fois  pourcentage : 0.0011173184%
+	avion : 1 fois  pourcentage : 0.0011173184%
+20150325_f456f33db2bebcfb76039134612d667b.txt : 0.9855338532333364
+	accident : 9 fois  pourcentage : 0.025069637%
+	d' : 13 fois  pourcentage : 0.0362117%
+	avion : 12 fois  pourcentage : 0.033426184%
+20150324_e9f4a9fdfe361b7ae2128de75a32e306.txt : 0.9808811025689796
+	accident : 9 fois  pourcentage : 0.012517385%
+	d' : 13 fois  pourcentage : 0.018080669%
+	avion : 7 fois  pourcentage : 0.009735744%
+20150325_3b07f14d4f0bc23367ac54aca7307b2e.txt : 0.9807614507652517
+	accident : 5 fois  pourcentage : 0.009803922%
+	d' : 14 fois  pourcentage : 0.02745098%
+	avion : 8 fois  pourcentage : 0.015686275%
+20150325_5e927d70bdc80b6627b98f5d8c30f0c6.txt : 0.9783392064917189
+	accident : 5 fois  pourcentage : 0.0057537397%
+	d' : 28 fois  pourcentage : 0.032220945%
+	avion : 8 fois  pourcentage : 0.009205984%
+20150119_81602d47cb3850688bf2517cd551c986.txt : 0.9745113304423916
+	accident : 3 fois  pourcentage : 0.008196721%
+	d' : 7 fois  pourcentage : 0.019125683%
+	avion : 5 fois  pourcentage : 0.013661202%
+20150402_93cd9637db7a385fdc392f96157d52a4.txt : 0.9736465756026716
+	accident : 1 fois  pourcentage : 0.0062111802%
+	d' : 6 fois  pourcentage : 0.03726708%
+	avion : 1 fois  pourcentage : 0.0062111802%
+20150402_bb2061655cf727b5a336f30b47d9d7f5.txt : 0.9736465756026716
+	accident : 1 fois  pourcentage : 0.0062111802%
+	d' : 6 fois  pourcentage : 0.03726708%
+	avion : 1 fois  pourcentage : 0.0062111802%
+20150312_534a4add2c8467ffc655f844f177fd71.txt : 0.9725126520284293
+	accident : 3 fois  pourcentage : 0.015625%
+	d' : 10 fois  pourcentage : 0.052083332%
+	avion : 2 fois  pourcentage : 0.010416667%
+20150205_df8002d49c3802e47bb380f14645974a.txt : 0.9712408063183622
+	accident : 5 fois  pourcentage : 0.017421603%
+	d' : 7 fois  pourcentage : 0.024390243%
+	avion : 8 fois  pourcentage : 0.027874565%
+20150205_2e47f5ea21865bb8908a6896ee5cdda1.txt : 0.9712408063183622
+	accident : 5 fois  pourcentage : 0.017421603%
+	d' : 7 fois  pourcentage : 0.024390243%
+	avion : 8 fois  pourcentage : 0.027874565%
+20150325_27423934bf1d21b993f5441ae9b8f08c.txt : 0.9698868120358157
+	accident : 2 fois  pourcentage : 0.0063091484%
+	d' : 0 fois  pourcentage : 0.0%
+	avion : 2 fois  pourcentage : 0.0063091484%
+20150425_c7722a78f2cbf4ecb3436168628e8f04.txt : 0.9695776091205401
+	accident : 1 fois  pourcentage : 0.0015527951%
+	d' : 0 fois  pourcentage : 0.0%
+	avion : 1 fois  pourcentage : 0.0015527951%
+20150429_16d59871c473f4a5d5484b904f0f3e37.txt : 0.9695776091205401
+	accident : 1 fois  pourcentage : 0.0012820513%
+	d' : 0 fois  pourcentage : 0.0%
+	avion : 1 fois  pourcentage : 0.0012820513%
+20150324_4161974a31c6530091d9a6f931ec0ff6.txt : 0.9620167793239309
+	accident : 1 fois  pourcentage : 0.004166667%
+	d' : 5 fois  pourcentage : 0.020833334%
+	avion : 2 fois  pourcentage : 0.008333334%
+20150109_2ddd4a2a283544c3b5aeddcfec16e290.txt : 0.9597895181983372
+	accident : 1 fois  pourcentage : 0.0051020407%
+	d' : 6 fois  pourcentage : 0.030612245%
+	avion : 2 fois  pourcentage : 0.010204081%
+20150328_4a018bfdf556b879cfab32b7887e9751.txt : 0.9586205644621647
+	accident : 2 fois  pourcentage : 0.0074626864%
+	d' : 0 fois  pourcentage : 0.0%
+	avion : 3 fois  pourcentage : 0.01119403%
+20150306_36843780b10089799ec49ed683e5eb55.txt : 0.9552633927626177
+	accident : 1 fois  pourcentage : 0.005235602%
+	d' : 7 fois  pourcentage : 0.036649216%
+	avion : 2 fois  pourcentage : 0.010471204%
+20150306_e0375ac68cc8ebfe559d79e70990349b.txt : 0.9547466491536821
+	accident : 3 fois  pourcentage : 0.014778325%
+	d' : 8 fois  pourcentage : 0.039408866%
+	avion : 6 fois  pourcentage : 0.02955665%
+20150310_9f2b78f29fdc0719e0a5ad7c41ba84cb.txt : 0.942025929314446
+	accident : 2 fois  pourcentage : 0.007142857%
+	d' : 4 fois  pourcentage : 0.014285714%
+	avion : 1 fois  pourcentage : 0.0035714286%
+20150310_0a2ae05d7fd38bbb9880cab9415af229.txt : 0.942025929314446
+	accident : 2 fois  pourcentage : 0.007142857%
+	d' : 4 fois  pourcentage : 0.014285714%
+	avion : 1 fois  pourcentage : 0.0035714286%
+20150310_c5ae2ab14ff43a1f50e17779ec3cdba3.txt : 0.9302502536803604
+	accident : 10 fois  pourcentage : 0.016233766%
+	d' : 9 fois  pourcentage : 0.014610389%
+	avion : 5 fois  pourcentage : 0.008116883%
+20150310_d299f228c58ddcdba76b107f7db3e6c8.txt : 0.9302502536803604
+	accident : 10 fois  pourcentage : 0.016233766%
+	d' : 9 fois  pourcentage : 0.014610389%
+	avion : 5 fois  pourcentage : 0.008116883%
+20150120_d86bceeeec0a9fc596b8913acc9b5663.txt : 0.9272473846520074
+	accident : 2 fois  pourcentage : 0.0091743115%
+	d' : 7 fois  pourcentage : 0.03211009%
+	avion : 5 fois  pourcentage : 0.02293578%
+20150120_ccbff7d001755c7b80b7663748ece980.txt : 0.9272473846520074
+	accident : 2 fois  pourcentage : 0.0091743115%
+	d' : 7 fois  pourcentage : 0.03211009%
+	avion : 5 fois  pourcentage : 0.02293578%
+20150428_dd97a0a8cd5cc16df88baf8c4fd36804.txt : 0.9229784407432257
+	accident : 1 fois  pourcentage : 0.004784689%
+	d' : 9 fois  pourcentage : 0.043062203%
+	avion : 1 fois  pourcentage : 0.004784689%
+20150325_0384015eb7085c7f40e99c2bb54c7f91.txt : 0.9157702444662374
+	accident : 4 fois  pourcentage : 0.008510638%
+	d' : 0 fois  pourcentage : 0.0%
+	avion : 9 fois  pourcentage : 0.019148936%
+20150325_acd6acb0cca26cbb7600b8c0245d1a37.txt : 0.9157702444662374
+	accident : 4 fois  pourcentage : 0.008510638%
+	d' : 0 fois  pourcentage : 0.0%
+	avion : 9 fois  pourcentage : 0.019148936%
+20150129_260d42af8eb7c75e5f50810dd51ca548.txt : 0.9141840995647377
+	accident : 2 fois  pourcentage : 0.010152284%
+	d' : 11 fois  pourcentage : 0.055837564%
+	avion : 1 fois  pourcentage : 0.005076142%
+20150210_f3a64f539536ab009cd295c198ecda8c.txt : 0.9123344307760494
+	accident : 2 fois  pourcentage : 0.0043010754%
+	d' : 0 fois  pourcentage : 0.0%
+	avion : 1 fois  pourcentage : 0.0021505377%
+20150206_c265bac664f498cc8d2ee02e4293242f.txt : 0.9096548721119031
+	accident : 1 fois  pourcentage : 0.004255319%
+	d' : 6 fois  pourcentage : 0.025531914%
+	avion : 3 fois  pourcentage : 0.012765957%
+20150325_49f25a8f9cc0bf13113dc036bc1eeff3.txt : 0.9034363693256314
+	accident : 2 fois  pourcentage : 0.006116208%
+	d' : 9 fois  pourcentage : 0.027522936%
+	avion : 6 fois  pourcentage : 0.018348623%
+20150108_119325ee60c8b962a7f29fe84b36f4b6.txt : 0.8964172511222109
+	accident : 1 fois  pourcentage : 0.0014925373%
+	d' : 12 fois  pourcentage : 0.017910447%
+	avion : 3 fois  pourcentage : 0.0044776117%
+20150219_55306b774a30ca02b66f4f59737379c8.txt : 0.8945837249829365
+	accident : 3 fois  pourcentage : 0.03125%
+	d' : 8 fois  pourcentage : 0.083333336%
+	avion : 1 fois  pourcentage : 0.010416667%
+20150325_a9b847674b948e52332ef9554df2153a.txt : 0.8926879692132811
+	accident : 3 fois  pourcentage : 0.010416667%
+	d' : 10 fois  pourcentage : 0.034722224%
+	avion : 1 fois  pourcentage : 0.0034722222%
+20150306_e167320a4b764aaaf755afb99ea20347.txt : 0.8879663030588323
+	accident : 2 fois  pourcentage : 0.010526316%
+	d' : 3 fois  pourcentage : 0.015789473%
+	avion : 6 fois  pourcentage : 0.031578947%
+20150326_ad205133076f7cc7965450459a3a641d.txt : 0.8699933199785962
+	accident : 2 fois  pourcentage : 0.003875969%
+	d' : 18 fois  pourcentage : 0.034883723%
+	avion : 8 fois  pourcentage : 0.015503876%
+20150324_25b8d042d245e0ab53cef7a7d3930be9.txt : 0.8663836698263697
+	accident : 7 fois  pourcentage : 0.019178081%
+	d' : 8 fois  pourcentage : 0.021917809%
+	avion : 2 fois  pourcentage : 0.005479452%
+20150417_e3bed57a67c68dafc535c032d71ed417.txt : 0.8617812551719971
+	accident : 3 fois  pourcentage : 0.004511278%
+	d' : 0 fois  pourcentage : 0.0%
+	avion : 1 fois  pourcentage : 0.0015037594%
+20150305_222368a69b3f7719834f05de2275b668.txt : 0.8572533027064081
+	accident : 1 fois  pourcentage : 0.006993007%
+	d' : 3 fois  pourcentage : 0.02097902%
+	avion : 4 fois  pourcentage : 0.027972028%
+20150320_fba06ebb763e79cbced826fc57558131.txt : 0.8570791892465509
+	accident : 4 fois  pourcentage : 0.016%
+	d' : 6 fois  pourcentage : 0.024%
+	avion : 1 fois  pourcentage : 0.004%
+20150312_d32f5c7d85c1487a1ca5f2a3b0c251aa.txt : 0.8291619614654028
+	accident : 4 fois  pourcentage : 0.0029433407%
+	d' : 0 fois  pourcentage : 0.0%
+	avion : 1 fois  pourcentage : 7.358352E-4%
+20150112_1f3f1cb5470e47861e6ef27c793c4c78.txt : 0.8257637310927828
+	accident : 1 fois  pourcentage : 0.004830918%
+	d' : 3 fois  pourcentage : 0.014492754%
+	avion : 5 fois  pourcentage : 0.024154589%
+20150310_c150fc0e42d6384864ede06089ff9a19.txt : 0.8154408707222259
+	accident : 1 fois  pourcentage : 0.0023041475%
+	d' : 14 fois  pourcentage : 0.032258064%
+	avion : 1 fois  pourcentage : 0.0023041475%
+20150405_4db0058b1c516bcee48f702e3d6e86a2.txt : 0.7950433642061986
+	accident : 1 fois  pourcentage : 9.881423E-4%
+	d' : 15 fois  pourcentage : 0.014822135%
+	avion : 1 fois  pourcentage : 9.881423E-4%
+20150325_83e79e00e4196f7aa58d3d90b22d2209.txt : 0.789966010319687
+	accident : 1 fois  pourcentage : 0.0036363637%
+	d' : 0 fois  pourcentage : 0.0%
+	avion : 6 fois  pourcentage : 0.021818181%
+20150325_7240c611cc1801c939b304f0e0da7b53.txt : 0.789966010319687
+	accident : 1 fois  pourcentage : 0.0036363637%
+	d' : 0 fois  pourcentage : 0.0%
+	avion : 6 fois  pourcentage : 0.021818181%
+20150310_66d9a1feff1300947f1f4a316b80dd30.txt : 0.7754174216014359
+	accident : 1 fois  pourcentage : 0.0020920502%
+	d' : 16 fois  pourcentage : 0.033472802%
+	avion : 1 fois  pourcentage : 0.0020920502%
+20150326_7f74d2d7fe506b5c45dec1b27df7fbb4.txt : 0.766234846273561
+	accident : 1 fois  pourcentage : 0.0022883294%
+	d' : 13 fois  pourcentage : 0.029748283%
+	avion : 11 fois  pourcentage : 0.025171624%
+20150327_3471a519e51d7c2759de5f70a4f27d16.txt : 0.7628235119408775
+	accident : 1 fois  pourcentage : 0.003164557%
+	d' : 0 fois  pourcentage : 0.0%
+	avion : 8 fois  pourcentage : 0.025316456%
+20150310_42f2e56c8fe98d28ddba7fe2d4ada3fd.txt : 0.74320407196213
+	accident : 2 fois  pourcentage : 0.006430868%
+	d' : 6 fois  pourcentage : 0.019292604%
+	avion : 0 fois  pourcentage : 0.0%
+20150310_653d82cf25cfb63e35cc4d8f696e6710.txt : 0.74320407196213
+	accident : 2 fois  pourcentage : 0.006430868%
+	d' : 6 fois  pourcentage : 0.019292604%
+	avion : 0 fois  pourcentage : 0.0%
+20150216_63a2a26ed92305285ad7c887f58bf3b0.txt : 0.7431884023778954
+	accident : 1 fois  pourcentage : 0.005988024%
+	d' : 3 fois  pourcentage : 0.017964073%
+	avion : 0 fois  pourcentage : 0.0%
+20150325_33dbcfc9e3e37c28766eb03cdc162665.txt : 0.7431884023778954
+	accident : 1 fois  pourcentage : 0.004149378%
+	d' : 3 fois  pourcentage : 0.012448133%
+	avion : 0 fois  pourcentage : 0.0%
+20150121_9260a211ceb567db56518b8923d8a2f9.txt : 0.7431884023778954
+	accident : 1 fois  pourcentage : 0.0057471264%
+	d' : 3 fois  pourcentage : 0.01724138%
+	avion : 0 fois  pourcentage : 0.0%
+20150121_560bb3426ce4da3c5dae34d5248e71e7.txt : 0.7431884023778954
+	accident : 1 fois  pourcentage : 0.0057471264%
+	d' : 3 fois  pourcentage : 0.01724138%
+	avion : 0 fois  pourcentage : 0.0%
+20150119_ef025052e0cc355cb9f3a4d3325ca1f3.txt : 0.7431884023778954
+	accident : 1 fois  pourcentage : 0.0064935065%
+	d' : 3 fois  pourcentage : 0.019480519%
+	avion : 0 fois  pourcentage : 0.0%
+20150310_371fc8183704a3f91da117da58a1ab97.txt : 0.7431884023778954
+	accident : 1 fois  pourcentage : 0.0054347827%
+	d' : 3 fois  pourcentage : 0.016304348%
+	avion : 0 fois  pourcentage : 0.0%
+20150310_5f78a91b6fdceeecf62b8ad2a401a84d.txt : 0.7431884023778954
+	accident : 1 fois  pourcentage : 0.0054347827%
+	d' : 3 fois  pourcentage : 0.016304348%
+	avion : 0 fois  pourcentage : 0.0%
+20150105_ef2af26a3045c81136c4ac5150c78e58.txt : 0.7431884023778954
+	accident : 1 fois  pourcentage : 0.007633588%
+	d' : 3 fois  pourcentage : 0.022900764%
+	avion : 0 fois  pourcentage : 0.0%
+20150424_cc88ef57059a71f988854fc924d40ccb.txt : 0.7431884023778954
+	accident : 1 fois  pourcentage : 0.009803922%
+	d' : 3 fois  pourcentage : 0.029411765%
+	avion : 0 fois  pourcentage : 0.0%
+20150212_cba5c7cccf784092e213a7853584d11a.txt : 0.7431884023778954
+	accident : 1 fois  pourcentage : 0.003968254%
+	d' : 3 fois  pourcentage : 0.011904762%
+	avion : 0 fois  pourcentage : 0.0%
+20150429_a074c300b6ed3d47518f634e68fe043a.txt : 0.7426616596874288
+	accident : 4 fois  pourcentage : 0.012987013%
+	d' : 14 fois  pourcentage : 0.045454547%
+	avion : 0 fois  pourcentage : 0.0%
+20150401_a5f61ea5a294c17def66914c38137003.txt : 0.7423940050139217
+	accident : 2 fois  pourcentage : 0.010869565%
+	d' : 7 fois  pourcentage : 0.038043477%
+	avion : 0 fois  pourcentage : 0.0%
+20150407_1676daa3ba5ef0d8d3ac90b6b9973a76.txt : 0.7423940050139217
+	accident : 2 fois  pourcentage : 0.008298756%
+	d' : 7 fois  pourcentage : 0.029045643%
+	avion : 0 fois  pourcentage : 0.0%
+20150203_94e83a5eae62f05511917d204bfd7005.txt : 0.7423940050139217
+	accident : 2 fois  pourcentage : 0.009615385%
+	d' : 7 fois  pourcentage : 0.033653848%
+	avion : 0 fois  pourcentage : 0.0%
+20150228_79ee94e221d773c84627a63af9e7238a.txt : 0.7423940050139217
+	accident : 2 fois  pourcentage : 0.009049774%
+	d' : 7 fois  pourcentage : 0.03167421%
+	avion : 0 fois  pourcentage : 0.0%
+20150413_c948ff10f524cb51fc72cd695a1fa97e.txt : 0.7423940050139217
+	accident : 2 fois  pourcentage : 0.0091743115%
+	d' : 7 fois  pourcentage : 0.03211009%
+	avion : 0 fois  pourcentage : 0.0%
+20150303_163d94498e19c696ebf3ab65a1284e9e.txt : 0.7421533361820507
+	accident : 3 fois  pourcentage : 0.0121951215%
+	d' : 11 fois  pourcentage : 0.044715445%
+	avion : 0 fois  pourcentage : 0.0%
+20150310_1b3ffc6affe027644d248a509b169c2e.txt : 0.74211250075396
+	accident : 2 fois  pourcentage : 0.008438818%
+	d' : 5 fois  pourcentage : 0.021097047%
+	avion : 0 fois  pourcentage : 0.0%
+20150310_0e4d3bd535b67c6f2b6fa4c91cf60ea0.txt : 0.74211250075396
+	accident : 2 fois  pourcentage : 0.01010101%
+	d' : 5 fois  pourcentage : 0.025252525%
+	avion : 0 fois  pourcentage : 0.0%
+20150119_3ddf6bcd30fa45f7f786563fed4b2a2a.txt : 0.7413502756219084
+	accident : 5 fois  pourcentage : 0.014925373%
+	d' : 12 fois  pourcentage : 0.035820894%
+	avion : 0 fois  pourcentage : 0.0%
+20150216_d918835bcd127c751ee7089fff95f860.txt : 0.7406600973719503
+	accident : 2 fois  pourcentage : 0.0050890585%
+	d' : 8 fois  pourcentage : 0.020356234%
+	avion : 0 fois  pourcentage : 0.0%
+20150213_bf2bc14acbc64a526cad9bc26a68b3f1.txt : 0.7402774669677857
+	accident : 4 fois  pourcentage : 0.015209125%
+	d' : 9 fois  pourcentage : 0.03422053%
+	avion : 0 fois  pourcentage : 0.0%
+20150427_383a6c79981d691fc357dc87ebb221cd.txt : 0.7402413347110882
+	accident : 1 fois  pourcentage : 0.011235955%
+	d' : 4 fois  pourcentage : 0.04494382%
+	avion : 0 fois  pourcentage : 0.0%
+20150415_ce6098c4e9f633d41841f1ebb369d97e.txt : 0.7402413347110882
+	accident : 1 fois  pourcentage : 0.004405286%
+	d' : 4 fois  pourcentage : 0.017621145%
+	avion : 0 fois  pourcentage : 0.0%
+20150211_f9db3b5e25b8432c2a4b01152d798a12.txt : 0.7402413347110882
+	accident : 1 fois  pourcentage : 0.0050251256%
+	d' : 4 fois  pourcentage : 0.020100502%
+	avion : 0 fois  pourcentage : 0.0%
+20150125_03b24fa4cc36967abd9fa2f588a03202.txt : 0.7402413347110882
+	accident : 1 fois  pourcentage : 0.0066225166%
+	d' : 4 fois  pourcentage : 0.026490066%
+	avion : 0 fois  pourcentage : 0.0%
+20150310_3b8213c56ceb0fea170d9e641b9cdc28.txt : 0.7402413347110882
+	accident : 1 fois  pourcentage : 0.0032894737%
+	d' : 4 fois  pourcentage : 0.013157895%
+	avion : 0 fois  pourcentage : 0.0%
+20150126_9f7cf478db476176c45d95c2344a1b6b.txt : 0.7402413347110882
+	accident : 1 fois  pourcentage : 0.005524862%
+	d' : 4 fois  pourcentage : 0.022099448%
+	avion : 0 fois  pourcentage : 0.0%
+20150218_4474d5d0967e2fd8e73b5616d0d0dc4e.txt : 0.7402413347110882
+	accident : 1 fois  pourcentage : 0.004115226%
+	d' : 4 fois  pourcentage : 0.016460905%
+	avion : 0 fois  pourcentage : 0.0%
+20150218_b65ef052e835df3b7e8edd7ceb5b1570.txt : 0.7402413347110882
+	accident : 1 fois  pourcentage : 0.004115226%
+	d' : 4 fois  pourcentage : 0.016460905%
+	avion : 0 fois  pourcentage : 0.0%
+20150428_b8cf955deb7495276bdae1b17596a87a.txt : 0.7402413347110882
+	accident : 1 fois  pourcentage : 0.0043668123%
+	d' : 4 fois  pourcentage : 0.01746725%
+	avion : 0 fois  pourcentage : 0.0%
+20150211_e7585d07d7d89be5dfade7e4f5e7662b.txt : 0.7402413347110882
+	accident : 1 fois  pourcentage : 0.0050251256%
+	d' : 4 fois  pourcentage : 0.020100502%
+	avion : 0 fois  pourcentage : 0.0%
+20150310_a9148f3020f76be6793dd1c3db38d7be.txt : 0.7402413347110882
+	accident : 1 fois  pourcentage : 0.0032894737%
+	d' : 4 fois  pourcentage : 0.013157895%
+	avion : 0 fois  pourcentage : 0.0%
+20150311_fe19ef5a0a4946c257e55cc4b610b1ea.txt : 0.7386999303253606
+	accident : 1 fois  pourcentage : 0.005882353%
+	d' : 2 fois  pourcentage : 0.011764706%
+	avion : 0 fois  pourcentage : 0.0%
+20150104_75967fde8778cafea9e509f0e5027b62.txt : 0.7386999303253606
+	accident : 1 fois  pourcentage : 0.008264462%
+	d' : 2 fois  pourcentage : 0.016528925%
+	avion : 0 fois  pourcentage : 0.0%
+20150310_3353d7813efebd63dffdd77264b31250.txt : 0.7386999303253606
+	accident : 1 fois  pourcentage : 0.0017953322%
+	d' : 2 fois  pourcentage : 0.0035906644%
+	avion : 0 fois  pourcentage : 0.0%
+20150115_a964bec33b456e9c24ede89aeff84e1c.txt : 0.7386999303253606
+	accident : 1 fois  pourcentage : 0.008403362%
+	d' : 2 fois  pourcentage : 0.016806724%
+	avion : 0 fois  pourcentage : 0.0%
+20150421_465c07e24a02cb152c3344845199f626.txt : 0.7386999303253606
+	accident : 1 fois  pourcentage : 0.008547009%
+	d' : 2 fois  pourcentage : 0.017094018%
+	avion : 0 fois  pourcentage : 0.0%
+20150222_f7035f87d2e093dc24fdfaf0a546a804.txt : 0.7386999303253606
+	accident : 1 fois  pourcentage : 0.0121951215%
+	d' : 2 fois  pourcentage : 0.024390243%
+	avion : 0 fois  pourcentage : 0.0%

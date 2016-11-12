@@ -1,3 +1,5 @@
+Requete renvoyée en 89ms
+
 20150429_7fcc0ec2c82d9803867fac4b638b7360.txt : 1.0
 	galaxy : 3 fois  pourcentage : 0.009646302%
 20150301_5edf41bed312a8193714e059a87272f3.txt : 1.0
