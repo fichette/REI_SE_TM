@@ -1,17 +1,32 @@
 # -*- coding: utf-8 -*-
+from __future__ import unicode_literals
 import os
 from gensim import corpora, models
 import string
 import nltk
 import numpy as np
-from string import digits
 from langdetect import detect
+import re
 import pickle
+from pattern.text.fr import parse
 
+
+
+def lemmatization(content_file):
+    content_file = parse(content_file, relations=True, lemmata=True).split(" ")
+    res = [elt.split("/")[5] for elt in content_file]
+    return " ".join(res)
 
 
 from nltk.stem.snowball import FrenchStemmer
 stemmer = FrenchStemmer()
+
+
+
+import codecs
+file_stopwords = codecs.open("frenchST.txt","r", encoding="utf-8")
+stopwords = file_stopwords.read().split("\n")
+file_stopwords.close()
 
 
 ponctuation = set(string.punctuation)
@@ -30,24 +45,6 @@ def stemming(content_file):
         content_file[word] = stemmer.stem(content_file[word].decode("utf-8"))
     return ' '.join(content_file)
 
-from pattern.text.fr import conjugate
-from pattern.text.fr import INFINITIVE
-from pattern.text.fr import predicative
-from pattern.text.fr import singularize
-
-
-
-def normalisation_fr(content_file):
-    content_file = content_file.split()
-    for word in range(len(content_file)):
-        content_file[word] = singularize(content_file[word])
-        content_file[word] = conjugate(content_file[word], INFINITIVE)
-        content_file[word] = predicative(content_file[word])
-    return ' '.join(content_file)
-
-
-
-
 
 
 def preprocess_data_file(content_file):
@@ -57,46 +54,58 @@ def preprocess_data_file(content_file):
     content_file = content_file.replace('»', " ")
     content_file = content_file.replace('—', " ")
     content_file = content_file.replace('\'', " ")
-    content_file = content_file.translate(None, digits)
-    #content_file = content_file.replace('©', " ")
+    content_file = content_file.replace('©', " ")
+    content_file = content_file.replace('–', " ")
+    content_file = content_file.replace('¿', " ")
+    content_file = re.sub("[0-9]+", " ", content_file)
     content_file = ''.join(char for char in content_file if char not in ponctuation) #remove ponctuation
-    content_file = content_file.translate(None, digits)
     content_file = remove_infrequent_words(content_file, 2)
-    #content_file = normalisation_fr(content_file)
     #content_file = stemming(content_file)
     return content_file
 
 
-documents=[]
-chemin_corpus = "Corpus/"
+chemin_corpus = os.getcwd()+"/Corpus/"
 list_dir = os.listdir(chemin_corpus)
-list_Files_len = []
+infopath = []
+infolength=[]
+texts  =[]
+
 for dir_annee in list_dir:
     sub_dirs_annee = os.listdir(chemin_corpus+dir_annee)
     for sub_dir in sub_dirs_annee:
         sub_sub_dirs = os.listdir(chemin_corpus+dir_annee+"/"+sub_dir)
         for sub_sub_dir in sub_sub_dirs:
             files = os.listdir(chemin_corpus+dir_annee+"/"+sub_dir+"/"+sub_sub_dir)
-            for f in files[0:2]:
-                open_file = open(chemin_corpus+dir_annee+"/"+sub_dir+"/"+sub_sub_dir+"/"+f, "r")
-                content_file = open_file.read()
-                langue = detect(content_file.decode("utf-8")) #Detecter la langue
-                if langue == "fr":
-                    content_file = preprocess_data_file(content_file)
-                    #Eliminer les fichiers qui après pré-traitement deviennent trop petits
-                    if len(content_file.split()) > 10:
-                        documents.append(content_file)
-                        info = []
-                        info.append(chemin_corpus+dir_annee+"/"+sub_dir+"/"+sub_sub_dir+"/"+f)
-                        info.append(len(content_file.split()))
-                        list_Files_len.append(info)
-                open_file.close()
+            for f in files:
+                if os.stat(chemin_corpus+dir_annee+"/"+sub_dir+"/"+sub_sub_dir+"/"+f).st_size!=0:
+                    open_file = codecs.open(chemin_corpus+dir_annee+"/"+sub_dir+"/"+sub_sub_dir+"/"+f, "r", encoding="utf-8")
+                    content_file = open_file.read()
+                    if detect(content_file)== "fr": #Detecter la langue
+                        content_file = lemmatization(content_file)
+                        content_file = preprocess_data_file(content_file)
+                        content_file2 = []
+                        for word in content_file.lower().split():
+                            existe = False
+                            for stopword in stopwords:
+                                if word == stopword:
+                                    existe = True
+                                    break
+                            if existe != True:
+                                content_file2.append(word)
 
-file_stopwords = open("frenchST.txt", "r")
-stopwords = file_stopwords.read()
-stopwords = stopwords.split("\n")
-file_stopwords.close()
-texts = [[word for word in document.lower().split() if word not in stopwords] for document in documents]
+                        content_file = content_file2
+
+                        # Eliminer les fichiers qui après pré-traitement deviennent trop petits
+                        if len(content_file) > 5:
+                            texts.append(content_file)
+                            # print ' '.join(content_file)
+                            # print
+                            info = []
+                            infopath.append(chemin_corpus+dir_annee+"/"+sub_dir+"/"+sub_sub_dir+"/"+f)
+                            infolength.append(len(content_file))
+                    open_file.close()
+
+
 
 
 dictionary = corpora.Dictionary(texts)
@@ -128,13 +137,13 @@ def doc_lengths(texts):
 
 
 
-def doc_topic_dists(corpus, lda):
+def doc_topic_dists(corpus, lda, num_topics):
     doc_topic_dists = []
     for doc in range(len(corpus)):
-        list_topic_proba = []
+        list_topic_proba = [0]*num_topics
         temp = lda.get_document_topics(corpus[doc], minimum_probability=0)
         for topic, proba in temp:
-            list_topic_proba.append(proba)
+            list_topic_proba[topic]=proba
         doc_topic_dists.append(list_topic_proba)
     return doc_topic_dists
 doc_topic_dists = doc_topic_dists(corpus, lda)
@@ -144,9 +153,9 @@ def topic_term_dists(lda, num_topics, len_vocab):
     topic_term_dists = []
     for topic in range(num_topics):
         list_term_proba = [0]*len_vocab
-        temp = lda.get_topic_terms(topic)
+        temp = lda.get_topic_terms(topic,  topn=len_vocab)
         for term, proba in temp:
-            list_term_proba[term] = proba
+            list_term_proba[term-1] = proba
         topic_term_dists.append(list_term_proba)
     return topic_term_dists
 
@@ -164,16 +173,12 @@ def get_vocabularyIDs(dictionary_tokens):
 def get_vocabularyAlpha(dictionary_tokens):
     vocabulary = []
     for token in dictionary_tokens:
-        vocabulary.append(token)
+        vocabulary.append(dictionary_tokens[token])
     return vocabulary
-# vocabulary_alpha = get_vocabularyAlpha(dictionary.token2id) #Pour avoir tout le vocabulaire où chaque mot est représenté dans sa forme normale
+# vocabulary_alpha = get_vocabularyAlpha(dictionary.id2token) #Pour avoir tout le vocabulaire où chaque mot est représenté dans sa forme normale
 
 
 
 
 
-#lda.update(other_corpus)
-
-
-
-#lda.update(other_corpus)
+# #lda.update(other_corpus)

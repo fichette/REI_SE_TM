@@ -53,4 +53,25 @@ document is in the class. \cite{schutze2008introduction}
  large external text datasets such as all articles from English
  Wikipedia,
 
+
+\textbf{C\_NPMI} is an enhanced version of the C\_UCI coherence using the normalized pointwise mutual information (NPMI) instead of the pointwise mutual information (PMI).
+
+Proposed in
+N. Aletras and M. Stevenson: Evaluating topic coherence using distributional semantics. In Proceedings of the 10th International Conference on Computational Semantics (IWCS'13) Long Papers, pages 13-22, 2013.
+
+
+\textbf{C\_UCI} is a coherence that is based on a sliding window and the pointwise mutual information (PMI) of all word pairs of the given top words.
+
+The word cooccurrence counts are derived using a sliding window with the size 10. For every word pair the PMI is calculated. The arithmetic mean of the PMI values is the result of this coherence. (Note that in the original publication only the sum of these values is calculated)
+
+Proposed in
+D. Newman, J. H. Lau, K. Grieser, and T. Baldwin: Automatic evaluation of topic coherence. In Human Language Technologies: The 2010 Annual Conferenceof the North American Chapter of the Association for Computational Linguistics, pages 100-108. Association for Computational Linguistics, 2010.
+
+
+\textbf{C\_UMass} is based on document cooccurrence counts, a one-preceding segmentation and a logarithmic conditional probability as confirmation measure.
+
+The main idea of this coherence is that the occurrence of every top word should be supported by every top preceding top word. Thus, the probability of a top word to occur should be higher if a document already contains a higher order top word of the same topic. Therefore, for every word the logarithm of its conditional probability is calculated using every other top word that has a higher order in the ranking of top words as condition. The probabilities are derived using document cooccurrence counts. The single conditional probabilities are summarized using the arithmetic mean. (Note that in the original publication only the sum of these values is calculated)
+
+Proposed in
+D. Mimno, H. M. Wallach, E. Talley, M. Leenders, and A. McCallum: Optimizing semantic coherence in topic models. In Proceedings of the Conference on Empirical Methods in Natural Language Processing, pages 262-272. Association for Computational Linguistics, 2011.
 \end{enumerate}
