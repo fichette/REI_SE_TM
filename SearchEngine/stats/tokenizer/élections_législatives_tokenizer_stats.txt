@@ -1,0 +1,302 @@
+Requete renvoyée en 123ms
+
+20150126_844212a25ccb1ce1cdf3c3d95ac9ad18.txt : 0.998629242637283
+	élections : 3 fois  pourcentage : 0.012931035%
+	législatives : 2 fois  pourcentage : 0.00862069%
+20150218_53ab09247be71f3a0352fcb920278a5c.txt : 0.998629242637283
+	élections : 3 fois  pourcentage : 0.015075377%
+	législatives : 2 fois  pourcentage : 0.010050251%
+20150125_be5ca389118ea7e1c92d4670aecb4f69.txt : 0.998629242637283
+	élections : 3 fois  pourcentage : 0.0044313148%
+	législatives : 2 fois  pourcentage : 0.0029542097%
+20150126_8b89f5d8e1876c444eac66f629b5990d.txt : 0.998629242637283
+	élections : 3 fois  pourcentage : 0.011029412%
+	législatives : 2 fois  pourcentage : 0.007352941%
+20150404_3010aebd23bc5da7fd697886f92a2b12.txt : 0.998629242637283
+	élections : 3 fois  pourcentage : 0.008042895%
+	législatives : 2 fois  pourcentage : 0.0053619305%
+20150418_05921a40a95d48e22d32b8eb097f5f30.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0010718113%
+	législatives : 1 fois  pourcentage : 0.0010718113%
+20150105_a3c1f27e1d902eb4bf2fb360815b4c37.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0062111802%
+	législatives : 1 fois  pourcentage : 0.0062111802%
+20150218_c5d3c78c43b53881a4bcf5070523d504.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0026595744%
+	législatives : 1 fois  pourcentage : 0.0026595744%
+20150305_e8124e3ce17953fc6288117533661e28.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.006849315%
+	législatives : 1 fois  pourcentage : 0.006849315%
+20150119_2899e7d555a04f8404d9e6282be2cbc1.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0031545742%
+	législatives : 1 fois  pourcentage : 0.0031545742%
+20150107_d5b0c04ce12edc15c34da16c90c518c9.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0018939395%
+	législatives : 1 fois  pourcentage : 0.0018939395%
+20150218_9379b5f353e041cf8a87f5d392716eff.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0036630037%
+	législatives : 1 fois  pourcentage : 0.0036630037%
+20150407_7e13617bf02ff4781e15d96759ffb2c7.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.002004008%
+	législatives : 1 fois  pourcentage : 0.002004008%
+20150311_1b9391bcd103ccecdfd7e11c6a5ab8c9.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0016778524%
+	législatives : 1 fois  pourcentage : 0.0016778524%
+20150319_7dfaba5fbf2accb7e09bcabb6dc614da.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.00456621%
+	législatives : 1 fois  pourcentage : 0.00456621%
+20150218_805a9092f59c4b6b90f36d222fc0a63a.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0026595744%
+	législatives : 1 fois  pourcentage : 0.0026595744%
+20150201_bf3d3580d3184e9b22e0534f1b282027.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0020325202%
+	législatives : 1 fois  pourcentage : 0.0020325202%
+20150205_9d73245f4206c17b8e41b480eda8609c.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0012376237%
+	législatives : 1 fois  pourcentage : 0.0012376237%
+20150217_25657b793038d9ed1a258cb4c2847540.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0015432099%
+	législatives : 1 fois  pourcentage : 0.0015432099%
+20150216_e57144a2f3bc2c4a5de64ccb95f98065.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0025510204%
+	législatives : 1 fois  pourcentage : 0.0025510204%
+20150126_089696d9674bbddaa45ceb06fdd81b96.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.004405286%
+	législatives : 1 fois  pourcentage : 0.004405286%
+20150427_47483f802acc0a55be82db731a89da57.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.003773585%
+	législatives : 1 fois  pourcentage : 0.003773585%
+20150310_3fabb2bf5b6c5df942c9cd2ab75bb4f1.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.006849315%
+	législatives : 1 fois  pourcentage : 0.006849315%
+20150113_da8eb690daa41999b7294d136380755f.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0011848342%
+	législatives : 1 fois  pourcentage : 0.0011848342%
+20150216_d8941cdc9a25c101698ec3e4b859f04c.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.003649635%
+	législatives : 1 fois  pourcentage : 0.003649635%
+20150322_32613dcbb36b1066e8bd1e853cb82a5c.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0010893246%
+	législatives : 1 fois  pourcentage : 0.0010893246%
+20150106_cc647e977e29600aa5f3ced3470eba62.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.001572327%
+	législatives : 1 fois  pourcentage : 0.001572327%
+20150202_57bfd1daabaf3d1a83814b9b323ece3d.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0051020407%
+	législatives : 1 fois  pourcentage : 0.0051020407%
+20150320_0aaeda535cae7bda5e82154bcf9debe5.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0040983604%
+	législatives : 1 fois  pourcentage : 0.0040983604%
+20150429_44a9bbbff4af931c11dd1cadc65675b3.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0027100272%
+	législatives : 1 fois  pourcentage : 0.0027100272%
+20150127_c4a09516f93a9609e35412260c5c6a61.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0025445293%
+	législatives : 1 fois  pourcentage : 0.0025445293%
+20150323_22eede06239b50c376417303f99b373f.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0038910506%
+	législatives : 1 fois  pourcentage : 0.0038910506%
+20150204_cb266ab7bce7e200cb1ae2688703c1e9.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0017513135%
+	législatives : 1 fois  pourcentage : 0.0017513135%
+20150419_802036812c9cb94441f0edd2a567ee38.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0034013605%
+	législatives : 1 fois  pourcentage : 0.0034013605%
+20150215_a0fd9df214123d49904731a8ff2bdd3d.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.002202643%
+	législatives : 1 fois  pourcentage : 0.002202643%
+20150402_5ffbd23c16b8dd0e8f568171af53a7b0.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0027247956%
+	législatives : 1 fois  pourcentage : 0.0027247956%
+20150126_056d0f1d79a926f766055c595b050701.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.004405286%
+	législatives : 1 fois  pourcentage : 0.004405286%
+20150120_29462e70a51a39ab7c86bd8546492186.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.001150748%
+	législatives : 1 fois  pourcentage : 0.001150748%
+20150409_352332cac0eb6b9ef0746a31fc84ca88.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0027855153%
+	législatives : 1 fois  pourcentage : 0.0027855153%
+20150331_e816427e917619f259c14397026e2d04.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.004201681%
+	législatives : 1 fois  pourcentage : 0.004201681%
+20150428_42785110ce34fc1b7eb9c7615933c710.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0024271845%
+	législatives : 1 fois  pourcentage : 0.0024271845%
+20150211_9f562cba3f84aa5c3d77cf489d7fc303.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0021321962%
+	législatives : 1 fois  pourcentage : 0.0021321962%
+20150119_7f8b3789b34c902d0a27084cd77e8b2f.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.003816794%
+	législatives : 1 fois  pourcentage : 0.003816794%
+20150206_3613ced747dc3365c1c922dc4d655bf2.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0037453184%
+	législatives : 1 fois  pourcentage : 0.0037453184%
+20150125_27c76e1891673b9a5b4602a76e5dad24.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0062111802%
+	législatives : 1 fois  pourcentage : 0.0062111802%
+20150202_4fd95b71706c92b2904a10f40e1b4da7.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0051020407%
+	législatives : 1 fois  pourcentage : 0.0051020407%
+20150215_724363c82d774ef4536a6a3943d1f98e.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.002202643%
+	législatives : 1 fois  pourcentage : 0.002202643%
+20150128_fb819139317b65aba1c6640b733aa84a.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.004149378%
+	législatives : 1 fois  pourcentage : 0.004149378%
+20150318_1a0a005295c1e21ab70eeffe3924e7c7.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0014556041%
+	législatives : 1 fois  pourcentage : 0.0014556041%
+20150120_17713fb5d208fa87f8c20b522a3bd6cd.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0033333334%
+	législatives : 1 fois  pourcentage : 0.0033333334%
+20150105_d5e2970d89be137f98ebc7c0104594f3.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.005988024%
+	législatives : 1 fois  pourcentage : 0.005988024%
+20150123_499a6b35c2978be1610a8a983d57982f.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0025188916%
+	législatives : 1 fois  pourcentage : 0.0025188916%
+20150127_772e5acbd1e0b50f661ef943f0c1d54c.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0025445293%
+	législatives : 1 fois  pourcentage : 0.0025445293%
+20150317_f7668e2a1e1f5b1164db312642bb3f66.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0013812155%
+	législatives : 1 fois  pourcentage : 0.0013812155%
+20150405_09b668cdb61cbc8c7dfb3bb300bfd925.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.004255319%
+	législatives : 1 fois  pourcentage : 0.004255319%
+20150411_97efe8b94ba0e3e144c4a159f6bfc578.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0054054055%
+	législatives : 1 fois  pourcentage : 0.0054054055%
+20150319_26b991046af55d7d4dc2283c0d19b75a.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0011655012%
+	législatives : 1 fois  pourcentage : 0.0011655012%
+20150327_2f6aea08f97728ecb5e76ffa2c22df9d.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0011086474%
+	législatives : 1 fois  pourcentage : 0.0011086474%
+20150211_39d24568cf91e25ad0cb5583e0ff6d03.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0018348624%
+	législatives : 1 fois  pourcentage : 0.0018348624%
+20150218_e1f4e72a6ec500deb584837e120f9155.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0033557047%
+	législatives : 1 fois  pourcentage : 0.0033557047%
+20150331_3599f0bb65720ec66d204f8811949e8b.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0015673981%
+	législatives : 1 fois  pourcentage : 0.0015673981%
+20150208_2cfd6eaff4d04c39fc188b8e9ee68278.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0022727272%
+	législatives : 1 fois  pourcentage : 0.0022727272%
+20150122_bcea2ceb7f58352701dd9daa4e37369c.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0031746032%
+	législatives : 1 fois  pourcentage : 0.0031746032%
+20150318_97668bcb60821028acad5390078290fe.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.008333334%
+	législatives : 1 fois  pourcentage : 0.008333334%
+20150126_14371b28d987142240f3d3ac32d0f3ad.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0012562814%
+	législatives : 1 fois  pourcentage : 0.0012562814%
+20150205_a33ce07afb994cde8d893bbd3f3cac2b.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0018691589%
+	législatives : 1 fois  pourcentage : 0.0018691589%
+20150126_92de567f9eaee6795fe1a801f9e7dc3e.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.00591716%
+	législatives : 1 fois  pourcentage : 0.00591716%
+20150402_f0758d58cc497f5bc69926628fe87b9a.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0016638935%
+	législatives : 1 fois  pourcentage : 0.0016638935%
+20150207_543e687a5b0894a676c3cb3b701266a4.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0013550136%
+	législatives : 1 fois  pourcentage : 0.0013550136%
+20150322_76b6eaa382fd2aef6afee85a9b689b87.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0010893246%
+	législatives : 1 fois  pourcentage : 0.0010893246%
+20150126_73c284d80e0313c754d8a177f78b3ba2.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0010845987%
+	législatives : 1 fois  pourcentage : 0.0010845987%
+20150318_53e4d1f767b858017ea0255861046e06.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0018416207%
+	législatives : 1 fois  pourcentage : 0.0018416207%
+20150123_cb7354104287da9117eab1c0cf0e11fb.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0025188916%
+	législatives : 1 fois  pourcentage : 0.0025188916%
+20150210_6aa85f9379f7b3c82d51f33e368d377a.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.003267974%
+	législatives : 1 fois  pourcentage : 0.003267974%
+20150313_c39c337249ef7c0cb3d97e93f1102805.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0015243902%
+	législatives : 1 fois  pourcentage : 0.0015243902%
+20150411_ad0b3f64ca6c8d9d655eef9ed7225230.txt : 0.9918070639533545
+	élections : 1 fois  pourcentage : 0.0054054055%
+	législatives : 1 fois  pourcentage : 0.0054054055%
+20150202_dff380299c4221915dff1f03404ceb1b.txt : 0.9910668548722825
+	élections : 2 fois  pourcentage : 0.0038461538%
+	législatives : 2 fois  pourcentage : 0.0038461538%
+20150402_f30261543fd552942b5144facf702e7c.txt : 0.9910668548722825
+	élections : 2 fois  pourcentage : 0.0022522523%
+	législatives : 2 fois  pourcentage : 0.0022522523%
+20150128_c6bd3298b95fff320cbc9fc99fdc793d.txt : 0.9910668548722825
+	élections : 2 fois  pourcentage : 0.004962779%
+	législatives : 2 fois  pourcentage : 0.004962779%
+20150104_7b4784157e791d5cb004c08aedb3db3e.txt : 0.9910668548722825
+	élections : 2 fois  pourcentage : 0.00625%
+	législatives : 2 fois  pourcentage : 0.00625%
+20150314_05e54ec3963314653d64bae1b3e44f5b.txt : 0.9910668548722825
+	élections : 2 fois  pourcentage : 0.003267974%
+	législatives : 2 fois  pourcentage : 0.003267974%
+20150410_4fcb2e4fe4c2b2b369bf89a882184057.txt : 0.9904814022270294
+	élections : 3 fois  pourcentage : 0.004032258%
+	législatives : 3 fois  pourcentage : 0.004032258%
+20150122_bbd5f5f44fa9aca8bd77dee322c57d6a.txt : 0.9782948867931632
+	élections : 2 fois  pourcentage : 0.0027247956%
+	législatives : 1 fois  pourcentage : 0.0013623978%
+20150323_323acc17580b775062d84dd30d012c85.txt : 0.9782948867931632
+	élections : 2 fois  pourcentage : 0.0057306592%
+	législatives : 1 fois  pourcentage : 0.0028653296%
+20150417_f49f06362b54064419b586905192353e.txt : 0.9782948867931632
+	élections : 2 fois  pourcentage : 0.003220612%
+	législatives : 1 fois  pourcentage : 0.001610306%
+20150331_8f9c089374e360824c335dea8a04b787.txt : 0.9782948867931632
+	élections : 2 fois  pourcentage : 0.0042918455%
+	législatives : 1 fois  pourcentage : 0.0021459227%
+20150428_09c269f7d4d47fab4759f2962987ed2a.txt : 0.9782948867931632
+	élections : 2 fois  pourcentage : 0.0065789474%
+	législatives : 1 fois  pourcentage : 0.0032894737%
+20150307_79d460bba762fb0c78d794881dcabe75.txt : 0.9782948867931632
+	élections : 2 fois  pourcentage : 0.003921569%
+	législatives : 1 fois  pourcentage : 0.0019607844%
+20150120_4913e79765ea9a0b256c4edc5c83fd80.txt : 0.9782948867931632
+	élections : 2 fois  pourcentage : 0.004056795%
+	législatives : 1 fois  pourcentage : 0.0020283975%
+20150312_e20b94697dcd34aa9b7de0f2d6113cce.txt : 0.9782948867931632
+	élections : 2 fois  pourcentage : 0.006430868%
+	législatives : 1 fois  pourcentage : 0.003215434%
+20150222_fda1371dba64470769abf4e9a5a48072.txt : 0.9782948867931632
+	élections : 2 fois  pourcentage : 0.0053475937%
+	législatives : 1 fois  pourcentage : 0.0026737968%
+20150222_f6535053c306700837f415ef0be81ddd.txt : 0.9782948867931632
+	élections : 2 fois  pourcentage : 0.0070422534%
+	législatives : 1 fois  pourcentage : 0.0035211267%
+20150302_bf7a6e43b06b13b94b387215c32dcfa0.txt : 0.9782948867931632
+	élections : 2 fois  pourcentage : 0.0027173914%
+	législatives : 1 fois  pourcentage : 0.0013586957%
+20150131_feaba738bacf7795f6f0186f4875686a.txt : 0.9782948867931632
+	élections : 2 fois  pourcentage : 0.007194245%
+	législatives : 1 fois  pourcentage : 0.0035971224%
+20150205_42ee9f7bd078767b269aa939940c2ef6.txt : 0.9782948867931632
+	élections : 2 fois  pourcentage : 0.0044444446%
+	législatives : 1 fois  pourcentage : 0.0022222223%
+20150120_84d2eaebacb37287fce513efa9a33e7b.txt : 0.9782948867931632
+	élections : 2 fois  pourcentage : 0.004056795%
+	législatives : 1 fois  pourcentage : 0.0020283975%
+20150325_7fa87da557711cc308fc4f3c94265907.txt : 0.9782948867931632
+	élections : 2 fois  pourcentage : 0.0063492064%
+	législatives : 1 fois  pourcentage : 0.0031746032%
+20150126_577b59b75bfc0262d5c840e8fd9f054a.txt : 0.9782948867931632
+	élections : 2 fois  pourcentage : 0.003868472%
+	législatives : 1 fois  pourcentage : 0.001934236%
+20150322_46c6e0ce852cd4b2122cd1e145cc0cb8.txt : 0.9670494226754927
+	élections : 3 fois  pourcentage : 0.008219178%
+	législatives : 4 fois  pourcentage : 0.010958904%
+20150226_623ee1b767cca278a6174a4cad47e750.txt : 0.957262446031112
+	élections : 2 fois  pourcentage : 0.0029498525%
+	législatives : 3 fois  pourcentage : 0.0044247787%

@@ -1,4 +1,4 @@
-Requete renvoyée en 262ms
+Requete renvoyée en 252ms
 
 20150120_d07e7d3653cf4ba7001f670c18026345.txt : 0.9999903895900052
 	charlie : 5 fois  pourcentage : 0.004591368%

@@ -1,0 +1,86 @@
+Requete renvoyée en 118ms
+
+20150219_9db463681443395354dd9fa82550e3cd.txt : 0.9965915827982835
+	sepp : 1 fois  pourcentage : 9.250694E-4%
+	blatter : 4 fois  pourcentage : 0.0037002775%
+20150429_8377af14748938704c5d8622d6e744d6.txt : 0.9879607419049737
+	sepp : 2 fois  pourcentage : 0.0023364485%
+	blatter : 11 fois  pourcentage : 0.012850467%
+20150429_d4b636e244044529e6306b5053ae1e23.txt : 0.9879607419049737
+	sepp : 2 fois  pourcentage : 0.0023364485%
+	blatter : 11 fois  pourcentage : 0.012850467%
+20150116_04fe95ccd1384f92968df2caf4ca0add.txt : 0.987839782382284
+	sepp : 2 fois  pourcentage : 0.007194245%
+	blatter : 4 fois  pourcentage : 0.01438849%
+20150416_f1e7a938c9fc572adc62102ad08aa9f1.txt : 0.987839782382284
+	sepp : 1 fois  pourcentage : 0.001858736%
+	blatter : 2 fois  pourcentage : 0.003717472%
+20150116_4ea6bf4691eb057874da8dedaec1a9cb.txt : 0.987839782382284
+	sepp : 2 fois  pourcentage : 0.007194245%
+	blatter : 4 fois  pourcentage : 0.01438849%
+20150129_5fc5e71599a0bd45fc5bf99356ae0a11.txt : 0.9853070948335271
+	sepp : 1 fois  pourcentage : 0.0017793594%
+	blatter : 6 fois  pourcentage : 0.010676157%
+20150129_851d3c1ab9009f8f0d0ab014df43ec69.txt : 0.9618568974983324
+	sepp : 1 fois  pourcentage : 6.0422963E-4%
+	blatter : 14 fois  pourcentage : 0.008459214%
+20150129_b6eb03ff2ca304695740921d1633d0b9.txt : 0.9618568974983324
+	sepp : 1 fois  pourcentage : 6.0422963E-4%
+	blatter : 14 fois  pourcentage : 0.008459214%
+20150402_c2093f92f8b0231a09d901de5fa31856.txt : 0.9593789785656976
+	sepp : 2 fois  pourcentage : 0.0033057851%
+	blatter : 3 fois  pourcentage : 0.0049586776%
+20150402_da9ff307f6c6a1ecd3d98da9bddf26cb.txt : 0.9593789785656976
+	sepp : 2 fois  pourcentage : 0.0033057851%
+	blatter : 3 fois  pourcentage : 0.0049586776%
+20150319_2120a7b3f96211a4b68d64b46e95d2ae.txt : 0.9593789785656976
+	sepp : 2 fois  pourcentage : 0.0027472528%
+	blatter : 3 fois  pourcentage : 0.0041208793%
+20150202_0d174d591d3822aad7dc8f92fb145fdb.txt : 0.9367754817530161
+	sepp : 0 fois  pourcentage : 0.0%
+	blatter : 3 fois  pourcentage : 0.009009009%
+20150127_001f40919ebdabdc5c80481be347b521.txt : 0.9367754817530161
+	sepp : 0 fois  pourcentage : 0.0%
+	blatter : 1 fois  pourcentage : 0.0029850747%
+20150227_a1f8c18af73da77109f92d43db75cdbe.txt : 0.9367754817530161
+	sepp : 0 fois  pourcentage : 0.0%
+	blatter : 3 fois  pourcentage : 0.0076923077%
+20150202_96b3baa273b1fb57c2c0775a79e49766.txt : 0.9367754817530161
+	sepp : 0 fois  pourcentage : 0.0%
+	blatter : 3 fois  pourcentage : 0.009009009%
+20150331_8c1fb24e34531061a084df11626ef53a.txt : 0.9367754817530161
+	sepp : 0 fois  pourcentage : 0.0%
+	blatter : 1 fois  pourcentage : 0.0016%
+20150227_7b4550df13e4ed772fd26dae7f1e15ec.txt : 0.9367754817530161
+	sepp : 0 fois  pourcentage : 0.0%
+	blatter : 3 fois  pourcentage : 0.0076923077%
+20150106_2bf48647ed349241b22e8cddbeeca7ff.txt : 0.936775481753016
+	sepp : 0 fois  pourcentage : 0.0%
+	blatter : 6 fois  pourcentage : 0.017804155%
+20150401_31fa32f7cb087321da223ea99ae8d5b2.txt : 0.936775481753016
+	sepp : 0 fois  pourcentage : 0.0%
+	blatter : 2 fois  pourcentage : 0.0020639836%
+20150128_216a2a48db12b41e42e5b29638569406.txt : 0.936775481753016
+	sepp : 0 fois  pourcentage : 0.0%
+	blatter : 2 fois  pourcentage : 0.0036697248%
+20150208_3572f4ac79d61e33d4f4ccfd57084e0f.txt : 0.936775481753016
+	sepp : 0 fois  pourcentage : 0.0%
+	blatter : 4 fois  pourcentage : 0.0025940337%
+20150106_759d49fed1d4eda1094010a464b7af2d.txt : 0.936775481753016
+	sepp : 0 fois  pourcentage : 0.0%
+	blatter : 6 fois  pourcentage : 0.017804155%
+20150122_1048f6827589696734f55c2edf4d4939.txt : 0.936775481753016
+	sepp : 0 fois  pourcentage : 0.0%
+	blatter : 8 fois  pourcentage : 0.009049774%
+20150208_046c75b8e702dd8deaf17c76b32070e6.txt : 0.936775481753016
+	sepp : 0 fois  pourcentage : 0.0%
+	blatter : 4 fois  pourcentage : 0.0025940337%
+20150401_4923ae713c7501ae10556dbec1d56777.txt : 0.936775481753016
+	sepp : 0 fois  pourcentage : 0.0%
+	blatter : 2 fois  pourcentage : 0.0020639836%
+20150128_ea6f27fd1bd4102f2bd9270f616c9fdf.txt : 0.936775481753016
+	sepp : 0 fois  pourcentage : 0.0%
+	blatter : 2 fois  pourcentage : 0.003984064%
+20150429_674178fafdb636c5995ae746846486e5.txt : 0.885214085049099
+	sepp : 1 fois  pourcentage : 0.0025316456%
+	blatter : 1 fois  pourcentage : 0.0025316456%
